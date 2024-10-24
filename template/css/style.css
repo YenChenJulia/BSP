@@ -10553,7 +10553,7 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 .project-area {
   padding: 60px 0;
   background-color: #f8f9fa;
-  overflow: hidden;
+  overflow: hidden;  
 }
 
 .project-container {  
@@ -10562,7 +10562,8 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   /* align-items: center; /* Center vertically if needed */
   overflow: hidden; /* Hide overflow if necessary */
   width: 100%;  
-  padding: 0;
+  padding: 0;  
+  z-index: 0;
 }
 
 .project-wrapper {
@@ -10579,7 +10580,7 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   box-sizing: border-box;
   margin: 0 12px;  
   position: relative;
-  height: 50vh; /* Set height to 50% of the viewport height for desktop */
+  height: 58vh; /* Set height to 50% of the viewport height for desktop */
   max-height: 500px; /* Set a maximum height to prevent excessive size on large screens */
   min-height: 300px; /* Set a minimum height to ensure visibility on smaller screens */
   border-radius: 8px;
@@ -10589,6 +10590,12 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   position: relative; /* Ensure overlay is positioned correctly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
 }
 
 @media (max-width: 991px) {
@@ -10630,9 +10637,21 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,0.7);
-  color: white;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Darker background */
+  transition: background 0.3s ease;
   padding: 15px;
+}
+
+.project-card:hover .card-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent); /* Black gradient on hover */
+}
+
+.card-title, .card-text {
+  color: white;
+  padding: 2px;
+  position: relative;
+  z-index: 1;
 }
 
 .project-card .card-title {
@@ -10648,7 +10667,7 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
   border-radius: 50%;
@@ -10664,11 +10683,11 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 
 .nav-prev {
-  left: -50px;
+  left: -20px;
 }
 
 .nav-next {
-  right: -50px;
+  right: -20px;
 }
 
 @media (max-width: 1200px) {
@@ -10716,6 +10735,7 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
 }
 
 @media (min-width: 576px) {
