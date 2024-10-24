@@ -10450,14 +10450,30 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   padding: 0;
 }
 
+.logo-wrapper {
+  background-color: transparent;
+  display: inline-block;
+  padding: 5px;
+  overflow: hidden;
+}
+
 .logo-img {
-  max-height: 40px;  /* Adjust this value as needed */
-  width: auto;
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: -1px;  /* Minimal negative margin to remove any potential border */
+  clip-path: inset(1px);  /* Minimal clipping to clean up edges */
 }
 
 @media (max-width: 991px) {
   .logo-img {
-      max-height: 30px;  /* Slightly smaller on mobile */
+      max-height: 40px;  /* Increased height for mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+      max-width: 130px;  /* Slightly increased width for smaller screens */
   }
 }
 

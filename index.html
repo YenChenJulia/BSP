@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="css/default.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -30,7 +29,7 @@
             <div class="round_spinner">
                 <div class="spinner"></div>
                 <div class="text">
-                    <img src="img/logo/SNP-logo-1.png" alt="">
+                    <img src="img/logo/Logo-2.png" alt="">
                 </div>
             </div>
             <h2 class="head">Did You Know?</h2>
@@ -40,12 +39,11 @@
     <!-- Header -->
     <header class="header">
         <div class="header-menu header-menu-4" id="sticky">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg ">
                 <div class="container">
-                    <a class="navbar-brand" href="#home">
-                        <div class="logo-wrapper">
-                            <img src="img/logo/Logo.png" alt="Bank SinoPac logo" class="logo-img">
-                        </div>
+                    <a class="navbar-brand sticky_logo" href="index.html">
+                        <img class="main" src="img/logo/Logo.png" srcset="img/logo/Logo@2x.png 2x" alt="logo">
+                        <img class="sticky" src="img/logo/Logo-2.png" srcset="img/logo/Logo-2@2x.png 2x" alt="logo">
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -65,38 +63,115 @@
 
                     <div class="collapse navbar-collapse right-nav" id="navbarSupportedContent">
                         <ul class="navbar-nav menu ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#easy-app">EASY APP</a>
+                            <li class="nav-item dropdown submenu ">
+                                <a href="#" class="nav-link dropdown-toggle active" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="true"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item "><a href="index.html" class="nav-link active">Smart Finance</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-company.html" class="nav-link ">Loan Company</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-app.html" class="nav-link">Mobile App</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-simple.html" class="nav-link ">Simple Banca</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-loan.html" class="nav-link">Loan Steps</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-finance.html" class="nav-link">Finance Sass App</a>
+                                    </li>
+                                    <li class="nav-item"><a href="index-small-bank.html" class="nav-link">Small Bank</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#product">PRODUCTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#project">PROJECTS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#faq">FAQs</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about-us">ABOUT US</a>
-                            </li>
-                            <li class="nav-item">
-                                <form class="d-flex">
-                                    <input class="form-control me-2" type="search" placeholder="Loan interest" aria-label="Search">
-                                    <button class="btn btn-outline-success" type="submit">Search</button>
-                                </form>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Language <i class="fas fa-chevron-down"></i>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="loan.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Loan
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Tiếng Việt</a></li>
-                                    <li><a class="dropdown-item" href="#">English</a></li>
-                                    <li><a class="dropdown-item" href="#">中文</a></li>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="loan.html">Get loan</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Loan
+                                            Application</a>
+                                        <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                            data-bs-toggle="dropdown"></i>
+
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="nav-link" href="loan-details.html">Step
+                                                    01</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="personal-details.html">Step
+                                                    02</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="document-upload.html">Step
+                                                    03</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="career.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Job Pages
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="career.html">Career</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="job-post.html">Jobs</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="job-application.html">Job
+                                            Application</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu ">
+                                    <li class="nav-item"><a class="nav-link" href="card.html">Cards</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="error.html">404 Error</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown submenu">
+                                <a class="nav-link dropdown-toggle" href="blog.html" role="button"
+                                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <i class="arrow_carrot-down_alt2 mobile_dropdown_icon" aria-hidden="false"
+                                    data-bs-toggle="dropdown"></i>
+                                <ul class="dropdown-menu ">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog Listing</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="blog-details.html">Blog Details</a>
+                                    </li>
                                 </ul>
                             </li>
                         </ul>
+                        <a class="theme-btn theme-btn-rounded-2 theme-btn-alt"
+                            href="https://themeforest.net/item/banca-banking-business-loan-bootstrap5html-website-template/32788885?s_rank=9"
+                            target="_blank">
+                            Buy Banca
+                        </a>
+                        <div class="px-2 js-darkmode-btn" title="Toggle dark mode">
+                            <label for="something" class="tab-btn tab-btns">
+                                <ion-icon name="moon"></ion-icon>
+                            </label>
+                            <label for="something" class="tab-btn">
+                                <ion-icon name="sunny"></ion-icon>
+                            </label>
+                            <label class=" ball" for="something"></label>
+                            <input type="checkbox" name="something" id="something" class="dark_mode_switcher">
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -107,29 +182,8 @@
 
     <main>
 
-         <!-- Banner start -->
-         <section class="banner-area-2 pt-145" style="background-image: url(img/banner/about-bg.png);">
-            <div class="container">
-                <div class="row align-items-center pt-130 pb-140">
-                    <div class="col-xl-6 col-lg-8">
-                        <div class="banner-content py-5">
-                            <div class="section-title text-start">
-                                <span class="short-title wow fadeInUp">Together, a better life</span>
-                                <h1 class="wow fadeInUp mb-0" data-wow-delay='0.2s'>Meet Sino, Fulfill Your Dreams</h1>
-                            </div>
-                            <a class="theme-btn-2 theme-btn-primary mt-45 wow fadeInUp" data-wow-delay="0.4s" href="#">
-                                <span class="arrow">
-                                    <span class="horizontal-line"></span>
-                                </span>Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Banner end -->
-        <!-- home section -->
-        <section id="home" class="banner-area-5">
+        <!-- banner section -->
+        <section class="banner-area-5" id="banner_animation">
             <div class="bg-shapes">
                 <div class="shape" data-parallax='{ "x": -30,"y": 90,"rotateZ":50}'>
                     <img class="layer" data-depth="-0.06" src="img/home-4/shape-2.png" alt="">
@@ -218,103 +272,65 @@
         <!-- banner section end-->
 
 
-             <!-- feature section EASYAPP -->
-        <section id="easy-app" class="steps-area pt-115 pb-105 bg-white">
+        <!-- feature section -->
+        <section id="feature" class="steps-area pt-115 pb-105 bg-white">
             <div class="container">
                 <div class="row">
-                    <!-- Column 1: Hình ảnh -->
-                    <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                        <div class="image-container">
-                            <img src="phone.jpg" alt="Example Image" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- Column 2: Nội dung text -->
-                    <div class="col-lg-8" >
+                    <div class="col-lg-6 mx-auto  pb-55">
                         <div class="section-title">
-                            <div class="row">
-                                <div class="col-lg-10 mx-auto pb-55">
-                                    <h2 class="text-center section-heading mb-5">EASY APP</h2>
-                                    <p class="wow fadeInUp" data-wow-delay="0.3s" style="font-size: 18px;">
-                                        <!-- Text 1: Innovative services -->
-                                        <strong>
-                                            <a href="javascript:void(0)" onclick="toggleText('text1')" style="text-decoration: none; color: #000; font-size: 22px; display: block;">
-                                                Innovative services, superior experience
-                                            </a>
-                                        </strong>
-                                        <div id="text1" style="display: none; margin-top: 10px; padding-left: 15px; text-align: left;">
-                                            - Unified Account Management: Manage multiple currencies and accounts seamlessly<br>
-                                            - Global Transfers: Send and receive money worldwide with ease<br>
-                                            - Transaction Tracking: View detailed transaction history and stay informed<br>
-                                            - Real-time Notifications: Receive instant updates on account activity<br>
-                                            - Cross-border Banking: Enjoy convenient banking services in Hong Kong and Vietnam
-                                        </div>
-                                
-                                        <br>
-                                
-                                        <!-- Text 2: Quick, secure login -->
-                                        <strong>
-                                            <a href="javascript:void(0)" onclick="toggleText('text2')" style="text-decoration: none; color: #000; font-size: 22px; display: block;">
-                                                Quick, secure login
-                                            </a>
-                                        </strong>
-                                        <div id="text2" style="display: none; margin-top: 10px; padding-left: 15px; text-align: left;">
-                                            - Biometric Access: Use Touch ID/Face ID for fast, secure login<br>
-                                            - Pattern Lock: Protect your account with a simple swipe
-                                        </div>
-                                    </p>
-                                </div>
-                                
-                                <!-- JavaScript to toggle visibility -->
-                                <script>
-                                function toggleText(id) {
-                                    var element = document.getElementById(id);
-                                    if (element.style.display === "none") {
-                                        element.style.display = "block";
-                                    } else {
-                                        element.style.display = "none";
-                                    }
-                                }
-                                </script>
-                                
-                            </div>
-                    
-                            <!-- Row mới có 2 cột chia đều nhau -->
-                            <div class="row">
-                                <!-- Cột 1 -->
-                                <div class="col-md-6 text-center">
-                                    <img src="qr.png" alt="Image 1" class="img-fluid mb-3">
-                                    <a href="#" style="display: inline-block; padding: 12px 20px; background-color: #007bff; color: white; font-size: 16px; font-weight: bold; text-decoration: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease;">
-                                        Download on the Google Store
-                                    </a>                                
-                                </div>
-                                <!-- Cột 2 -->
-                                <div class="col-md-6 text-center">
-                                    <img src="qr.png" alt="Image 2" class="img-fluid mb-3">
-                                        <a href="#" style="display: inline-block; padding: 12px 20px; background-color: #007bff; color: white; font-size: 16px; font-weight: bold; text-decoration: none; border-radius: 5px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s ease;">
-                                            Download on the App Store
-                                        </a>
-                                </div>
-                            </div>
+                            <span class="short-title-2">_OUR PROCESS</span>
+                            <h1 class="wow fadeInUp">3 <span class="underline-shape">steps</span> to follow</h1>
+                            <p class="wow fadeInUp" data-wow-delay="0.3s">There are many variations of passages of Lorem
+                                Ipsum available,
+                                but the majority have suffered alteration in some form,</p>
                         </div>
                     </div>
-                    
+                </div>
+                <div class="row gy-xl-0 gy-4">
+                    <div class="col-xl-4 col-md-6">
+                        <div class="feature-card-widget-8 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="card-img">
+                                <img src="img/home-4/step-icon-01.svg" alt="feature svg">
+                            </div>
+                            <h4>Apply for loan</h4>
+                            <p>Quis dapibus volutpat condimentum
+                                quam sed non elit sed magna lectus dui interdum facilisi justo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6">
+                        <div class="feature-card-widget-8 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="card-img">
+                                <img src="img/home-4/step-icon-02.svg" alt="feature svg">
+                            </div>
+                            <h4>Get approved</h4>
+                            <p>Quis dapibus volutpat condimentum
+                                quam sed non elit sed magna lectus dui interdum facilisi justo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 mx-auto">
+                        <div class="feature-card-widget-8 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="card-img">
+                                <img src="img/home-4/step-icon-03.svg" alt="feature svg">
+                            </div>
+                            <h4>Get your money</h4>
+                            <p>Quis dapibus volutpat condimentum
+                                quam sed non elit sed magna lectus dui interdum facilisi justo
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        
-        
-        
         <!-- feature section end-->
 
-
-            <!-- product section -->
-        <section id="product" class="about-area bg-white">
+        <section class="about-area bg-white">
             <div class="container">
-                <h2 class="text-center mb-5">PRODUCT</h2>
                 <div class="row align-items-center">
                     <div class="col-lg-7">
                         <div class="cash-img">
-                            <img class="img-fluid" src="img/home-4/bsp1.png" alt="">
+                            <img class="img-fluid" src="img/home-4/manage-cash-img.png" alt="">
                             <img class="msg-1 wow fadeInRight" data-wow-delay="0.1s" src="img/home-4/basic-info-2.png"
                                 alt="">
                             <img class="msg-2 wow fadeInRight" data-wow-delay="0.3s" src="img/home-4/basic-info-3.png"
@@ -324,221 +340,228 @@
                     </div>
                     <div class="col-lg-5 wow fadeInLeft">
                         <div class="section-title text-start">
-                            <span class="short-title-2">_WHY BANK SINOPAC ?</span>
-                            <h1 class="mb-3">Quick Loans
-                                in <span class="underline-shape">a minute</span></h1>
-                            <p>Download our app and apply for a loan in minutes </p>
+                            <span class="short-title-2">_WHY BANCA ?</span>
+                            <h1 class="mb-3">Manage your
+                                cash <span class="underline-shape">easily</span></h1>
+                            <p>Lorem Ipsum is simply dummy text of the printing and the
+                                typesetting industry. Lorem Ipsum has been industry's</p>
                             <ul class="list-unstyled feature-list">
-                                <li> <i class="fas fa-check-circle"></i> Online Account Opening </li>
-                                <li> <i class="fas fa-check-circle"></i> Digital Microloans </li>
+                                <li> <i class="fas fa-check-circle"></i> Inventore veritatis et architecto beatae</li>
+                                <li> <i class="fas fa-check-circle"></i> Tempor egestas morbi pulvinar amet</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- product section end -->
 
-        <!-- Project section -->
-        <section id="project" class="project-area bg-light py-5">
+        <!-- About Area Tab section -->
+        <section class="about-tab-area bg-white">
             <div class="container">
-                <h2 class="text-center section-heading mb-5">PROJECT</h2>
-                <div class="project-container">
-                    <button class="nav-arrow nav-prev">&lt;</button>
-                    <div class="project-wrapper">
-                        <div class="project-card">
-                            <img src="img/projects/project1.jpg" class="card-img" alt="Project 1">
-                            <div class="card-overlay">
-                                <h5 class="card-title">Digital Banking</h5>
-                                <p class="card-text">Revolutionizing online banking experience for our customers.</p>
+                <div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="freelancer-tab" data-bs-toggle="tab"
+                                data-bs-target="#freelancer" type="button" role="tab" aria-controls="freelancer"
+                                aria-selected="true">Freelancers</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="startup-tab" data-bs-toggle="tab" data-bs-target="#startup"
+                                type="button" role="tab" aria-controls="startup" aria-selected="false"> SMBs &
+                                Startups</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="business-tab" data-bs-toggle="tab" data-bs-target="#business"
+                                type="button" role="tab" aria-controls="business" aria-selected="false">Business
+                                Founders</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="micro_business-tab" data-bs-toggle="tab"
+                                data-bs-target="#micro_business" type="button" role="tab" aria-controls="micro_business"
+                                aria-selected="false"> Micro businesses</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="freelancer" role="tabpanel"
+                        aria-labelledby="freelancer-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="section-title text-start">
+                                    <h1>Access to secure
+                                        <span class="underline-shape">banking</span>
+                                    </h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and the
+                                        typesetting industry. Lorem Ipsum has been industry's</p>
+                                    <a class="read-more" href="#">Get started now <i class="arrow_right"></i></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="project-card">
-                            <img src="img/projects/project2.jpg" class="card-img" alt="Project 2">
-                            <div class="card-overlay">
-                                <h5 class="card-title">SME Loans</h5>
-                                <p class="card-text">Supporting small and medium enterprises with tailored loan products.</p>
-                            </div>
-                        </div>
-                        <div class="project-card">
-                            <img src="img/projects/project3.jpg" class="card-img" alt="Project 3">
-                            <div class="card-overlay">
-                                <h5 class="card-title">Green Financing</h5>
-                                <p class="card-text">Promoting sustainable development through eco-friendly investments.</p>
-                            </div>
-                        </div>
-                        <div class="project-card">
-                            <img src="img/projects/project4.jpg" class="card-img" alt="Project 4">
-                            <div class="card-overlay">
-                                <h5 class="card-title">AI-Powered Analytics</h5>
-                                <p class="card-text">Leveraging artificial intelligence for better financial insights.</p>
-                            </div>
-                        </div>
-                        <div class="project-card">
-                            <img src="img/projects/project5.jpg" class="card-img" alt="Project 5">
-                            <div class="card-overlay">
-                                <h5 class="card-title">Blockchain Integration</h5>
-                                <p class="card-text">Enhancing security and transparency in transactions.</p>
-                            </div>
-                        </div>
-                        <div class="project-card">
-                            <img src="img/projects/project6.jpg" class="card-img" alt="Project 6">
-                            <div class="card-overlay">
-                                <h5 class="card-title">Financial Education</h5>
-                                <p class="card-text">Empowering communities through financial literacy programs.</p>
+                            <div class="col-lg-7">
+                                <img class="img-fluid" src="img/home-4/freelance-tab.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <button class="nav-arrow nav-next">&gt;</button>
+                    <div class="tab-pane fade" id="startup" role="tabpanel" aria-labelledby="startup-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="section-title text-start">
+                                    <h1>Manage your cash
+                                        <span class="underline-shape">easily</span>
+                                    </h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and the
+                                        typesetting industry. Lorem Ipsum has been industry's</p>
+                                    <a class="read-more" href="#">Get started now <i class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <img class="img-fluid" src="img/home-4/freelance-tab-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="business" role="tabpanel" aria-labelledby="business-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="section-title text-start">
+                                    <h1>Access to secure
+                                        <span class="underline-shape">banking</span>
+                                    </h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and the
+                                        typesetting industry. Lorem Ipsum has been industry's</p>
+                                    <a class="read-more" href="#">Get started now <i class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <img class="img-fluid" src="img/home-4/freelance-tab.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="micro_business" role="tabpanel" aria-labelledby="micro_business-tab">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5">
+                                <div class="section-title text-start">
+                                    <h1>Manage your cash
+                                        <span class="underline-shape">easily</span>
+                                    </h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and the
+                                        typesetting industry. Lorem Ipsum has been industry's</p>
+                                    <a class="read-more" href="#">Get started now <i class="arrow_right"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <img class="img-fluid" src="img/home-4/freelance-tab-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="slide-indicator"></div>
             </div>
         </section>
-        <!-- End project section -->
+        <!-- About Area Tab end section -->
 
         <!-- Frequently Ask Questions section -->
-        <section id="faq" class="faq-area-3">
+        <section class="faq-area-3">
             <div class="container">
-                <h2 class="text-center mb-5" style="color: white;">FAQ</h2>
                 <div class="row gy-lg-0 gy-4">
-                    <div class="col-lg-12">
-                        <ul class="nav nav-tabs" id="faqTabs" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="products-tab" data-bs-toggle="tab" data-bs-target="#products" type="button" role="tab" aria-controls="products" aria-selected="true">Products</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="steps-tab" data-bs-toggle="tab" data-bs-target="#steps" type="button" role="tab" aria-controls="steps" aria-selected="false">Steps</button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="questions-tab" data-bs-toggle="tab" data-bs-target="#questions" type="button" role="tab" aria-controls="questions" aria-selected="false">Your questions</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content mt-4" id="faqTabsContent">
-                            <div class="tab-pane fade show active" id="products" role="tabpanel" aria-labelledby="products-tab">
-                                <div class="accordion" id="accordionProducts">
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                How do I open a new account?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionProducts">
-                                            <div class="accordion-body" style="color: black;">
-                                                To open a new account, you can visit our website or mobile app, click on "Open an Account", and follow the step-by-step instructions. You'll need to provide some personal information and identification documents.
+                    <div class="col-lg-6">
+                        <img class="faq-img img-fluid" src="img/home-4/faq-Img.png" alt="">
+                    </div>
+                    <div class="col-lg-6 pl-lg-50">
+                        <span class="subtitle">_FAQ</span>
+                        <h1>Frequently asked general <span class="underline-shape">questions</span></h1>
+
+                        <div class="faq-widget">
+                            <div class="accordion" id="accordionExample">
+                                <div class="single-faq wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="w-100">
+                                        <div class="faq-header" id="headingOne">
+                                            <h4 class="mb-0" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                Can I pay off my loan early?<i class="icon_plus"></i><i
+                                                    class=" icon_minus-06"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="faq-body">
+                                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                    terry
+                                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    skateboard
+                                                    dolor brunch.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                What documents do I need to open an account?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionProducts">
-                                            <div class="accordion-body" style="color: black;">
-                                                Typically, you'll need a valid government-issued ID (such as a driver's license or passport), proof of address (like a utility bill), and your Social Security number or Tax Identification Number.
+                                </div>
+
+                                <div class="single-faq wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="w-100">
+                                        <div class="faq-header" id="headingTwo">
+                                            <h4 class="mb-0 collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo" aria-expanded="true"
+                                                aria-controls="collapseTwo">
+                                                How much can I Banca?<i class="icon_plus"></i><i
+                                                    class=" icon_minus-06"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="faq-body">
+                                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                    terry
+                                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    skateboard
+                                                    dolor brunch.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingThree">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                How do I apply for a microloan?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionProducts">
-                                            <div class="accordion-body" style="color: black;">
-                                                To apply for a microloan, log into your account on our Easy App, navigate to the "Loans" section, and select "Apply for Microloan". Follow the prompts to provide necessary information and submit your application.
+                                </div>
+
+                                <div class="single-faq wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="w-100">
+                                        <div class="faq-header" id="headingThree">
+                                            <h4 class="mb-0 collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="true"
+                                                aria-controls="collapseThree">
+                                                Do you offering refinancing ?<i class="icon_plus"></i><i
+                                                    class=" icon_minus-06"></i>
+                                            </h4>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="faq-body">
+                                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                    terry
+                                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    skateboard
+                                                    dolor brunch.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingFour">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                What are the eligibility criteria for a microloan?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionProducts">
-                                            <div class="accordion-body" style="color: black;">
-                                                Eligibility criteria typically include being at least 18 years old, having a steady source of income, a good credit score, and an active account with our bank. Specific requirements may vary based on the loan amount and type.
-                                            </div>
+                                </div>
+
+                                <div class="single-faq wow fadeInUp" data-wow-delay="0.7s">
+                                    <div class="w-100">
+                                        <div class="faq-header" id="headingFour">
+                                            <h4 class="mb-0 collapsed" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="true"
+                                                aria-controls="collapseFour">
+                                                Can I do all of my banking with you?<i class="icon_plus"></i><i
+                                                    class=" icon_minus-06"></i>
+                                            </h4>
                                         </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingFive">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                How long does it take to process a microloan application?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionProducts">
-                                            <div class="accordion-body" style="color: black;">
-                                                Most microloan applications are processed within 1-3 business days. However, the exact time can vary depending on the completeness of your application and the current volume of requests.
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="headingSix">
-                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                What is the maximum amount I can borrow with a microloan?
-                                            </button>
-                                        </h2>
-                                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionProducts">
-                                            <div class="accordion-body" style="color: black;">
-                                                The maximum amount for a microloan varies based on your creditworthiness and income. Typically, microloans range from $500 to $50,000. The exact amount you're eligible for will be determined during the application process.
+                                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="faq-body">
+                                                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                                    terry
+                                                    richardson ad squid. 3 wolf moon officia aute, non cupidatat
+                                                    skateboard
+                                                    dolor brunch.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="steps" role="tabpanel" aria-labelledby="steps-tab">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="card mb-4">
-                                            <div class="card-body" style="background-color: white;">
-                                                <h3 style="color: black;">Online Account Opening</h3>
-                                                <ol style="color: black;">
-                                                    <li>Download the Easy App from your device's app store</li>
-                                                    <li>Open the app and click on "Create New Account"</li>
-                                                    <li>Fill in your personal information</li>
-                                                    <li>Upload required documents</li>
-                                                    <li>Set up your security preferences</li>
-                                                    <li>Review and submit your application</li>
-                                                </ol>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="card">
-                                            <div class="card-body" style="background-color: white;">
-                                                <h3 style="color: black;">Digital Microloan</h3>
-                                                <ol style="color: black;">
-                                                    <li>Log into your Easy App account</li>
-                                                    <li>Navigate to the "Loans" section</li>
-                                                    <li>Select "Apply for Microloan"</li>
-                                                    <li>Enter the loan amount and purpose</li>
-                                                    <li>Provide necessary financial information</li>
-                                                    <li>Review terms and conditions</li>
-                                                    <li>Submit your application</li>
-                                                </ol>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="questions" role="tabpanel" aria-labelledby="questions-tab">
-                                <h3 style="color: white; margin-bottom: 30px;">Have a question?</h3>
-                                <form>
-                                    <div class="mb-3">
-                                        <label for="email" class="form-label">Your Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
-                                    </div>
-                                    <div class="mb-3">
-                                        <label for="question" class="form-label">Your Question</label>
-                                        <textarea class="form-control" id="question" rows="3" placeholder="Type your question here"></textarea>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
+                            <h6 class="more-contact">Have more question ? <a href="">Contact Us</a></h6>
                         </div>
                     </div>
                 </div>
@@ -546,10 +569,9 @@
         </section>
         <!-- Frequently Ask Questions section -->
 
-        <!-- About us section -->
-        <section id="about-us" class="services-area bg-white pt-120 pb-120 wow fadeInUp">
+        <!-- Service -->
+        <section class="services-area bg-white pt-120 pb-120 wow fadeInUp">
             <div class="container">
-                <h2 class="text-center mb-5">ABOUT US</h2>
                 <div class="section-title mb-45">
                     <span class="short-title-2">_SERVICE COMPARISONS</span>
                     <h1>Our better <span class="underline-shape">services</span></h1>
@@ -634,7 +656,7 @@
         <!-- Service end -->
 
         <!-- what client says section -->
-        <section id="contact" class="client-area-2 pt-60 pb-60">
+        <section class="client-area-2 pt-60 pb-60">
             <div class="container">
                 <div class="section-title">
                     <span class="short-title-2">_Testimonials</span>
@@ -956,31 +978,73 @@
         </section>
     </main>
 
-   <!-- footer -->
-
+    <!-- footer -->
     <footer class="footer footer-3">
-        <div class="footer-top py-4 py-md-5">
+        <div class="footer-top  pt-200 pb-lg-115 pb-120">
             <div class="container">
-                <div class="row gy-4">
-                    <div class="col-12 col-md-6 col-lg-2">
-                        <div class="footer-widget text-center text-md-start wow fadeInLeft">
-                            <a href="index.html" class="d-inline-block">
-                                <img src="img/logo/SNP-logo-2.png" alt="logo" class="img-fluid" style="max-width: 150px;">
-                            </a>
+                <div class="row gx-0 pt-60 ">
+
+                    <div class="col-lg-4 col-sm-6 text-center text-sm-start ms-0 ">
+                        <div class="footer-widget wow fadeInLeft mb-30">
+                            <div class="footer-text mb-20">
+                                <p>Banca is a leading bank in the worldzone and a prominent international banking
+                                    institution</p>
+                            </div>
+
+                            <span class="overline">COTATION</span>
+
+                            <div class="footer-bold">
+                                <span class="counter">$<span>35.105</span> </span>
+                                <span class="counter">-<span>0.46</span>% </span>
+                            </div>
+                            <p class="time">2021-01-05 14:00 (INTERNATIONAL TIME)</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-                        <!-- This column is intentionally left empty for spacing -->
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="footer-widget text-center text-md-start wow fadeInUp" data-wow-delay="0.5s">
+
+
+                    <div class="col-lg-2 col-sm-6 text-center text-sm-start ms-lg-5 ">
+                        <div class="footer-widget mb-30 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="f-widget-title">
-                                <h5 class="mb-3">Contact Us</h5>
+                                <h5>Banca at a Glance</h5>
                             </div>
                             <div class="footer-link">
-                                <ul class="list-unstyled">
-                                    <li class="mb-2"><a href="#" class="text-decoration-none">Telephone: +84 345 678 910</a></li>
-                                    <li><a href="#" class="text-decoration-none">Address: Friendship, District 1, HCM city</a></li>
+                                <ul>
+                                    <li><a href="#"> Our core Businesses
+                                        </a></li>
+                                    <li><a href="#"> Our 'company purpose'</a></li>
+                                    <li><a href="#"> Jobs & Careers</a></li>
+                                    <li><a href="#"> Our Responsibility</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2  col-sm-6 text-center text-sm-start ms-lg-5">
+                        <div class="footer-widget mb-30 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="f-widget-title">
+                                <h5>Publications</h5>
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="#"> Compliance Publications</a></li>
+                                    <li><a href="#"> Annual Reports</a></li>
+                                    <li><a href="#"> CSR Reports</a></li>
+                                    <li><a href="#"> Financial documentation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-6 text-center text-sm-start me-0 ms-lg-5">
+                        <div class="footer-widget mb-30 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="f-widget-title">
+                                <h5>Direct Access</h5>
+                            </div>
+                            <div class="footer-link">
+                                <ul>
+                                    <li><a href="#">Our news</a></li>
+                                    <li><a href="#">Our press releases</a></li>
+                                    <li><a href="#">Our job offers</a></li>
+                                    <li><a href="#">Our websites</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -989,19 +1053,19 @@
             </div>
         </div>
         <!-- copyright area -->
-        <div class="copyright pt-20 pb-20">
+        <div class="copyright pt-25 pb-25">
             <div class="container">
                 <div class="row align-items-center">
-                    
+                    <div class="col-lg-3 text-center text-lg-start">
+                        <a href="index.html" class="p-0 m-0"><img src="img/logo/Logo.png" alt="logo"></a>
+                    </div>
                     <div class="col-lg-5 text-center my-3 my-sm-0">
                         <div class="copyright-text">
-                            <p>Copyright&copy; Bank Sinopac 2024.<br class="d-sm-none"> <a class="ms-2" href="#">Privacy</a> |
+                            <p>Copyright&copy; Banca 2023. <br class="d-sm-none"> <a class="ms-2" href="#">Privecy</a> |
                                 <a class="ms-0" href="#">Term of
                                     Use</a>
                             </p>
                         </div>
-                    </div>
-                    <div class="col-lg-2 text-center text-lg-end ">
                     </div>
                     <div class="col-lg-4 text-center text-lg-end ">
                         <div class="social-button">
@@ -1035,7 +1099,6 @@
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-    <script type="text/javascript" src="js/project-scroll.js"></script>
 </body>
 
 </html>
