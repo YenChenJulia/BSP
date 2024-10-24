@@ -10517,6 +10517,14 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 
 /* carousel */
+
+.project-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
 .project-area {
   padding: 60px 0;
   background-color: #f8f9fa;
@@ -10524,21 +10532,21 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 
 .project-container {
-  position: relative;
   width: 100%;
   overflow: hidden;
+  padding: 0;
 }
 
 .project-wrapper {
   display: flex;
   transition: transform 0.3s ease;
-  width: 200%; /* 2 sets of 3 projects */
+  width: calc(100% * 2); /* 2 sets of 3 projects */
 }
 
 .project-card {
-  flex: 0 0 calc(16.666% - 20px); /* 1/6 of the total width */
+  flex: 0 0 calc(16.3% - 20px);
   width: calc(16.666% - 20px);
-  margin-right: 20px;
+  margin-right: 30px;  
   position: relative;
   height: 50vh; /* Set height to 50% of the viewport height for desktop */
   max-height: 500px; /* Set a maximum height to prevent excessive size on large screens */
@@ -10614,11 +10622,11 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 
 .nav-prev {
-  left: 10px;
+  left: -50px;
 }
 
 .nav-next {
-  right: 10px;
+  right: -50px;
 }
 
 .slide-indicator {
