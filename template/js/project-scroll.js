@@ -19,7 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
     indicator.appendChild(slideTrack);
 
     function updateSlide() {
-        wrapper.style.transform = `translateX(-${currentSlide * (100 / totalSlides)}%)`;
+        const slideWidth = 100 / visibleCards;
+        const maxSlide = totalSlides - 1;
+        const offset = currentSlide === maxSlide ? totalCards % visibleCards || visibleCards : visibleCards;
+        wrapper.style.transform = `translateX(-${currentSlide * slideWidth * visibleCards}%)`;
         updateArrowVisibility();
         updateSlideIndicator();
     }
@@ -33,8 +36,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function updateSlideIndicator() {
-        const progress = currentSlide / (totalSlides - 1);
-        slideThumb.style.left = `${progress * (100 - 33.333)}%`;
+        const progress = currentSlide / (totalSlides);
+        const clampedProgress = Math.min(Math.max(progress, 0), 1); // Clamp the progress between 0 and 1
+        slideThumb.style.left = `${clampedProgress * 100}%`;
+        /* slideThumb.style.left = `${progress * 100}%`; */
     }
 
     prevBtn.addEventListener('click', () => {
