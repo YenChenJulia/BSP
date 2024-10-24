@@ -491,92 +491,131 @@
         </section>
         <!-- Frequently Ask Questions section -->
 
-        <!-- About us section -->
-        <section id="about-us" class="services-area bg-white pt-120 pb-120 wow fadeInUp">
-            <div class="container">
-                <h2 class="text-center mb-5">ABOUT US</h2>
-                <div class="section-title mb-45">
-                    <span class="short-title-2">_SERVICE COMPARISONS</span>
-                    <h1>Our better <span class="underline-shape">services</span></h1>
-                    <p>There are many variations of passages of Lorem Ipsum available,<br>
-                        but the majority have suffered alteration in some form,</p>
-                </div>
+       <!-- About us section -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Choose Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .services-area {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+        .bg-white {
+            background-color: #fff;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .mb-5 {
+            margin-bottom: 3rem;
+        }
+        .mb-45 {
+            margin-bottom: 45px;
+        }
+        .short-title-2 {
+            font-size: 20px;
+            font-weight: bold;
+            color: #666;
+            display: block;
+        }
+        .underline-shape {
+            text-decoration: underline;
+            text-decoration-color: #ff6347; /* Use your desired underline color */
+        }
+        .container-flex {
+            display: flex;
+            justify-content: space-between;
+        }
+        .left-section {
+            width: 70%;
+            position: relative;
+        }
+        .image-placeholder {
+            width: 100%;
+            height: 300px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        /* Xóa đoạn này để loại bỏ hiệu ứng gạch chéo */
+        /* .image-placeholder:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent 49%, black 49%, black 51%, transparent 51%);
+        } */
+        
+        .about-button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .right-section {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .right-section a {
+            display: block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: black;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            transition: background-color 0.3s;
+        }
+        .right-section a:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
 
-                <div class="table-responsive">
-                    <table class="table table-borderless mb-0">
-                        <thead>
-                            <tr>
-                                <th class="feature-head" scope="col"></th>
-                                <th class="text-center" scope="col"><img src="img/logo/Logo-2.png" alt=""></th>
-                                <th class="text-center" scope="col">Other Companies</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th class="feature-head" scope="col">Payment Per Transaction</th>
-                                <td class="feature-item">0.50/per transacrion</td>
-                                <td class="feature-item">1.50/per transaction</td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head" scope="row">Bank account limitations</th>
-                                <td class="feature-item">up to 10 bank accounts</td>
-                                <td class="feature-item">Only 3 bank accounts</td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head" scope="row">Local fees capped at NGN 2,000</th>
-                                <td class="feature-item"> <i class="fas fa-check-circle"></i> </td>
-                                <td class="feature-item"> <i class="fas fa-times-circle"></i></td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head" scope="row">Loan Purchase</th>
-                                <td class="feature-item">easy to follow steps</td>
-                                <td class="feature-item">complicated steps</td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head" scope="row">Debt Financing</th>
-                                <td class="feature-item"> <i class="fas fa-check-circle"></i> </td>
-                                <td class="feature-item"> <i class="fas fa-times-circle"></i></td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head" scope="row">No hidden fees or charges</th>
-                                <td class="feature-item"> <i class="fas fa-check-circle"></i> </td>
-                                <td class="feature-item"> <i class="fas fa-times-circle"></i></td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head" scope="row">Local fees capped</th>
-                                <td class="feature-item"> <i class="fas fa-check-circle"></i> </td>
-                                <td class="feature-item"> <i class="fas fa-times-circle"></i></td>
-                            </tr>
-                            <tr>
-                                <th class="feature-head bg-transparent" scope="row"></th>
-                                <td class="feature-item p-0 bg-transparent"><a href="#" class="theme-btn"><span>Get
-                                            started
-                                            now</span> <i class="arrow_right"></i></a></td>
-                                <td class="feature-item bg-transparent"> </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+<!-- About Us Section -->
+<div class="container">
+    <div class="section-title mb-45">
+        <span class="short-title-2"></span>
+        <h1><span class="underline-shape">WHY CHOOSE US</span></h1>
+    </div>
 
-                <div class="pt-120 stat-view">
-                    <div class="row gy-md-0 gy-4">
-                        <div class="col-md-4 border-end">
-                            <h1 class="counter"><span>400</span> K</h1>
-                            <p>Total active customers</p>
-                        </div>
-                        <div class="col-md-4">
-                            <h1 class="counter"><span>100</span>M+</h1>
-                            <p>Order success rate</p>
-                        </div>
-                        <div class="col-md-4 border-start">
-                            <h1 class="counter"><span class="counter">95.87</span>%</h1>
-                            <p>Avg. new projects</p>
-                        </div>
-                    </div>
+    <!-- Content Section with Image and Links -->
+    <div class="container">
+        <div class="container-flex">
+            <div class="left-section">
+                <div class="image-placeholder">
+                    <img src="img/home-4/bsp2.jpg" alt="Image Description" class="img-fluid"> <!-- Thêm thẻ <img> để hiển thị hình ảnh -->
+                    <a href="#about-us" class="about-button">ABOUT US</a>
                 </div>
             </div>
-        </section>
-        <!-- Service end -->
+            
+           <div class="right-section">
+                <a href="link1.html">Online Account Opening</a>
+                <a href="link2.html">Digital Microloans</a>
+                <a href="link3.html">Others</a>
+           </div>
+       </div>
+   </div>
+   <!-- Service end -->
 
         <!-- what client says section -->
         <section id="contact" class="client-area-2 pt-60 pb-60">
