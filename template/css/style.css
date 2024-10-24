@@ -1093,6 +1093,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
+  height: 60px;
   z-index: 9997;
 }
 header .header-top {
@@ -1158,7 +1159,8 @@ header .header-top .header-info-right ul li i {
 .header-menu {
   z-index: 1;
   background-color: transparent;
-  transition: all 0.2s linear;
+  transition: all 0.2s linear;  
+  width: 100%;
 }
 .header-menu.header-menu-4 .theme-btn:hover {
   background-color: var(--brand_color);
@@ -1243,7 +1245,11 @@ header .header-top .header-info-right ul li i {
   background-color: var(--brand_color);
 }
 .header-menu .navbar {
-  padding: 0 !important;
+  display: flex;
+  justify-content: center; /* Center the entire navbar */
+  align-items: center;
+  padding: 0 20px; /* Add some padding for spacing */
+  width: 100%; /* Ensure it takes full width */
 }
 .header-menu .navbar .sticky_logo .main {
   display: block;
@@ -1251,6 +1257,13 @@ header .header-top .header-info-right ul li i {
 .header-menu .navbar .sticky_logo .sticky {
   display: none;
 }
+
+.header-menu .menu {
+  display: flex;
+  justify-content: center; /* Center the menu items */
+  width: 100%; /* Ensure the menu takes full width */
+}
+
 .header-menu .menu > .nav-item {
   padding-bottom: 25px;
   padding-top: 25px;
@@ -10445,9 +10458,14 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 
 /* snp logo */
+.navbar {
+  min-height: 60px; /* Ensure the navbar items align properly */
+  height: 90px;
+}
 
 .navbar-brand {
   padding: 0;
+  margin-right: auto; /* Push the brand to the left */
 }
 
 .logo-wrapper {
@@ -10478,6 +10496,12 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 
 /* dropdown */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center the menu items */
+  flex-grow: 1; /* Allow the menu to take available space */
+}
+
 .navbar-nav .form-control {
   width: 150px;
 }
@@ -10729,12 +10753,21 @@ img {
   height: auto;
 }
 
-header {
-  height: 80px;
-}
-
 footer {
   height: 200px;
+}
+
+.btn i {
+  font-size: 16px; /* Adjust icon size */
+  color: #28a745; /* Adjust icon color */
+}
+
+.navbar-nav .nav-link i {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.fa-globe {
+  color: #007bff;
 }
 
 /*# sourceMappingURL=style.css.map */
