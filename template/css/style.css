@@ -10790,4 +10790,14 @@ footer {
   color: #007bff;
 }
 
+.navbar-nav.ms-auto {
+  margin-left: auto !important;
+}
+
+.dropdown-menu-end {
+  right: 0;
+  left: auto;
+}
+
+
 /*# sourceMappingURL=style.css.map */
