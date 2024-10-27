@@ -10799,5 +10799,66 @@ footer {
   left: auto;
 }
 
+/*#Product section*/
+.container {
+  display: flex;
+  flex-direction: row; /* Hiển thị thành hàng ngang */
+  gap: 50px;
+  align-items: flex-start; /* Căn các phần tử ở trên cùng */
+  max-width: 1200px; /* Giới hạn chiều rộng */
+  width: 100%; /* Để phù hợp với màn hình */
+  padding: 20px; /* Tạo khoảng trống bên trong */
+}
 
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1d3c6e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.phone-mockup {
+  width: 250px;
+  height: 500px;
+  background-color: #2e2e2e;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.phone-screen {
+  width: 90%;
+  height: 90%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.loan-details p, .loan-estimation p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 5px;
+}
+
+.loan-estimation label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+#loan-amount {
+  width: 100%;
+  margin-top: 10px;
+}
+/*!--end product section--*/
 /*# sourceMappingURL=style.css.map */
