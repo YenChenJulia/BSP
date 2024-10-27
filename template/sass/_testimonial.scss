@@ -534,6 +534,10 @@
     img {
       border-radius: 50%;
       width: auto !important;
+      max-width: 100%; // Add this line
+      height: auto; // Add this line
+      max-height: 200px; // Add this line and adjust the value as needed
+      object-fit: cover; // Add this line to maintain aspect ratio
     }
     .quote {
       font-size: 18px;
@@ -575,3 +579,5 @@
     }
   }
 }
+
+
