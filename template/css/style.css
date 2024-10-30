@@ -42,7 +42,7 @@ Table of Content:
   --theme-dropshadow: 0 0.5px 1px 0 rgba(51, 77, 114, 0.1),
     0px 1.6px 3.6px 0 rgba(51, 77, 114, 0.15);
   --brand_color: #0050b2;
-  --secondary_color: var(--theme-title-color);
+  --secondary_color: var(--theme-color);
   --p_color: #4c5267;
   --gradient_bg_color1: var(--gradient_bg_color-from, #fffbf2);
   --gradient_bg_color2: var(--gradient_bg_color-to, #edfffd);
