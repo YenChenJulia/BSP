@@ -559,16 +559,29 @@
                 <span class="underline-shape">questions</span>
               </h1>
               <div class="faq_type">
-                <button class="theme-btn theme-btn-rounded-2 active">
+                <button
+                  class="faq_btn theme-btn theme-btn-rounded-2 active"
+                  id="faq_product"
+                >
                   Product
                 </button>
-                <button class="theme-btn theme-btn-rounded-2">Steps</button>
-                <button class="theme-btn theme-btn-rounded-2">Support</button>
+                <button
+                  class="faq_btn theme-btn theme-btn-rounded-2"
+                  id="faq_steps"
+                >
+                  Steps
+                </button>
+                <button
+                  class="faq_btn theme-btn theme-btn-rounded-2"
+                  id="faq_support"
+                >
+                  Support
+                </button>
               </div>
             </div>
 
             <div class="col-lg-8 pl-lg-50">
-              <div class="faq-widget">
+              <div class="faq-widget faq_detail" id="detail_product">
                 <div class="accordion" id="accordionExample">
                   <div class="single-faq wow fadeInUp" data-wow-delay="0.1s">
                     <div class="w-100">
@@ -782,9 +795,9 @@
                 </h6> -->
               </div>
               <!-- how it work -->
-              <div class="how-it-work">
+              <div class="how-it-work faq_detail d-none" id="detail_steps">
                 <!-- <div class="container"> -->
-                  <!-- <div class="row">
+                <!-- <div class="row">
                     <div class="col-md-8 mx-auto">
                       <div class="section-title">
                         <h2 class="wow fadeInUp mb-3">Here's how it works.</h2>
@@ -796,134 +809,125 @@
                     </div>
                   </div> -->
 
-                  <!-- <div class="row gy-lg-0 gy-3"> -->
-                    <div class="row g-3">
-                    <div class="col-lg-6">
-                      <div
-                        class="single-widget apply-online wow fadeInUp"
-                        data-wow-delay="0.1s"
-                      >
-                        <div class="widget-header">
-                          <!-- <div class="widget-img">
+                <!-- <div class="row gy-lg-0 gy-3"> -->
+                <div class="row g-3">
+                  <div class="col-lg-6">
+                    <div
+                      class="single-widget apply-online wow fadeInUp"
+                      data-wow-delay="0.1s"
+                    >
+                      <div class="widget-header">
+                        <!-- <div class="widget-img">
                             <img src="img/how-works/icon-1.png" alt="icon" />
                           </div> -->
-                          <div class="widget-title">
-                            <h4>Online Account Opening</h4>
-                            <!-- <p>
+                        <div class="widget-title">
+                          <h4>Online Account Opening</h4>
+                          <!-- <p>
                               That is why we have a wide range of you can apply
                               for a Personal Loan.
                             </p> -->
-                          </div>
                         </div>
-
-                        <ul class="widget-content">
-                          <li class="active">
-                            <span class="number">1</span>
-                            <span class="text"
-                              >Download the Easy App from your device's app
-                              store</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">2</span>
-                            <span class="text"
-                              >Open the app and click on "Create New
-                              Account</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">3</span>
-                            <span class="text"
-                              >Fill in your personal information</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">4</span>
-                            <span class="text">Upload required documents</span>
-                          </li>
-                          <li>
-                            <span class="number">5</span>
-                            <span class="text"
-                              >Set up your security preferences</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">6</span>
-                            <span class="text"
-                              >Review and submit your application</span
-                            >
-                          </li>
-                        </ul>
                       </div>
-                    </div>
 
-                    <div class="col-lg-6">
-                      <div
-                        class="single-widget consultation wow fadeInUp"
-                        data-wow-delay="0.3s"
-                      >
-                        <div class="widget-header">
-                          <!-- <div class="widget-img">
+                      <ul class="widget-content">
+                        <li class="active">
+                          <span class="number">1</span>
+                          <span class="text"
+                            >Download the Easy App from your device's app
+                            store</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">2</span>
+                          <span class="text"
+                            >Open the app and click on "Create New Account</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">3</span>
+                          <span class="text"
+                            >Fill in your personal information</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">4</span>
+                          <span class="text">Upload required documents</span>
+                        </li>
+                        <li>
+                          <span class="number">5</span>
+                          <span class="text"
+                            >Set up your security preferences</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">6</span>
+                          <span class="text"
+                            >Review and submit your application</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div
+                      class="single-widget consultation wow fadeInUp"
+                      data-wow-delay="0.3s"
+                    >
+                      <div class="widget-header">
+                        <!-- <div class="widget-img">
                             <img src="img/how-works/icon-2.png" alt="icon" />
                           </div> -->
-                          <div class="widget-title">
-                            <h4>Digital Microloan</h4>
-                            <!-- <p>
+                        <div class="widget-title">
+                          <h4>Digital Microloan</h4>
+                          <!-- <p>
                               Conis Guide on the supervisory approach to
                               consolidation in the banking sector.
                             </p> -->
-                          </div>
                         </div>
-
-                        <ul class="widget-content">
-                          <li class="active">
-                            <span class="number">1</span
-                            ><span class="text"
-                              >Log into your Easy App account</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">2</span>
-                            <span class="text"
-                              >Navigate to the "Loans" section</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">3</span>
-                            <span class="text"
-                              >Select "Apply for Microloan"</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">4</span>
-                            <span class="text"
-                              >Enter the loan amount and purpose</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">5</span>
-                            <span class="text"
-                              >Provide necessary financial information</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">6</span>
-                            <span class="text"
-                              >Review terms and conditions</span
-                            >
-                          </li>
-                          <li>
-                            <span class="number">7</span>
-                            <span class="text"
-                              >Submit your application</span
-                            >
-                          </li>
-                            
-                          </li>
-                        </ul>
                       </div>
+
+                      <ul class="widget-content">
+                        <li class="active">
+                          <span class="number">1</span
+                          ><span class="text"
+                            >Log into your Easy App account</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">2</span>
+                          <span class="text"
+                            >Navigate to the "Loans" section</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">3</span>
+                          <span class="text">Select "Apply for Microloan"</span>
+                        </li>
+                        <li>
+                          <span class="number">4</span>
+                          <span class="text"
+                            >Enter the loan amount and purpose</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">5</span>
+                          <span class="text"
+                            >Provide necessary financial information</span
+                          >
+                        </li>
+                        <li>
+                          <span class="number">6</span>
+                          <span class="text">Review terms and conditions</span>
+                        </li>
+                        <li>
+                          <span class="number">7</span>
+                          <span class="text">Submit your application</span>
+                        </li>
+                      </ul>
                     </div>
                   </div>
+                </div>
                 <!-- </div> -->
               </div>
               <!-- how it work end -->
@@ -1051,5 +1055,6 @@
     <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript" src="js/project-scroll.js"></script>
     <script type="text/javascript" src="js/projects.js"></script>
+    <script type="text/javascript" src="js/faq.js"></script>
   </body>
 </html>
