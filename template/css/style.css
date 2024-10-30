@@ -7167,6 +7167,9 @@ header .header-top .header-info-right ul li i {
 .faq-area-3 .faq-img {
   border-radius: 8px;
 }
+.faq-area-3 .faq-tab {
+  color: lightgray;
+}
 .faq-area-3 .subtitle {
   font-family: "Poppins";
   font-size: 14px;
