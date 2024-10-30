@@ -7161,7 +7161,6 @@ header .header-top .header-info-right ul li i {
 /*  New Version
 /*----------------------------------------*/
 .faq-area-3 {
-  background-color: #101010;
   padding: 120px 0;
   color: #fff;
 }
@@ -10001,7 +10000,6 @@ blockquote .author span {
 .footer {
   background-position: center;
   background-size: cover;
-  background-color: #0f1123;
   /* copyright*/
 }
 .footer .footer-top .footer-text {
@@ -10186,9 +10184,6 @@ blockquote .author span {
 }
 .footer.footer-2 .copyright .copyright-text {
   color: #c3cdd9;
-}
-.footer.footer-3 {
-  background-color: #171d24;
 }
 .footer.footer-3 .footer-top .footer-text {
   font-size: 18px;
