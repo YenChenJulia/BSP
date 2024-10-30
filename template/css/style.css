@@ -7289,6 +7289,30 @@ header .header-top .header-info-right ul li i {
   padding-top: 8px;
 }
 
+.faq_type {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 996px) {
+  .faq_type {
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+  }
+}
+.faq_type .theme-btn {
+  width: 200px;
+  background-color: #023a64;
+}
+.faq_type .theme-btn.theme-btn-rounded-2:hover {
+  background-color: var(--brand_color);
+  color: #fff;
+}
+.faq_type .theme-btn.active {
+  background-color: #fff;
+  color: var(--brand_color);
+}
+
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 /*----------------------------------------*/
@@ -7761,13 +7785,13 @@ header .header-top .header-info-right ul li i {
 .clients-logo-title {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
-  color: #878BA9;
+  color: #878ba9;
   font-weight: 500;
   margin-bottom: 50px;
   text-align: center;
 }
 .clients-logo-title span {
-  color: #1B2A52;
+  color: #1b2a52;
 }
 
 .clients-logo {
@@ -7833,6 +7857,16 @@ header .header-top .header-info-right ul li i {
 }
 .map_inner .map_list li img {
   max-width: 100%;
+}
+
+.faq-area-3 .how-it-work .single-widget .widget-header {
+  padding: 25px 30px;
+}
+.faq-area-3 .how-it-work .single-widget .widget-content li {
+  margin: 20px 0;
+}
+.faq-area-3 .how-it-work .single-widget .widget-content li .number {
+  flex-shrink: 0;
 }
 
 /*----------------------------------------------------*/
