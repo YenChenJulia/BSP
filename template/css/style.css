@@ -10003,14 +10003,14 @@ blockquote .author span {
   /* copyright*/
 }
 .footer .footer-top .footer-text {
-  color: #fff;
+  color: black;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 24px;
 }
 .footer .footer-top .social-icon a {
-  color: #fff;
+  color: black;
   margin: 10px;
 }
 .footer .footer-top .social-icon a:first-child {
@@ -10021,7 +10021,7 @@ blockquote .author span {
   display: block;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
 }
 .footer .footer-top .footer-widget .footer-bold {
   display: flex;
@@ -10030,7 +10030,7 @@ blockquote .author span {
 }
 .footer .footer-top .footer-widget .footer-bold > span:nth-child(1) {
   font-size: 70px;
-  color: #fff;
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
@@ -10039,7 +10039,7 @@ blockquote .author span {
 .footer .footer-top .footer-widget .footer-bold > span:nth-child(2) {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
-  color: #fff;
+  color: black;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -10047,14 +10047,14 @@ blockquote .author span {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
 }
 .footer .footer-top .footer-widget .f-widget-title {
   margin-bottom: 20px;
 }
 .footer .footer-top .footer-widget .f-widget-title h5 {
   font-size: 18px;
-  color: #fff;
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
@@ -10064,22 +10064,22 @@ blockquote .author span {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #d8dce0;
+  color: black;
   border-bottom: 1px solid transparent;
   line-height: 40px;
 }
 .footer .footer-top .footer-widget .footer-link ul li a:hover {
-  border-color: #fff;
+  border-color: black;
 }
 .footer .copyright {
-  color: #fff;
+  color: black;
 }
 .footer .copyright .short-text a {
   font-size: 14px;
 }
 .footer .copyright .copyright-text.short-text p {
   font-size: 14px;
-  color: #fff;
+  color: black;
 }
 .footer .copyright .copyright-text p {
   font-size: 16px;
@@ -10096,7 +10096,7 @@ blockquote .author span {
   padding: 10px 0;
 }
 .footer .copyright a:hover {
-  color: #fff;
+  color: black;
 }
 .footer .copyright a:first-child {
   margin-left: 0;
@@ -10104,14 +10104,14 @@ blockquote .author span {
 .footer .copyright .nice-select {
   background-color: transparent;
   border-color: transparent;
-  color: #fff;
+  color: black;
   margin: auto;
   padding-left: 0;
 }
 .footer .copyright .nice-select .list {
   top: inherit;
   bottom: 100%;
-  border: 1px solid #fff;
+  border: 1px solid black;
   transform-origin: bottom center;
 }
 .footer .copyright .nice-select .list:hover .option:not(:hover) {
@@ -10129,17 +10129,17 @@ blockquote .author span {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid black;
   background-color: transparent;
   font-size: 16px;
-  color: #fff;
+  color: black;
   line-height: 19px;
   text-align: center;
   transition: all 0.3s ease-out;
 }
 .footer .copyright .social-button a:hover {
-  background-color: #fff;
-  color: var(--brand_color);
+  background-color: black;
+  color: white;
 }
 .footer.footer-1 {
   background-image: url("../img/footer/footer-bg.png");
@@ -10148,14 +10148,14 @@ blockquote .author span {
   background-color: #171d24;
 }
 .footer.footer-2 .footer-text {
-  color: #fff;
+  color: black;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 .footer.footer-2 .footer-widget h4 {
   font-size: 24px;
-  color: #fff;
+  color: black;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 40px;
@@ -10175,12 +10175,12 @@ blockquote .author span {
   color: #d7d8d9;
 }
 .footer.footer-2 .footer-link ul li a:hover {
-  color: #fff;
+  color: black;
 }
 .footer.footer-2 .copyright .line {
   height: 1px;
   width: 100%;
-  background-color: #fff;
+  background-color: black;
 }
 .footer.footer-2 .copyright .copyright-text {
   color: #c3cdd9;
@@ -10280,7 +10280,7 @@ blockquote .author span {
   padding-bottom: 100px;
 }
 .bank-footer-area .footer_top .f-widget-title {
-  color: #fff;
+  color: black;
 }
 .bank-footer-area .about-widget p {
   color: #9B9B9B;
@@ -10294,7 +10294,7 @@ blockquote .author span {
   color: #9B9B9B;
 }
 .bank-footer-area .footer-link li a:hover {
-  color: #fff;
+  color: black;
 }
 .bank-footer-area .copyright-text a {
   font-size: 16px;
@@ -10304,7 +10304,7 @@ blockquote .author span {
   margin-right: 30px;
 }
 .bank-footer-area .copyright-text a:hover {
-  color: #fff;
+  color: black;
 }
 .bank-footer-area .f-social a {
   width: 48px;
@@ -10319,7 +10319,7 @@ blockquote .author span {
 }
 .bank-footer-area .f-social a:hover {
   color: var(--brand_color);
-  background: #fff;
+  background: black;
 }
 
 /*----------------------------------------------------*/
