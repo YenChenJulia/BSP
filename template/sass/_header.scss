@@ -498,6 +498,12 @@ header {
       & + .nav-item {
         margin-left: 38px;
       }
+
+      @media (min-width: 992px) {
+        & + .nav-item:last-child {
+          margin-left: 200px;
+        }
+      }
     }
   }
 
