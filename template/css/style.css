@@ -6358,7 +6358,7 @@ header .header-top .header-info-right ul li i {
   margin: 55px 10px;
   margin-bottom: 70px;
   border-radius: 8px;
-  background-color: var(--bs-white);
+  background-color: #023048;
 }
 .client-slider-2 .single-client:hover {
   box-shadow: 0px 16px 74px 0px rgba(95, 122, 148, 0.3490196078);
