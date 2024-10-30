@@ -522,8 +522,8 @@
     }
   }
 
-  .single-client {
-    padding: 30px;
+.single-client {
+    // padding: 30px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -536,13 +536,14 @@
     &:hover {
       box-shadow: 0px 16px 74px 0px #5f7a9459;
     }
+    // img {
+    //   border-radius: 50%;
+    //   width: auto !important;
+    // }
     img {
-      border-radius: 50%;
-      width: auto !important;
-      max-width: 100%; // Add this line
-      height: auto; // Add this line
-      max-height: 200px; // Add this line and adjust the value as needed
-      object-fit: cover; // Add this line to maintain aspect ratio
+      width: 100%;
+      object-fit: cover;
+      cursor: pointer;
     }
     .quote {
       font-size: 18px;
@@ -585,4 +586,11 @@
   }
 }
 
-
+.project_detail {
+  .row {
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
