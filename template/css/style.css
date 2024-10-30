@@ -1549,7 +1549,7 @@ header .header-top .header-info-right ul li i {
   left: 0;
   margin: 4px 0;
   display: block;
-  background: #fff;
+  background: black;
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1583,7 +1583,7 @@ header .header-top .header-info-right ul li i {
 }
 .menu_toggle .hamburger-cross span {
   display: block;
-  background: #fff;
+  background: black;
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
