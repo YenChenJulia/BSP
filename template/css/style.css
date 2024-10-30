@@ -7785,13 +7785,13 @@ header .header-top .header-info-right ul li i {
 .clients-logo-title {
   font-size: 24px;
   font-family: "Poppins", sans-serif;
-  color: #878BA9;
+  color: #878ba9;
   font-weight: 500;
   margin-bottom: 50px;
   text-align: center;
 }
 .clients-logo-title span {
-  color: #1B2A52;
+  color: #1b2a52;
 }
 
 .clients-logo {
@@ -7857,6 +7857,16 @@ header .header-top .header-info-right ul li i {
 }
 .map_inner .map_list li img {
   max-width: 100%;
+}
+
+.faq-area-3 .how-it-work .single-widget .widget-header {
+  padding: 25px 30px;
+}
+.faq-area-3 .how-it-work .single-widget .widget-content li {
+  margin: 20px 0;
+}
+.faq-area-3 .how-it-work .single-widget .widget-content li .number {
+  flex-shrink: 0;
 }
 
 /*----------------------------------------------------*/
