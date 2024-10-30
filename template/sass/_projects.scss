@@ -444,7 +444,12 @@
 /*  New Version
 /*----------------------------------------*/
 .client-area-2 {
-  background-color: #f4f5f6;
+  background-color: #023048;
+  border-top-right-radius: 5%;
+  border-bottom-left-radius: 5%;
+  .title {
+    color: #fff;
+  }
 }
 .client-slider-2 {
   .slick-list {
