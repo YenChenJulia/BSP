@@ -7162,14 +7162,12 @@ header .header-top .header-info-right ul li i {
 /*  New Version
 /*----------------------------------------*/
 .faq-area-3 {
+  background-color: #fdf4ed;
   padding: 120px 0;
   color: #fff;
 }
 .faq-area-3 .faq-img {
   border-radius: 8px;
-}
-.faq-area-3 .faq-tab {
-  color: lightgray;
 }
 .faq-area-3 .subtitle {
   font-family: "Poppins";
@@ -7188,10 +7186,13 @@ header .header-top .header-info-right ul li i {
   line-height: 62px;
   letter-spacing: -0.02em;
   margin-bottom: 40px;
-  color: #fff;
+  color: #023a64;
 }
 .faq-area-3 h1 .underline-shape::after {
   background-color: #f57950;
+}
+.faq-area-3 h3 {
+  color: #023a64;
 }
 .faq-area-3 .single-faq {
   border-bottom: 1px solid #c3cbd2;
@@ -7213,7 +7214,7 @@ header .header-top .header-info-right ul li i {
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  color: #fff;
+  color: #023a64;
 }
 .faq-area-3 .faq-widget .faq-header h4 i {
   color: #fff;
@@ -7223,7 +7224,7 @@ header .header-top .header-info-right ul li i {
   padding: 2px;
 }
 .faq-area-3 .faq-widget .faq-body p {
-  color: #eeeeee;
+  color: #023a64;
   margin-top: 12px;
 }
 
@@ -7231,7 +7232,7 @@ header .header-top .header-info-right ul li i {
   padding-bottom: 120px;
 }
 .saas-faq-area .saas-section-title h2 span {
-  background: linear-gradient(90deg, #48D5DC 45.35%, #2BDE52 100%);
+  background: linear-gradient(90deg, #48d5dc 45.35%, #2bde52 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
