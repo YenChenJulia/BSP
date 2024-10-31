@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*----------------------------------------------------
 @File: Default Styles
 
@@ -35,7 +36,7 @@ Table of Content:
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 :root {
-  --theme-color: #023048;
+  --theme-color: #033a64;
   --theme-title-color: #171d24;
   --theme-text-color: #6a737c;
   --theme-border-color: #dde1e5;
@@ -1257,7 +1258,7 @@ header .header-top .header-info-right ul li i {
   transition: all 0.3s linear;
 }
 .header-menu .menu > .nav-item > .nav-link {
-  font-size: 14px;
+  font-size: 1rem;
   color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -6278,7 +6279,6 @@ header .header-top .header-info-right ul li i {
 .client-area-2 {
   background-color: #023048;
   border-top-right-radius: 5%;
-  border-bottom-left-radius: 5%;
 }
 .client-area-2 .title {
   color: #fff;
@@ -6371,6 +6371,7 @@ header .header-top .header-info-right ul li i {
   width: 100%;
   object-fit: cover;
   cursor: pointer;
+  border-radius: 30px;
 }
 .client-slider-2 .single-client .introduction {
   position: absolute;
@@ -6425,6 +6426,10 @@ header .header-top .header-info-right ul li i {
   line-height: 19px;
 }
 
+.project_detail {
+  background-color: rgba(2, 58, 100, 0.0980392157);
+  border-top-right-radius: 5%;
+}
 .project_detail .row .col-4 {
   position: relative;
   overflow: hidden;
@@ -6432,28 +6437,74 @@ header .header-top .header-info-right ul li i {
 .project_detail .row .col-4 img {
   width: 100%;
   object-fit: cover;
+  border-radius: 30px;
 }
 .project_detail .row .col-4 .introduction {
   position: absolute;
   object-fit: cover;
   top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  background-color: #2b2d2f;
-  opacity: 0.7;
-  color: #fff;
+  left: 15px;
+  right: 15px;
+  background-color: #fff;
+  opacity: 0.75;
+  color: var(--theme-color);
   height: auto;
   pointer-events: none;
   box-sizing: border-box;
-  padding: 0 20px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
-}
-.project_detail .row .col-4 .introduction h5 {
-  margin-top: 1rem;
+  padding: 12px 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   margin-bottom: 0.2rem;
-  color: #fff;
+  font-style: italic;
+  font-weight: 500;
+}
+.project_detail .row .col-8 {
+  position: relative;
+}
+.project_detail .row .col-8 li {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+  color: var(--theme-color);
+}
+.project_detail .row .col-8 li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
+}
+.project_detail .row .col-8 .feature h4 {
+  color: var(--theme-color);
+  font-weight: 600;
+}
+.project_detail .row .col-8 .feature p {
+  color: var(--theme-color);
+}
+.project_detail .row .col-8 .project-cta {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 30px;
+  right: 15px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.project_detail .row .col-8 .project-cta .inner {
+  position: relative;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.project_detail .row .col-8 .project-cta .inner p {
+  font-style: italic;
+  color: var(--theme-color);
+}
+.project_detail .row .col-8 .project-cta .inner h4 {
+  font-weight: 600;
+  font-style: italic;
+}
+.project_detail .row .col-8 .project-cta .inner a {
+  background-color: var(--theme-color);
+  border-radius: 20px;
 }
 
 /*----------------------------------------------------*/
