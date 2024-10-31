@@ -10599,4 +10599,347 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   cursor: pointer;
 }
 
+/* snp logo */
+.navbar {
+  min-height: 60px; /* Ensure the navbar items align properly */
+  height: 90px;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin-right: auto; /* Push the brand to the left */
+}
+
+.logo-wrapper {
+  background-color: transparent;
+  display: inline-block;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.logo-img {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: -1px;  /* Minimal negative margin to remove any potential border */
+  clip-path: inset(1px);  /* Minimal clipping to clean up edges */
+}
+
+@media (max-width: 991px) {
+  .logo-img {
+      max-height: 40px;  /* Increased height for mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-img {
+      max-width: 130px;  /* Slightly increased width for smaller screens */
+  }
+}
+
+/* dropdown */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center the menu items */
+  flex-grow: 1; /* Allow the menu to take available space */
+}
+
+.navbar-nav .form-control {
+  width: 150px;
+}
+
+.nav-item.dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item.dropdown .fa-chevron-down {
+  margin-left: 5px;
+  font-size: 0.8em;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  
+  .navbar-nav .btn {
+      width: 100%;
+  }
+  
+  .navbar-nav .dropdown-menu {
+      border: none;
+      text-align: center;
+  }
+}
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/* carousel */
+
+.project-section {
+  position: relative;
+  display: flex;
+  align-items: center;  
+  margin: 0;  
+  width: 100%; /* Ensure the section takes full width */
+}
+
+.project-area {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  overflow: hidden;  
+}
+
+.project-container {  
+  display: flex;
+  justify-content: center; /* Center the cards horizontally */
+  /* align-items: center; /* Center vertically if needed */
+  overflow: hidden; /* Hide overflow if necessary */
+  width: 100%;  
+  padding: 0;  
+  z-index: 0;
+}
+
+.project-wrapper {
+  display: flex;
+  transition: transform 0.5s ease;
+  /* width: calc(100% * 2); /* 2 sets of 3 projects */
+  width: 200%;  
+  /* justify-content: center; */
+}
+
+.project-card {
+  flex: 0 0 calc(33.333% - 24px);
+  /* width: calc(16.666% - 20px); */
+  box-sizing: border-box;
+  margin: 0 12px;  
+  position: relative;
+  height: 58vh; /* Set height to 50% of the viewport height for desktop */
+  max-height: 500px; /* Set a maximum height to prevent excessive size on large screens */
+  min-height: 300px; /* Set a minimum height to ensure visibility on smaller screens */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);  
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative; /* Ensure overlay is positioned correctly */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 991px) {
+  .project-card {
+      height: 40vh; /* Slightly reduce height for tablets */
+      max-height: 400px;
+      min-height: 250px;
+  }
+}
+
+@media (max-width: 576px) {
+  .project-card {
+      height: 30vh; /* Further reduce height for mobile */
+      max-height: 300px;
+      min-height: 200px;
+  }
+}
+
+/* .project-card:first-child {
+  margin-left: 0;
+} */
+
+.project-card:last-child {
+  margin-right: 0;
+}
+
+.project-card .card-img {
+  position: absolute; /* Position the image absolutely */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card .card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Darker background */
+  transition: background 0.3s ease;
+  padding: 15px;
+}
+
+.project-card:hover .card-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent); /* Black gradient on hover */
+}
+
+.card-title, .card-text {
+  color: white;
+  padding: 2px;
+  position: relative;
+  z-index: 1;
+}
+
+.project-card .card-title {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.project-card .card-text {
+  font-size: 0.8rem;
+}
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nav-arrow:hover {
+  background: rgba(0,0,0,0.8);
+}
+
+.nav-prev {
+  left: -20px;
+}
+
+.nav-next {
+  right: -20px;
+}
+
+@media (max-width: 1200px) {
+  .nav-prev {
+      left: 10px;
+  }
+  .nav-next {
+      right: 10px;
+  }
+}
+
+.slide-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.slide-track {
+  width: 100px;
+  height: 4px;
+  background-color: #e0e0e0;
+  border-radius: 2px;
+  position: relative;
+}
+
+.slide-thumb {
+  width: 50%; /* Half of the track, as we have 2 slides */
+  height: 100%;
+  background-color: #333;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  transition: left 0.3s ease;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Adjust main content area */
+main {
+  overflow-x: hidden;
+}
+
+/* Make images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  height: 200px;
+}
+
+.btn i {
+  font-size: 16px; /* Adjust icon size */
+  color: #28a745; /* Adjust icon color */
+}
+
+.navbar-nav .nav-link i {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.fa-globe {
+  color: #007bff;
+}
+
+.navbar-nav.ms-auto {
+  margin-left: auto !important;
+}
+
+.dropdown-menu-end {
+  right: 0;
+  left: auto;
+}
+
+
 /*# sourceMappingURL=style.css.map */
