@@ -456,7 +456,7 @@
     padding-top: 8px;
   }
 }
-// style of faq_type
+// modification
 .faq_type {
   display: flex;
   justify-content: space-between;
@@ -470,12 +470,20 @@
     width: 200px;
     background-color: #023a64;
     &.theme-btn-rounded-2:hover {
-      background-color: var(--brand_color);
+      background-color: #023a64;
+      opacity: 0.8;
       color: #fff;
     }
     &.active {
       background-color: #fff;
       color: var(--brand_color);
     }
+  }
+}
+.support {
+  color: #023a64;
+
+  .icon {
+    color: var(--brand_color);
   }
 }
