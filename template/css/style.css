@@ -7319,11 +7319,19 @@ header .header-top .header-info-right ul li i {
   background-color: #023a64;
 }
 .faq_type .theme-btn.theme-btn-rounded-2:hover {
-  background-color: var(--brand_color);
+  background-color: #023a64;
+  opacity: 0.8;
   color: #fff;
 }
 .faq_type .theme-btn.active {
   background-color: #fff;
+  color: var(--brand_color);
+}
+
+.support {
+  color: #023a64;
+}
+.support .icon {
   color: var(--brand_color);
 }
 

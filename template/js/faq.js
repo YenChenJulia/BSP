@@ -7,10 +7,10 @@ document.querySelectorAll(".faq_btn").forEach((element) => {
     });
     selectedId = e.target.id.slice(4);
     e.target.classList.add("active");
-    console.log(selectedId);
+    // console.log(selectedId);
     //在特定id的element加class, 使其display block
     const targetFaqDetail = document.querySelector(`#detail_${selectedId}`);
-    console.log(targetFaqDetail);
+    // console.log(targetFaqDetail);
     hideAllFaqDetail();
     targetFaqDetail.classList.remove("d-none");
     targetFaqDetail.classList.add("d-block");
