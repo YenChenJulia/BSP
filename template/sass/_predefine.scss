@@ -142,20 +142,25 @@ ul {
 
 li {
   list-style: none;
+  font-size: 1.5rem;
+  color: var(--theme-color);
 }
 
 p {
   margin: 0;
   padding: 0;
+  font-size: 1.4rem;
+  color: var(--theme-color);
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 60px;
 }
 h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   line-height: 42px;
+  font-weight: bold;
 }
 h3 {
   font-size: 30px;
@@ -322,12 +327,12 @@ input::-webkit-inner-spin-button {
   text-align: center;
   .short-title {
     display: inline-block;
-    font-size: 14px;
-    color: var(--brand_color);
-    font-family: $Roboto-font;
+    font-size: 2rem;
+    color: var(--theme-color);
+    font-family: $Garamond-font;
     font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    // letter-spacing: 0.5px;
+    // text-transform: uppercase;
     margin: 10px 0;
   }
 
@@ -344,12 +349,12 @@ input::-webkit-inner-spin-button {
     color: #a7b4c0;
   }
   h1 {
-    font-size: 50px;
+    font-size: 2.7rem;
     font-family: $Poppins-font;
     font-weight: 700;
   }
   h2 {
-    font-size: 36px;
+    font-size: 2.5rem;
     color: $theme-title-color;
     font-family: $Poppins-font;
     font-weight: 700;

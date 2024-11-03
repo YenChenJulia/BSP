@@ -34,6 +34,7 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 :root {
@@ -173,21 +174,26 @@ ul {
 
 li {
   list-style: none;
+  font-size: 1.5rem;
+  color: var(--theme-color);
 }
 
 p {
   margin: 0;
   padding: 0;
+  font-size: 1.4rem;
+  color: var(--theme-color);
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 60px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   line-height: 42px;
+  font-weight: bold;
 }
 
 h3 {
@@ -353,12 +359,10 @@ input::-webkit-inner-spin-button {
 }
 .section-title .short-title {
   display: inline-block;
-  font-size: 14px;
-  color: var(--brand_color);
-  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
+  font-size: 2rem;
+  color: var(--theme-color);
+  font-family: "Cormorant Garamond", "Be Vietnam Pro", sans-serif;
   font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   margin: 10px 0;
 }
 .section-title .short-title-2 {
@@ -373,12 +377,12 @@ input::-webkit-inner-spin-button {
   color: #a7b4c0;
 }
 .section-title h1 {
-  font-size: 50px;
+  font-size: 2.7rem;
   font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
 }
 .section-title h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   color: var(--secondary_color);
   font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
@@ -1265,6 +1269,13 @@ header .header-top .header-info-right ul li i {
   font-weight: 500;
   position: relative;
   text-transform: uppercase;
+}
+.header-menu .menu > .nav-item > .nav-link .fa-globe {
+  color: var(--theme-color) !important;
+  font-size: 1.5rem !important;
+  width: auto !important;
+  vertical-align: -2.85px;
+  margin-right: 5px;
 }
 .header-menu .menu > .nav-item > .nav-link.active::before {
   content: "";
@@ -6285,9 +6296,8 @@ header .header-top .header-info-right ul li i {
   max-width: 85%;
   width: 85%;
 }
-.client-area-2 .title {
+.client-area-2 h2 {
   color: #fff;
-  font-size: 4rem;
 }
 
 .client-slider-2 {
@@ -7353,7 +7363,6 @@ header .header-top .header-info-right ul li i {
   margin-left: 8px;
 }
 .faq-area-3 .faq-widget .faq-header h4 {
-  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
   color: #023a64;

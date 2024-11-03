@@ -174,18 +174,18 @@ header {
       }
       .navbar {
         .menu {
-          > .nav-item {
-            > .nav-link {
+          > .nav-item {            
+            > .nav-link {              
               color: var(--secondary_color);
               &.active {
                 color: var(--brand_color);
               }
               &::before {
                 background-color: var(--brand_color);
-              }
+              }             
             }
-          }
-        }
+          }          
+        }        
       }
     }
     &.header-menu-4 {
@@ -238,6 +238,13 @@ header {
         font-weight: 500;
         position: relative;
         text-transform: uppercase;
+        .fa-globe {
+          color: var(--theme-color) !important;
+          font-size: 1.5rem !important;
+          width: auto !important;
+          vertical-align: -2.85px;
+          margin-right: 5px;
+        }
 
         &.active {
           &::before {
