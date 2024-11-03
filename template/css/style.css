@@ -6506,9 +6506,12 @@ header .header-top .header-info-right ul li i {
 .project_detail .row .col-6 .feature h4 {
   font-size: 1.83rem;
   font-weight: bold;
+  margin-top: 3rem;
+  font-style: italic;
 }
 .project_detail .row .col-6 .feature p {
   color: var(--theme-color);
+  font-size: 1.5rem;
 }
 .project_detail .row .col-6 .project-cta {
   position: absolute;
@@ -6527,14 +6530,19 @@ header .header-top .header-info-right ul li i {
 .project_detail .row .col-6 .project-cta .inner p {
   font-style: italic;
   color: var(--theme-color);
+  font-size: 1.67rem;
 }
 .project_detail .row .col-6 .project-cta .inner h4 {
   font-weight: 600;
   font-style: italic;
+  font-size: 1.83rem;
 }
 .project_detail .row .col-6 .project-cta .inner a {
   background-color: var(--theme-color);
   border-radius: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
 }
 
 /*----------------------------------------------------*/
