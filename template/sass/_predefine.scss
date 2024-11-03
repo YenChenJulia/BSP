@@ -35,6 +35,7 @@
 
   --font-color-white: #ffffff;
   --font-color-gray: #6b707f;
+  //font-size: 16px;
 
   --bs_sm: 0 1px 2px rgb(0 0 0 / 5%), 0 1px 4px rgb(0 0 0 / 5%), 0 2px 8px rgb(0 0 0 / 5%);
   --bs_md: 0 1px 3px rgb(0 0 0 / 6%), 0 2px 6px rgb(0 0 0 / 6%), 0 3px 8px rgb(0 0 0 / 9%);
@@ -122,7 +123,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   color: var(--secondary_color);
   margin-top: 0;
   font-weight: 500;
@@ -333,7 +334,7 @@ input::-webkit-inner-spin-button {
   /*  New Version */
   .short-title-2 {
     display: inline-block;
-    font-family: "Poppins";
+    font-family: "Be Vietnam Pro", "Poppins";
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
