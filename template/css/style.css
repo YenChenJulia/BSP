@@ -181,7 +181,7 @@ li {
 p {
   margin: 0;
   padding: 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--theme-color);
 }
 
@@ -207,7 +207,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .bg_white {
@@ -7158,7 +7158,7 @@ header .header-top .header-info-right ul li i {
   display: none;
 }
 .faq-widget .faq-body p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--p_color);
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
@@ -7521,15 +7521,14 @@ header .header-top .header-info-right ul li i {
 .how-it-work .single-widget.consultation .widget-header {
   background-color: #2f3337;
 }
-.how-it-work .single-widget.consultation .widget-content li.active .text {
-  color: var(--secondary_color);
-}
-.how-it-work .single-widget.consultation .widget-content li.active .number {
-  box-shadow: 0 5px 15px 0 rgba(60, 65, 70, 0.3);
+.how-it-work .single-widget.consultation .widget-content li .number {
   background-color: #2f3337;
 }
-.how-it-work .single-widget.consultation .widget-content li .number {
-  background-color: #9199a1;
+.how-it-work .single-widget.consultation .widget-content li .text {
+  color: #2f3337;
+}
+.how-it-work .single-widget.consultation .widget-content li .text p {
+  color: #2f3337;
 }
 .how-it-work .single-widget .widget-header {
   background-color: var(--brand_color);
@@ -7576,29 +7575,21 @@ header .header-top .header-info-right ul li i {
   display: flex;
   align-items: center;
 }
-.how-it-work .single-widget .widget-content li.active {
-  color: var(--secondary_color);
-}
-.how-it-work .single-widget .widget-content li.active .text {
-  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
-  font-weight: 500;
-  color: var(--secondary_color);
-}
-.how-it-work .single-widget .widget-content li.active .number {
-  box-shadow: 0 5px 15px 0 rgba(20, 85, 166, 0.3);
-  background-color: var(--brand_color);
-}
 .how-it-work .single-widget .widget-content li .text {
-  color: #a8a8b2;
-  font-size: 18px;
+  color: var(--theme-color);
+  font-size: 1.1rem;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
+}
+.how-it-work .single-widget .widget-content li .text p {
+  font-size: 1rem;
+  font-weight: normal;
 }
 .how-it-work .single-widget .widget-content li .number {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  background-color: #7a9fcc;
+  background-color: var(--theme-color);
   color: #fff;
   font-size: 18px;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;

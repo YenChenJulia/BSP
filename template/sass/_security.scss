@@ -71,18 +71,24 @@
 
       .widget-content {
         li {
-          &.active {
-            .text {
-              color: $theme-title-color;
-            }
-            .number {
-              box-shadow: 0 5px 15px 0 rgba(#3c4146, 30%);
-              background-color: #2f3337;
-            }
-          }
+          // &.active {
+          //   .text {
+          //     color: $theme-title-color;
+          //   }
+          //   .number {
+          //     box-shadow: 0 5px 15px 0 rgba(#3c4146, 30%);
+          //     background-color: #2f3337;
+          //   }
+          // }
 
           .number {
-            background-color: #9199a1;
+            background-color: #2f3337;
+          }
+          .text {
+            color: #2f3337;
+            p { 
+              color: #2f3337;
+            }
           }
         }
       }
@@ -135,29 +141,34 @@
         margin: 50px 0;
         display: flex;
         align-items: center;
-        &.active {
-          color: $theme-title-color;
-          .text {
-            font-family: $Roboto-font;
-            font-weight: 500;
-            color: $theme-title-color;
-          }
-          .number {
-            box-shadow: 0 5px 15px 0 rgba(#1455a6, 30%);
-            background-color: var(--brand_color);
-          }
-        }
+        // &.active {
+        //   color: $theme-title-color;
+        //   .text {
+        //     font-family: $Roboto-font;
+        //     font-weight: 500;
+        //     color: $theme-title-color;
+        //   }
+        //   .number {
+        //     box-shadow: 0 5px 15px 0 rgba(#1455a6, 30%);
+        //     background-color: var(--brand_color);
+        //   }
+        // }
         .text {
-          color: #a8a8b2;
-          font-size: 18px;
+          color: var(--theme-color);
+          font-size: 1.1rem;
           font-family: $Roboto-font;
-          font-weight: 400;
+          font-weight: bold;
+          p {            
+            font-size: 1rem;            
+            font-weight: normal;
+          }
         }
+        
         .number {
           height: 35px;
           width: 35px;
           border-radius: 50%;
-          background-color: #7a9fcc;
+          background-color: var(--theme-color);
           color: #fff;
           font-size: 18px;
           font-family: $Roboto-font;
