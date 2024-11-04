@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*----------------------------------------------------
 @File: Default Styles
 
@@ -29,20 +30,22 @@ Table of Content:
 
 =====================================================================*/
 /*----------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
 :root {
-  --theme-color: #6d27e5;
+  --theme-color: #033a64;
   --theme-title-color: #171d24;
   --theme-text-color: #6a737c;
   --theme-border-color: #dde1e5;
   --theme-dropshadow: 0 0.5px 1px 0 rgba(51, 77, 114, 0.1),
     0px 1.6px 3.6px 0 rgba(51, 77, 114, 0.15);
   --brand_color: #0050b2;
-  --secondary_color: var(--theme-title-color);
+  --secondary_color: var(--theme-color);
   --p_color: #4c5267;
   --gradient_bg_color1: var(--gradient_bg_color-from, #fffbf2);
   --gradient_bg_color2: var(--gradient_bg_color-to, #edfffd);
@@ -79,7 +82,7 @@ Table of Content:
 }
 
 body {
-  background-color: #f7f9fa;
+  background-color: #FEF4ED;
 }
 
 a,
@@ -152,7 +155,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   color: var(--secondary_color);
   margin-top: 0;
   font-weight: 500;
@@ -171,21 +174,25 @@ ul {
 
 li {
   list-style: none;
+  font-size: 1.5rem;
+  color: var(--theme-color);
 }
 
 p {
   margin: 0;
   padding: 0;
+  font-size: 1.2rem;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 3rem;
   line-height: 60px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   line-height: 42px;
+  font-weight: bold;
 }
 
 h3 {
@@ -199,7 +206,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .bg_white {
@@ -259,7 +266,7 @@ input::-webkit-inner-spin-button {
 }
 .form-check .form-check-label {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -272,7 +279,7 @@ input::-webkit-inner-spin-button {
   border-color: var(--black_50);
   color: #a8a8b2;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .form-control:focus {
@@ -298,7 +305,7 @@ input::-webkit-inner-spin-button {
   border-radius: 4px;
   border: 1px solid var(--black_50);
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   background-color: transparent;
   color: #848d95;
@@ -336,7 +343,7 @@ input::-webkit-inner-spin-button {
   left: 25px;
   transform: translateY(-50%);
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #848d95;
   transition: all 0.3s ease-out;
@@ -351,17 +358,15 @@ input::-webkit-inner-spin-button {
 }
 .section-title .short-title {
   display: inline-block;
-  font-size: 14px;
-  color: var(--brand_color);
-  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: var(--theme-color);
+  font-family: "Cormorant Garamond", "Be Vietnam Pro", sans-serif;
   font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
   margin: 10px 0;
 }
 .section-title .short-title-2 {
   display: inline-block;
-  font-family: "Poppins";
+  font-family: "Be Vietnam Pro", "Poppins";
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
@@ -371,20 +376,20 @@ input::-webkit-inner-spin-button {
   color: #a7b4c0;
 }
 .section-title h1 {
-  font-size: 50px;
-  font-family: "Poppins", sans-serif;
+  font-size: 2.7rem;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
 }
 .section-title h2 {
-  font-size: 36px;
+  font-size: 2.5rem;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 20px;
 }
 .section-title P {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 26px;
@@ -411,7 +416,7 @@ input::-webkit-inner-spin-button {
 
 .read-more-btn {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--brand_color);
   display: inline-block;
@@ -490,7 +495,7 @@ input::-webkit-inner-spin-button {
   font-size: 52px;
   font-weight: 500;
   line-height: 70px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   margin-bottom: 16px;
 }
 .saas-section-title h2 span {
@@ -500,7 +505,7 @@ input::-webkit-inner-spin-button {
 }
 .saas-section-title p {
   color: #878BA9;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -509,7 +514,7 @@ input::-webkit-inner-spin-button {
 .text-btn {
   font-size: 16px;
   font-weight: 600;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   color: #1B2A52;
   position: relative;
   display: inline-block;
@@ -588,7 +593,7 @@ input::-webkit-inner-spin-button {
   overflow: hidden;
   text-align: center;
   text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
 }
 .theme-btn::before {
@@ -739,7 +744,7 @@ input::-webkit-inner-spin-button {
   position: relative;
   z-index: 1;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--theme-color);
   text-transform: uppercase;
@@ -1062,7 +1067,7 @@ input::-webkit-inner-spin-button {
   letter-spacing: 5.2px;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   margin: 5% 0 1% 0;
   padding: 0;
 }
@@ -1093,7 +1098,6 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
   z-index: 9997;
 }
 header .header-top {
@@ -1113,7 +1117,7 @@ header .header-top .header-info-left {
   align-items: center;
   color: #bbc0c4;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 header .header-top .header-info-left .language-list .nice-select {
@@ -1128,7 +1132,7 @@ header .header-top .header-info-left .timestamp i {
   margin-top: 2px;
 }
 header .header-top .header-info-right {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 header .header-top .header-info-right ul {
@@ -1159,8 +1163,7 @@ header .header-top .header-info-right ul li i {
 .header-menu {
   z-index: 1;
   background-color: transparent;
-  transition: all 0.2s linear;  
-  width: 100%;
+  transition: all 0.2s linear;
 }
 .header-menu.header-menu-4 .theme-btn:hover {
   background-color: var(--brand_color);
@@ -1245,11 +1248,7 @@ header .header-top .header-info-right ul li i {
   background-color: var(--brand_color);
 }
 .header-menu .navbar {
-  display: flex;
-  justify-content: center; /* Center the entire navbar */
-  align-items: center;
-  padding: 0 20px; /* Add some padding for spacing */
-  width: 100%; /* Ensure it takes full width */
+  padding: 0 !important;
 }
 .header-menu .navbar .sticky_logo .main {
   display: block;
@@ -1257,25 +1256,25 @@ header .header-top .header-info-right ul li i {
 .header-menu .navbar .sticky_logo .sticky {
   display: none;
 }
-
-.header-menu .menu {
-  display: flex;
-  justify-content: center; /* Center the menu items */
-  width: 100%; /* Ensure the menu takes full width */
-}
-
 .header-menu .menu > .nav-item {
   padding-bottom: 25px;
   padding-top: 25px;
   transition: all 0.3s linear;
 }
 .header-menu .menu > .nav-item > .nav-link {
-  font-size: 14px;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: black;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   position: relative;
   text-transform: uppercase;
+}
+.header-menu .menu > .nav-item > .nav-link .fa-globe {
+  color: var(--theme-color) !important;
+  font-size: 1.5rem !important;
+  width: auto !important;
+  vertical-align: -2.85px;
+  margin-right: 5px;
 }
 .header-menu .menu > .nav-item > .nav-link.active::before {
   content: "";
@@ -1354,7 +1353,7 @@ header .header-top .header-info-right ul li i {
   padding: 0;
   white-space: nowrap;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--p_color);
   transition: color 0.2s linear;
@@ -1471,7 +1470,7 @@ header .header-top .header-info-right ul li i {
   font-weight: 400;
   color: #fff;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
 }
 .header-menu .menu > .nav-item.submenu.mega_menu .dropdown-menu .tabContent .tab-pane .tab_list li a:before {
@@ -1505,6 +1504,11 @@ header .header-top .header-info-right ul li i {
 }
 .header-menu .menu > .nav-item + .nav-item {
   margin-left: 38px;
+}
+@media (min-width: 992px) {
+  .header-menu .menu > .nav-item + .nav-item:last-child {
+    margin-left: 200px;
+  }
 }
 .header-menu .theme-btn {
   margin-left: 55px;
@@ -1562,7 +1566,7 @@ header .header-top .header-info-right ul li i {
   left: 0;
   margin: 4px 0;
   display: block;
-  background: #fff;
+  background: black;
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1596,7 +1600,7 @@ header .header-top .header-info-right ul li i {
 }
 .menu_toggle .hamburger-cross span {
   display: block;
-  background: #fff;
+  background: black;
   border-radius: 3px;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
@@ -1789,7 +1793,7 @@ header .header-top .header-info-right ul li i {
 }
 .banner-area .banner-content h1 {
   font-size: 60px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   color: #fff;
   text-transform: capitalize;
@@ -1866,13 +1870,13 @@ header .header-top .header-info-right ul li i {
 }
 .banner-area-2 .banner-content h1 {
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   line-height: 56px;
 }
 .banner-area-2 .banner-content p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -1966,7 +1970,7 @@ header .header-top .header-info-right ul li i {
 .banner-area-3 .banner-content h1 {
   font-size: 50px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   line-height: 56px;
 }
@@ -2036,13 +2040,13 @@ header .header-top .header-info-right ul li i {
 }
 .banner-area-4 .banner-content h1 {
   font-size: 60px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   color: #fff;
 }
 .banner-area-4 .banner-content p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #fff;
   line-height: 24px;
@@ -2108,7 +2112,7 @@ header .header-top .header-info-right ul li i {
 .banner-area-5 .banner-content h1 {
   line-height: 66px;
   font-size: 60px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: #fff;
   margin-bottom: 28px;
@@ -2118,14 +2122,14 @@ header .header-top .header-info-right ul li i {
 }
 .banner-area-5 .banner-content p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #fff;
   line-height: 30px;
 }
 .banner-area-5 .banner-content .under_link {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: #fff;
   line-height: 60px;
@@ -2251,14 +2255,14 @@ header .header-top .header-info-right ul li i {
 .banner-area-6 .banner-content h1 {
   line-height: 88px;
   font-size: 70px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--black_900);
   margin-bottom: 35px;
 }
 .banner-area-6 .banner-content p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--black_600);
   line-height: 30px;
@@ -2349,7 +2353,7 @@ header .header-top .header-info-right ul li i {
   margin-right: 14px;
 }
 .banner-fact .single-fact p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -2408,14 +2412,14 @@ header .header-top .header-info-right ul li i {
 }
 .breadcrumb-widget .breadcrumb-content h1 {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: capitalize;
 }
 .breadcrumb-widget .breadcrumb-content h2 {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: capitalize;
@@ -2438,7 +2442,7 @@ header .header-top .header-info-right ul li i {
 .breadcrumb-widget .breadcrumb-content ul li {
   font-size: 16px;
   color: #c8ccd0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   position: relative;
   text-transform: capitalize;
@@ -2495,7 +2499,7 @@ header .header-top .header-info-right ul li i {
   height: 60px;
   padding: 19px 25px;
   color: #c8ccd0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   border-radius: 5px;
@@ -2504,7 +2508,7 @@ header .header-top .header-info-right ul li i {
 }
 .breadcrumb-widget.breadcrumb-widget-2 .search-box input::placeholder {
   color: #c8ccd0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -2522,14 +2526,14 @@ header .header-top .header-info-right ul li i {
 }
 .breadcrumb-widget.breadcrumb-widget-2 .popular-tags span {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #d8dce0;
   margin-right: 15px;
 }
 .breadcrumb-widget.breadcrumb-widget-2 .popular-tags a {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #fff;
   padding: 4px 22px;
@@ -2550,7 +2554,7 @@ header .header-top .header-info-right ul li i {
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #c8ccd0;
 }
@@ -2586,7 +2590,7 @@ header .header-top .header-info-right ul li i {
   font-size: 14px;
   font-weight: 600;
   color: #7B7F9C;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   padding: 11px 16px 10px 16px;
   display: inline-block;
   margin-bottom: 35px;
@@ -2594,7 +2598,7 @@ header .header-top .header-info-right ul li i {
 .saas-banner-content h1 {
   color: var(--secondary_color);
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 74px;
   font-style: normal;
   font-weight: 600;
@@ -2611,7 +2615,7 @@ header .header-top .header-info-right ul li i {
   font-size: 24px;
   line-height: 42px;
   color: #878BA9;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   max-width: 760px;
   margin-left: auto;
   margin-right: auto;
@@ -2620,7 +2624,7 @@ header .header-top .header-info-right ul li i {
 .saas-banner-content .theme-btn {
   border-radius: 8px;
   margin: 0px 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 500;
 }
@@ -2702,7 +2706,7 @@ header .header-top .header-info-right ul li i {
   font-weight: 400;
   color: #B6B8BB;
   line-height: 26px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   margin-right: 15px;
 }
 .bank-banner-content .form-control {
@@ -2724,7 +2728,7 @@ header .header-top .header-info-right ul li i {
 .active-user {
   color: #fff;
   font-size: 14px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
 }
 
 .user-img-inner {
@@ -2827,7 +2831,7 @@ header .header-top .header-info-right ul li i {
 .feature-card-widget-7 h4 {
   font-size: 24px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .feature-card-widget h5,
@@ -2838,7 +2842,7 @@ header .header-top .header-info-right ul li i {
 .feature-card-widget-7 h5 {
   font-size: 20px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .feature-card-widget p,
@@ -2847,7 +2851,7 @@ header .header-top .header-info-right ul li i {
 .feature-card-widget-5 p,
 .feature-card-widget-6 p,
 .feature-card-widget-7 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: var(--p_color);
@@ -2934,7 +2938,7 @@ header .header-top .header-info-right ul li i {
 }
 .feature-card-widget-3 .title {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #fff;
   line-height: 22px;
@@ -2945,18 +2949,18 @@ header .header-top .header-info-right ul li i {
   font-size: 22px;
   color: #fff;
   margin-top: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 400;
   line-height: 30px;
 }
 .feature-card-widget-3 h5 span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .feature-card-widget-3 a {
   font-size: 22px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 400;
   display: inline-block;
   line-height: 30px;
@@ -3098,7 +3102,7 @@ header .header-top .header-info-right ul li i {
 .feature-card-widget-6 h6 {
   font-size: 18px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   line-height: 16px;
 }
@@ -3130,13 +3134,13 @@ header .header-top .header-info-right ul li i {
 }
 .feature-card-widget-8 h4 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-top: 26px;
   margin-bottom: 16px;
 }
 .feature-card-widget-8 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: var(--p_color);
@@ -3170,7 +3174,7 @@ header .header-top .header-info-right ul li i {
 }
 .feature-card-widget-9.widget-link a {
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 26px;
@@ -3199,7 +3203,7 @@ header .header-top .header-info-right ul li i {
   font-weight: 400;
   line-height: 26px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   margin-bottom: 8px;
 }
 
@@ -3339,14 +3343,14 @@ header .header-top .header-info-right ul li i {
 .feature-widget-2 .feature-content p {
   font-size: 16px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
 .feature-widget-2 .feature-content h6 {
   font-size: 18px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
 }
@@ -3390,7 +3394,7 @@ header .header-top .header-info-right ul li i {
   padding: 9px 20px;
 }
 .feature-calculator .calculator .steps .single-step {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #6a737c;
   font-size: 14px;
@@ -3408,7 +3412,7 @@ header .header-top .header-info-right ul li i {
 }
 .feature-calculator .calculator .calculator-slider label {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   margin-bottom: 0;
   color: var(--black_700);
@@ -3421,7 +3425,7 @@ header .header-top .header-info-right ul li i {
 }
 .feature-calculator .calculator .calculator-slider .range {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -3445,7 +3449,7 @@ header .header-top .header-info-right ul li i {
   text-align: center;
   color: #6a737c;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   border: 1px solid #dcdee0;
   width: 120px;
@@ -3465,19 +3469,19 @@ header .header-top .header-info-right ul li i {
 }
 .feature-calculator .expected-payment h5 {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--black_700);
 }
 .feature-calculator .expected-payment p {
   font-size: 14px;
   color: var(--black_500);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .feature-calculator .expected-payment h4 {
   font-size: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   color: var(--black_700);
 }
@@ -3529,7 +3533,7 @@ header .header-top .header-info-right ul li i {
 .internet-banking .text-content p {
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 17px;
   line-height: 26px;
@@ -3540,7 +3544,7 @@ header .header-top .header-info-right ul li i {
 .internet-banking .text-content h2 {
   color: var(--secondary_color);
   font-size: 36px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -3673,7 +3677,7 @@ header .header-top .header-info-right ul li i {
 }
 .features-icon-box p {
   color: #878BA9;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
@@ -3776,13 +3780,13 @@ header .header-top .header-info-right ul li i {
 }
 .app-showcase-item p {
   color: #596C8D;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   margin-bottom: 38px;
 }
 .app-showcase-item .theme-btn {
   color: #1B2A52;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
 }
 .app-showcase-item.box-two {
   background: linear-gradient(180deg, #FADFFF 0%, #C3D1FF 100%);
@@ -3848,12 +3852,12 @@ header .header-top .header-info-right ul li i {
 .fact-item h3 {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   margin-bottom: 10px;
 }
 .fact-item p {
   color: #737476;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -3946,12 +3950,12 @@ header .header-top .header-info-right ul li i {
   font-size: 18px;
   font-weight: 600;
   color: #5E5E5E;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   margin-bottom: 16px;
 }
 .bank-card-tab .nav-item .bank-card-item p {
   color: #474747;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -4024,7 +4028,7 @@ header .header-top .header-info-right ul li i {
   background-color: transparent;
   font-size: 18px;
   color: #6a737c;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   display: inline-block;
   padding: 0;
@@ -4044,7 +4048,7 @@ header .header-top .header-info-right ul li i {
 .recognition-widget .tab-content h3 {
   font-size: 30px;
   color: var(--brand_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   line-height: 42px;
   margin-bottom: 0;
@@ -4052,7 +4056,7 @@ header .header-top .header-info-right ul li i {
 .recognition-widget .tab-content P {
   font-size: 16px;
   color: #787880;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   position: relative;
   padding-left: 26px;
@@ -4084,7 +4088,7 @@ header .header-top .header-info-right ul li i {
   margin-bottom: -1px;
 }
 .accolades-widget .accolades-header h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: #3c4146;
   margin-bottom: -9px;
@@ -4096,13 +4100,13 @@ header .header-top .header-info-right ul li i {
   margin-left: 20px;
 }
 .accolades-widget .accolades-content .subtitle {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: #fff;
 }
 .accolades-widget .accolades-content .text {
   color: #f9d8ae;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   position: relative;
 }
@@ -4150,13 +4154,13 @@ header .header-top .header-info-right ul li i {
   background-image: linear-gradient(to bottom, rgba(51, 62, 72, 0), rgba(27, 34, 45, 0.8));
 }
 .single-leadership-widget a .leader-info h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   color: #fff;
   margin: 0;
 }
 .single-leadership-widget a .leader-info p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #fff;
@@ -4171,13 +4175,13 @@ header .header-top .header-info-right ul li i {
 }
 .description-widget .desc-title h2 {
   font-size: 36px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: #fff;
 }
 .description-widget .desc-text p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 30px;
@@ -4187,7 +4191,7 @@ header .header-top .header-info-right ul li i {
 /*   New Version
 /*----------------------------------------*/
 .services-area .table thead {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
@@ -4196,7 +4200,7 @@ header .header-top .header-info-right ul li i {
 }
 .services-area .table .feature-head {
   width: 38%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
@@ -4206,7 +4210,7 @@ header .header-top .header-info-right ul li i {
   width: 31%;
   text-align: center;
   vertical-align: middle;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 21px;
@@ -4250,7 +4254,7 @@ header .header-top .header-info-right ul li i {
   text-align: center;
 }
 .services-area .stat-view h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 52px;
   font-weight: 600;
   line-height: 66px;
@@ -4259,7 +4263,7 @@ header .header-top .header-info-right ul li i {
   margin-bottom: 8px;
 }
 .services-area .stat-view p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -4283,7 +4287,7 @@ header .header-top .header-info-right ul li i {
   padding: 5px 10px;
   color: #a2a7ad;
   margin: 0 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -4301,7 +4305,7 @@ header .header-top .header-info-right ul li i {
 
 .read-more {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--brand_color);
   position: relative;
@@ -4335,7 +4339,7 @@ header .header-top .header-info-right ul li i {
   margin-top: 24px;
 }
 .about-area .feature-list li {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
@@ -4375,7 +4379,7 @@ header .header-top .header-info-right ul li i {
   letter-spacing: -0.02em;
 }
 .about-area-2 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -4385,7 +4389,7 @@ header .header-top .header-info-right ul li i {
   margin-top: 24px;
 }
 .about-area-2 .feature-list li {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
@@ -4506,7 +4510,7 @@ header .header-top .header-info-right ul li i {
   line-height: 64px;
 }
 .about-area-2 .customer-num > div span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -4537,7 +4541,7 @@ header .header-top .header-info-right ul li i {
   margin-bottom: 2.5px;
 }
 .about-area-3 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 30px;
@@ -4605,7 +4609,7 @@ header .header-top .header-info-right ul li i {
 .bank-app-showcase-area .feature-list li {
   font-size: 18px;
   color: #737476;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   line-height: 28px;
   margin-bottom: 12px;
 }
@@ -4640,7 +4644,7 @@ header .header-top .header-info-right ul li i {
 }
 .statistics-widget-1 p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--secondary_color);
   margin: 20px 0 6px 0;
@@ -4649,7 +4653,7 @@ header .header-top .header-info-right ul li i {
 .statistics-widget-1 .counter {
   font-size: 36px;
   color: var(--theme-color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
 }
 
@@ -4716,19 +4720,19 @@ header .header-top .header-info-right ul li i {
 .statistics-widget-2 .widget-content h1 {
   font-size: 70px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
 }
 .statistics-widget-2 .widget-content h2 {
   font-size: 40px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
 }
 .statistics-widget-2 .widget-content p {
   font-size: 16px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 15px;
 }
@@ -4774,7 +4778,7 @@ header .header-top .header-info-right ul li i {
 .steps-widget h4 a {
   color: var(--secondary_color);
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   display: inline-block;
 }
@@ -4784,7 +4788,7 @@ header .header-top .header-info-right ul li i {
 .steps-widget p {
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
@@ -4824,7 +4828,7 @@ header .header-top .header-info-right ul li i {
 }
 .loan-apply-widget .security-info {
   font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #6a737c;
 }
@@ -4834,7 +4838,7 @@ header .header-top .header-info-right ul li i {
 .loan-apply-widget .apply-content .title {
   color: #6a737c;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   display: block;
   margin-bottom: 4px;
@@ -4842,7 +4846,7 @@ header .header-top .header-info-right ul li i {
 }
 .loan-apply-widget .apply-content p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
 }
@@ -4862,13 +4866,13 @@ header .header-top .header-info-right ul li i {
   -moz-appearance: none;
   -webkit-appearance: none;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   background-color: transparent;
 }
 .loan-apply-widget .apply-content input::placeholder {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -4891,7 +4895,7 @@ header .header-top .header-info-right ul li i {
 }
 .loan-apply-widget .apply-content .nice-select .current {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   position: relative;
@@ -4929,7 +4933,7 @@ header .header-top .header-info-right ul li i {
 
 .apply-loan-area {
   font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -4961,7 +4965,7 @@ header .header-top .header-info-right ul li i {
 }
 .calculator-widget .single-calculator-widget .single-range .range-header h6 {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
 }
@@ -4971,7 +4975,7 @@ header .header-top .header-info-right ul li i {
   border: 1px solid var(--black_50);
   background-color: var(--bs-white);
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--p_color);
   width: 150px;
@@ -5009,7 +5013,7 @@ header .header-top .header-info-right ul li i {
 .calculator-widget .single-calculator-widget .single-range .nav-tabs .nav-item .nav-link {
   border-radius: 15px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   height: 30px;
   line-height: 29px;
@@ -5031,13 +5035,13 @@ header .header-top .header-info-right ul li i {
   border: 1px solid var(--black_50);
 }
 .calculator-widget .interestBox p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: var(--secondary_color);
 }
 .calculator-widget .interestBox span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: var(--brand_color);
@@ -5050,7 +5054,7 @@ header .header-top .header-info-right ul li i {
   border-radius: 10px;
 }
 .calculator-widget .calculator-result-widget h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   font-size: 16px;
   position: relative;
@@ -5067,13 +5071,13 @@ header .header-top .header-info-right ul li i {
   border-radius: 50%;
 }
 .calculator-widget .calculator-result-widget span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   font-size: 14px;
 }
 .calculator-widget .calculator-result-widget p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   font-size: 18px;
 }
@@ -5090,7 +5094,7 @@ header .header-top .header-info-right ul li i {
   color: #a924fa;
 }
 .calculator-widget .calculator-result-widget h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   font-size: 24px;
   color: var(--p_color);
@@ -5098,7 +5102,7 @@ header .header-top .header-info-right ul li i {
 .calculator-widget .calculator-result-widget h1 {
   font-size: 40px;
   color: var(--secondary_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
 }
 .calculator-widget .pie-wrapper {
@@ -5185,7 +5189,7 @@ header .header-top .header-info-right ul li i {
 }
 .calculator-widget-2 .single-calculator-widget .single-range h6 {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
 }
@@ -5198,7 +5202,7 @@ header .header-top .header-info-right ul li i {
 .calculator-widget-2 .single-calculator-widget .single-range .input-group .input-group-text {
   width: 48px;
   background-color: #f8f9fe;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -5214,7 +5218,7 @@ header .header-top .header-info-right ul li i {
   border-radius: 6px;
   background-color: #fff;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: #18181b;
   width: 105px;
@@ -5255,7 +5259,7 @@ header .header-top .header-info-right ul li i {
 .calculator-widget-2 .single-calculator-widget .single-range .nav-tabs .nav-item .nav-link {
   border-radius: 15px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   height: 30px;
   line-height: 29px;
@@ -5272,7 +5276,7 @@ header .header-top .header-info-right ul li i {
   color: #fff;
 }
 .calculator-widget-2 .single-calculator-widget .range-label {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -5291,7 +5295,7 @@ header .header-top .header-info-right ul li i {
   border: 1px solid #cccccc;
   padding: 8px 20px;
   border-radius: 6px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -5319,7 +5323,7 @@ header .header-top .header-info-right ul li i {
   font-size: 16em;
 }
 .calculator-widget-2 .pie-wrapper .label {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   border-radius: 50%;
@@ -5333,7 +5337,7 @@ header .header-top .header-info-right ul li i {
   transform: translate(-50%, -50%);
 }
 .calculator-widget-2 .pie-wrapper .label h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 34px;
   font-weight: 700;
   line-height: 24px;
@@ -5366,7 +5370,7 @@ header .header-top .header-info-right ul li i {
   border-radius: 50%;
 }
 .calculator-widget-2 .graph-indicator {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -5394,7 +5398,7 @@ header .header-top .header-info-right ul li i {
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .calculator-widget-2 .loan-calculation li:last-child {
   border-top: 1px solid #d9dbe5;
@@ -5458,7 +5462,7 @@ header .header-top .header-info-right ul li i {
   border: 1px solid rgba(204, 204, 204, 0.5);
   padding: 0 16px;
   background-color: transparent;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   color: #a3aec2;
@@ -5530,7 +5534,7 @@ header .header-top .header-info-right ul li i {
 }
 .stepper-widget ul li.active a {
   color: var(--brand_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
 }
 .stepper-widget ul li.active a .number {
@@ -5545,7 +5549,7 @@ header .header-top .header-info-right ul li i {
   display: inline-block;
   font-size: 18px;
   color: #9199a1;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .stepper-widget ul li a .number {
@@ -5561,7 +5565,7 @@ header .header-top .header-info-right ul li i {
 }
 .stepper-widget ul li a .number span {
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -5620,7 +5624,7 @@ header .header-top .header-info-right ul li i {
 }
 .loan-details-widget .loan-type span {
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   font-size: 16px;
@@ -5633,7 +5637,7 @@ header .header-top .header-info-right ul li i {
 .loan-details-widget .label {
   font-size: 16px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   display: block;
   margin-bottom: 12px;
@@ -5649,7 +5653,7 @@ header .header-top .header-info-right ul li i {
   height: 45px;
   color: #9199a1;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .loan-details-widget .form-control::placeholder {
@@ -5668,7 +5672,7 @@ header .header-top .header-info-right ul li i {
   top: 12px;
   left: 15px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #a8a8b2;
 }
@@ -5689,7 +5693,7 @@ header .header-top .header-info-right ul li i {
 }
 .loan-details-widget .nice-select .current {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #9199a1;
 }
@@ -5721,7 +5725,7 @@ header .header-top .header-info-right ul li i {
 .loan-details-widget .nav-btn a,
 .loan-details-widget .nav-btn button {
   border-radius: 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -5743,7 +5747,7 @@ header .header-top .header-info-right ul li i {
 .loan-details-widget .doc-info span {
   display: inline-block;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--secondary_color);
   margin-right: 15px;
@@ -5752,7 +5756,7 @@ header .header-top .header-info-right ul li i {
   display: inline-block;
   display: inline-block;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -5864,7 +5868,7 @@ header .header-top .header-info-right ul li i {
   margin-bottom: 16px;
 }
 .loan-slider .single-slide p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -6026,7 +6030,7 @@ header .header-top .header-info-right ul li i {
 }
 .testimonial-widget .testimonial-content .watch-button {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--secondary_color);
   margin-bottom: 15px;
@@ -6048,14 +6052,14 @@ header .header-top .header-info-right ul li i {
 .testimonial-widget .testimonial-content h2 {
   font-size: 36px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   margin: 0;
 }
 .testimonial-widget .testimonial-content p {
   font-size: 18px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
   margin: 30px 0 28px 0;
@@ -6064,7 +6068,7 @@ header .header-top .header-info-right ul li i {
 .testimonial-widget .testimonial-content .author-info h4 {
   font-size: 24px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
   line-height: 39px;
@@ -6072,7 +6076,7 @@ header .header-top .header-info-right ul li i {
 .testimonial-widget .testimonial-content .author-info span {
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
@@ -6098,14 +6102,14 @@ header .header-top .header-info-right ul li i {
   background-image: linear-gradient(to bottom, rgba(23, 29, 36, 0.02), rgba(23, 29, 36, 0.5), rgba(23, 29, 36, 0.85));
 }
 .testimonial-widget-2 .client-info p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #fff;
   line-height: 24px;
 }
 .testimonial-widget-2 .client-info span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #fff;
@@ -6145,7 +6149,7 @@ header .header-top .header-info-right ul li i {
   vertical-align: middle;
 }
 .testimonial-widget-3 .client-img .caption {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   font-style: italic;
   color: #fff;
@@ -6181,7 +6185,7 @@ header .header-top .header-info-right ul li i {
 .testimonial-widget-3 .client-info h6 {
   font-size: 18px;
   color: var(--secondary_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 0;
@@ -6189,7 +6193,7 @@ header .header-top .header-info-right ul li i {
 .testimonial-widget-3 .client-info span {
   font-size: 14px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 22px;
 }
@@ -6260,7 +6264,7 @@ header .header-top .header-info-right ul li i {
 }
 .client-area .client-slider .single-client .client-info p {
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   text-transform: capitalize;
@@ -6284,14 +6288,28 @@ header .header-top .header-info-right ul li i {
 /*  New Version
 /*----------------------------------------*/
 .client-area-2 {
-  background-color: #f4f5f6;
+  background-color: #023048;
+  border-top-right-radius: 5%;
+}
+.client-area-2 .container {
+  max-width: 85%;
+  width: 85%;
+}
+.client-area-2 h2 {
+  color: #fff;
 }
 
+.client-slider-2 {
+  position: relative;
+}
 .client-slider-2 .slick-list {
   margin: 0 -20px;
   padding: 0 10px;
 }
 .client-slider-2 .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   font-size: 22px;
   height: 70px;
   width: 70px;
@@ -6316,10 +6334,10 @@ header .header-top .header-info-right ul li i {
   color: #fff;
 }
 .client-slider-2 .slick-prev {
-  left: -240px;
+  left: -100px;
 }
 .client-slider-2 .slick-next {
-  right: -240px;
+  right: -100px;
 }
 .client-slider-2 .slick-dots {
   bottom: inherit;
@@ -6353,7 +6371,6 @@ header .header-top .header-info-right ul li i {
   transition: all 0.3s ease-out;
 }
 .client-slider-2 .single-client {
-  padding: 30px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -6361,19 +6378,47 @@ header .header-top .header-info-right ul li i {
   transition: all 0.3s ease-out 0s;
   margin: 55px 10px;
   margin-bottom: 70px;
-  border-radius: 8px;
-  background-color: var(--bs-white);
+  border-radius: 30px;
+  background-color: #023048;
+  position: relative;
 }
 .client-slider-2 .single-client:hover {
   box-shadow: 0px 16px 74px 0px rgba(95, 122, 148, 0.3490196078);
 }
+.client-slider-2 .single-client:hover .introduction {
+  opacity: 0.85;
+}
 .client-slider-2 .single-client img {
-  border-radius: 50%;
-  width: auto !important;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.client-slider-2 .single-client .introduction {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #2b2d2f;
+  opacity: 0.7;
+  color: #fff;
+  height: 30%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  pointer-events: none;
+  padding: 0 20px;
+}
+.client-slider-2 .single-client .introduction h5 {
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.client-slider-2 .single-client .introduction p {
+  font-size: 1.25rem;
 }
 .client-slider-2 .single-client .quote {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 30px;
   color: var(--black_750);
@@ -6390,7 +6435,7 @@ header .header-top .header-info-right ul li i {
 }
 .client-slider-2 .single-client .client-info p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   color: var(--black_750);
   text-transform: capitalize;
@@ -6400,10 +6445,120 @@ header .header-top .header-info-right ul li i {
   display: inline-block;
   font-size: 14px;
   color: #6c6f70;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   text-transform: capitalize;
   line-height: 19px;
+}
+
+.project_detail {
+  background-color: rgba(2, 58, 100, 0.0980392157);
+  border-bottom-left-radius: 5%;
+}
+.project_detail .detail {
+  padding: 64px 0;
+}
+.project_detail .container {
+  max-width: 80%;
+  width: 80%;
+}
+.project_detail .row .col-5 {
+  position: relative;
+  overflow: hidden;
+  width: 45%;
+}
+.project_detail .row .col-5 img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.project_detail .row .col-5 .introduction {
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  background-color: #fff;
+  opacity: 0.6;
+  color: var(--theme-color);
+  height: auto;
+  pointer-events: none;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-bottom: 0.2rem;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.project_detail .row .col-6 {
+  position: relative;
+}
+.project_detail .row .col-6 li {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+  color: var(--theme-color);
+}
+.project_detail .row .col-6 li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--theme-color);
+}
+.project_detail .row .col-6 .feature {
+  color: var(--theme-color);
+}
+.project_detail .row .col-6 .feature h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem 0;
+}
+.project_detail .row .col-6 .feature h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  font-style: italic;
+}
+.project_detail .row .col-6 .feature p {
+  color: var(--theme-color);
+  font-size: 1.25rem;
+}
+.project_detail .row .col-6 .project-cta {
+  text-align: center;
+  padding: 0 10px;
+  margin: 2rem auto 0rem;
+}
+.project_detail .row .col-6 .project-cta .inner {
+  position: relative;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.project_detail .row .col-6 .project-cta .inner p {
+  font-style: italic;
+  color: var(--theme-color);
+  font-size: 1.5rem;
+}
+.project_detail .row .col-6 .project-cta .inner h4 {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.83rem;
+  margin-top: 1rem;
+}
+.project_detail .row .col-6 .project-cta .inner a {
+  background-color: #023a64;
+  border-radius: 20px;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.project_detail .theme-btn::before {
+  background-color: #023a64;
+}
+.project_detail .theme-btn:hover {
+  opacity: 0.8;
 }
 
 /*----------------------------------------------------*/
@@ -6413,7 +6568,7 @@ header .header-top .header-info-right ul li i {
 /*----------------------------------------*/
 .sidebar-header .sidebar-title h4 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
 }
@@ -6442,7 +6597,7 @@ header .header-top .header-info-right ul li i {
 .sidebar-header .nice-select .current {
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -6457,13 +6612,13 @@ header .header-top .header-info-right ul li i {
   color: var(--p_color);
 }
 .right-sidebar-widget .widget-content ul li .name {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   margin-right: 5px;
 }
 .right-sidebar-widget .widget-content ul li .value {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -6495,7 +6650,7 @@ header .header-top .header-info-right ul li i {
 }
 .single-sidebar-widget .widget-title h5 {
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   margin: 0;
@@ -6510,7 +6665,7 @@ header .header-top .header-info-right ul li i {
   border-color: transparent;
   color: #a8a8b2;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .single-sidebar-widget .form-control:focus {
   border-color: var(--brand_color);
@@ -6518,7 +6673,7 @@ header .header-top .header-info-right ul li i {
 }
 .single-sidebar-widget .form-control:placeholder-shown {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #9199a1;
 }
@@ -6526,13 +6681,13 @@ header .header-top .header-info-right ul li i {
   padding: 0 24px;
   color: #9199a1;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .single-sidebar-widget .input-search-field input::placeholder {
   color: #9199a1;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .single-sidebar-widget .input-search-field .btn {
@@ -6572,7 +6727,7 @@ header .header-top .header-info-right ul li i {
   display: flex;
   justify-content: space-between;
   padding: 9px 20px 9px 52px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   transition: all 0.3s ease-out;
@@ -6639,7 +6794,7 @@ header .header-top .header-info-right ul li i {
 .job-post-widget .single-job-post .post-header .timestamp {
   font-size: 14px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .job-post-widget .single-job-post .post-content {
@@ -6647,7 +6802,7 @@ header .header-top .header-info-right ul li i {
 }
 .job-post-widget .single-job-post .post-content p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 26px;
@@ -6659,7 +6814,7 @@ header .header-top .header-info-right ul li i {
 .job-description-widget .single-description-para h6 {
   font-size: 18px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 14px;
   line-height: 29.4px;
@@ -6670,7 +6825,7 @@ header .header-top .header-info-right ul li i {
 .job-description-widget .single-description-para p {
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
@@ -6680,7 +6835,7 @@ header .header-top .header-info-right ul li i {
   position: relative;
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
@@ -6704,7 +6859,7 @@ header .header-top .header-info-right ul li i {
 .job-description-widget .note-text p {
   font-size: 18px;
   color: #6c6c73;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
   line-height: 26px;
@@ -6712,7 +6867,7 @@ header .header-top .header-info-right ul li i {
 .job-description-widget .note-text p span {
   font-size: 18px;
   color: #45454d;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -6755,7 +6910,7 @@ header .header-top .header-info-right ul li i {
   border-color: var(--brand_color);
 }
 .job-application-modal .modal-dialog .dropzone .dz-message .dz-button {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   color: var(--brand_color);
   font-size: 17px;
@@ -6764,7 +6919,7 @@ header .header-top .header-info-right ul li i {
 .job-application-modal .label {
   font-size: 16px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   display: block;
   margin-bottom: 6px;
@@ -6785,7 +6940,7 @@ header .header-top .header-info-right ul li i {
 .job-application-modal .support {
   font-size: 14px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .job-application-modal .iti {
@@ -6834,7 +6989,7 @@ header .header-top .header-info-right ul li i {
 .job-title {
   font-size: 18px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 6px;
 }
@@ -6842,7 +6997,7 @@ header .header-top .header-info-right ul li i {
 .job-location {
   font-size: 14px;
   color: #787880;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 400;
 }
 .job-location i {
@@ -6856,7 +7011,7 @@ header .header-top .header-info-right ul li i {
 .job-catagory {
   font-size: 14px;
   color: #787880;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 400;
 }
 .job-catagory span {
@@ -6871,7 +7026,7 @@ header .header-top .header-info-right ul li i {
 }
 .feature-job-description p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 26px;
@@ -6888,13 +7043,13 @@ header .header-top .header-info-right ul li i {
 }
 .search-job h4 {
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .search-job p {
   font-size: 18px;
   color: var(--p_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
 }
 .search-job .search-box {
@@ -6910,7 +7065,7 @@ header .header-top .header-info-right ul li i {
   top: 6px;
   left: 15px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #a8a8b2;
 }
@@ -6920,7 +7075,7 @@ header .header-top .header-info-right ul li i {
   height: 45px;
   color: #a8a8b2;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   background-color: transparent;
 }
@@ -6930,7 +7085,7 @@ header .header-top .header-info-right ul li i {
 .search-job .search-box .input-field .form-control::placeholder {
   color: #a8a8b2;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .search-job .search-box .custom-btn {
@@ -6980,9 +7135,9 @@ header .header-top .header-info-right ul li i {
 }
 .faq-widget .faq-header h4 {
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   position: relative;
   cursor: pointer;
@@ -7009,9 +7164,9 @@ header .header-top .header-info-right ul li i {
   display: none;
 }
 .faq-widget .faq-body p {
-  font-size: 16px;
+  font-size: 1rem;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 10px;
   line-height: 26px;
@@ -7037,7 +7192,7 @@ header .header-top .header-info-right ul li i {
 }
 .faq-widget-2 .faq-header h6 {
   color: var(--brand_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   position: relative;
@@ -7058,7 +7213,7 @@ header .header-top .header-info-right ul li i {
 }
 .faq-widget-2 .faq-header h6.collapsed {
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
 }
 .faq-widget-2 .faq-header h6.collapsed i {
@@ -7071,7 +7226,7 @@ header .header-top .header-info-right ul li i {
 .faq-widget-2 .faq-body p {
   font-size: 16px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 32px;
 }
@@ -7126,7 +7281,7 @@ header .header-top .header-info-right ul li i {
   background-color: rgba(13, 27, 43, 0.6);
   font-size: 14px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   padding: 9px 26px;
 }
@@ -7152,7 +7307,7 @@ header .header-top .header-info-right ul li i {
   background-color: #fff;
 }
 .advisor-area .advisor-img .work-time span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
 }
 .advisor-area .theme-btn-primary_alt i {
@@ -7165,7 +7320,7 @@ header .header-top .header-info-right ul li i {
 /*  New Version
 /*----------------------------------------*/
 .faq-area-3 {
-  background-color: #101010;
+  background-color: #fdf4ed;
   padding: 120px 0;
   color: #fff;
 }
@@ -7189,17 +7344,20 @@ header .header-top .header-info-right ul li i {
   line-height: 62px;
   letter-spacing: -0.02em;
   margin-bottom: 40px;
-  color: #fff;
+  color: #023a64;
 }
 .faq-area-3 h1 .underline-shape::after {
   background-color: #f57950;
+}
+.faq-area-3 h3 {
+  color: #023a64;
 }
 .faq-area-3 .single-faq {
   border-bottom: 1px solid #c3cbd2;
   padding: 14px 0;
 }
 .faq-area-3 .faq-widget .more-contact {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 24px;
@@ -7211,10 +7369,9 @@ header .header-top .header-info-right ul li i {
   margin-left: 8px;
 }
 .faq-area-3 .faq-widget .faq-header h4 {
-  font-size: 16px;
   font-weight: 500;
   line-height: 30px;
-  color: #fff;
+  color: #023a64;
 }
 .faq-area-3 .faq-widget .faq-header h4 i {
   color: #fff;
@@ -7224,7 +7381,7 @@ header .header-top .header-info-right ul li i {
   padding: 2px;
 }
 .faq-area-3 .faq-widget .faq-body p {
-  color: #eeeeee;
+  color: #023a64;
   margin-top: 12px;
 }
 
@@ -7232,7 +7389,7 @@ header .header-top .header-info-right ul li i {
   padding-bottom: 120px;
 }
 .saas-faq-area .saas-section-title h2 span {
-  background: linear-gradient(90deg, #48D5DC 45.35%, #2BDE52 100%);
+  background: linear-gradient(90deg, #48d5dc 45.35%, #2bde52 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -7275,13 +7432,45 @@ header .header-top .header-info-right ul li i {
 }
 .faq_item p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   color: var(--p_color);
   line-height: 28px;
 }
 .faq_item .faq-body {
   padding-right: 100px;
   padding-top: 8px;
+}
+
+.faq_type {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 996px) {
+  .faq_type {
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+  }
+}
+.faq_type .theme-btn {
+  width: 200px;
+  background-color: #023a64;
+}
+.faq_type .theme-btn.theme-btn-rounded-2:hover {
+  background-color: #023a64;
+  opacity: 0.8;
+  color: #fff;
+}
+.faq_type .theme-btn.active {
+  background-color: #fff;
+  color: var(--brand_color);
+}
+
+.support {
+  color: #023a64;
+}
+.support .icon {
+  color: var(--brand_color);
 }
 
 /*----------------------------------------------------*/
@@ -7293,7 +7482,7 @@ header .header-top .header-info-right ul li i {
   font-size: 16px;
   color: var(--p_color);
   margin-top: 23px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 26px;
 }
@@ -7307,7 +7496,7 @@ header .header-top .header-info-right ul li i {
   background-color: #f5f7fa;
   color: var(--black_500);
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   border-radius: 4px;
   padding: 8px 20px 11px 18px;
   box-shadow: 0 0.5px 1px 0 rgba(51, 77, 114, 0.1), 0px 1.6px 3.6px 0 rgba(51, 77, 114, 0.15);
@@ -7338,15 +7527,14 @@ header .header-top .header-info-right ul li i {
 .how-it-work .single-widget.consultation .widget-header {
   background-color: #2f3337;
 }
-.how-it-work .single-widget.consultation .widget-content li.active .text {
-  color: var(--secondary_color);
-}
-.how-it-work .single-widget.consultation .widget-content li.active .number {
-  box-shadow: 0 5px 15px 0 rgba(60, 65, 70, 0.3);
+.how-it-work .single-widget.consultation .widget-content li .number {
   background-color: #2f3337;
 }
-.how-it-work .single-widget.consultation .widget-content li .number {
-  background-color: #9199a1;
+.how-it-work .single-widget.consultation .widget-content li .text {
+  color: #2f3337;
+}
+.how-it-work .single-widget.consultation .widget-content li .text p {
+  color: #2f3337;
 }
 .how-it-work .single-widget .widget-header {
   background-color: var(--brand_color);
@@ -7363,14 +7551,14 @@ header .header-top .header-info-right ul li i {
 .how-it-work .single-widget .widget-header .widget-title h4 {
   font-size: 24px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 7px;
 }
 .how-it-work .single-widget .widget-header .widget-title p {
   font-size: 16px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .how-it-work .single-widget .widget-content {
   background-color: var(--bs-white);
@@ -7393,32 +7581,24 @@ header .header-top .header-info-right ul li i {
   display: flex;
   align-items: center;
 }
-.how-it-work .single-widget .widget-content li.active {
-  color: var(--secondary_color);
-}
-.how-it-work .single-widget .widget-content li.active .text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: var(--secondary_color);
-}
-.how-it-work .single-widget .widget-content li.active .number {
-  box-shadow: 0 5px 15px 0 rgba(20, 85, 166, 0.3);
-  background-color: var(--brand_color);
-}
 .how-it-work .single-widget .widget-content li .text {
-  color: #a8a8b2;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  color: var(--theme-color);
+  font-size: 1.1rem;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
+  font-weight: bold;
+}
+.how-it-work .single-widget .widget-content li .text p {
+  font-size: 1rem;
+  font-weight: normal;
 }
 .how-it-work .single-widget .widget-content li .number {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  background-color: #7a9fcc;
+  background-color: var(--theme-color);
   color: #fff;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   display: inline-block;
   text-align: center;
@@ -7492,17 +7672,17 @@ header .header-top .header-info-right ul li i {
 .security-area .security-priority h2 {
   font-size: 36px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .security-area .security-priority p {
   font-size: 18px;
   color: #d8dce0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .security-area .security-priority p a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
@@ -7536,7 +7716,7 @@ header .header-top .header-info-right ul li i {
   padding: 30px;
 }
 .single-security-widget .security-content h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   font-size: 30px;
   color: var(--secondary_color);
@@ -7544,7 +7724,7 @@ header .header-top .header-info-right ul li i {
 }
 .single-security-widget .security-content p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -7553,7 +7733,7 @@ header .header-top .header-info-right ul li i {
 }
 .single-security-widget .security-content-2 p {
   font-size: 17px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   margin-bottom: 10px;
@@ -7562,7 +7742,7 @@ header .header-top .header-info-right ul li i {
   display: block;
   color: var(--p_color);
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -7596,7 +7776,7 @@ header .header-top .header-info-right ul li i {
 }
 .help-ad-area .offers ul li {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   margin: 8px 0;
@@ -7617,7 +7797,7 @@ header .header-top .header-info-right ul li i {
 }
 .help-ad-area p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--black_500);
 }
@@ -7627,7 +7807,7 @@ header .header-top .header-info-right ul li i {
   /*----------------------------------------*/
 .banca-corporate .section-title p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--secondary_color);
   max-width: 460px;
@@ -7635,7 +7815,7 @@ header .header-top .header-info-right ul li i {
 }
 .banca-corporate .section-title p span {
   font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
 }
@@ -7665,13 +7845,13 @@ header .header-top .header-info-right ul li i {
 .email-alert-widget h4 {
   font-size: 24px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .email-alert-widget p {
   font-size: 18px;
   color: #6a737c;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .email-alert-widget .form-control {
@@ -7679,7 +7859,7 @@ header .header-top .header-info-right ul li i {
   padding-left: 30px;
   font-size: 16px;
   color: #a8a8b2;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .email-alert-widget .form-control::placeholder {
@@ -7706,14 +7886,14 @@ header .header-top .header-info-right ul li i {
 }
 .our-offer .single-offer-box h2 {
   font-size: 36px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   color: var(--secondary_color);
   text-transform: capitalize;
 }
 .our-offer .single-offer-box p {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   margin: 23px 0 35px 0;
@@ -7721,7 +7901,7 @@ header .header-top .header-info-right ul li i {
 .our-offer .single-offer-box a {
   font-size: 16px;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--brand_color);
   position: relative;
@@ -7755,14 +7935,14 @@ header .header-top .header-info-right ul li i {
 
 .clients-logo-title {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
-  color: #878BA9;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
+  color: #878ba9;
   font-weight: 500;
   margin-bottom: 50px;
   text-align: center;
 }
 .clients-logo-title span {
-  color: #1B2A52;
+  color: #1b2a52;
 }
 
 .clients-logo {
@@ -7828,6 +8008,16 @@ header .header-top .header-info-right ul li i {
 }
 .map_inner .map_list li img {
   max-width: 100%;
+}
+
+.faq-area-3 .how-it-work .single-widget .widget-header {
+  padding: 25px 30px;
+}
+.faq-area-3 .how-it-work .single-widget .widget-content li {
+  margin: 20px 0;
+}
+.faq-area-3 .how-it-work .single-widget .widget-content li .number {
+  flex-shrink: 0;
 }
 
 /*----------------------------------------------------*/
@@ -8022,7 +8212,7 @@ header .header-top .header-info-right ul li i {
 }
 .cta-3 .cta-content h5 {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: #535a60;
 }
@@ -8040,7 +8230,7 @@ header .header-top .header-info-right ul li i {
   border-color: #171d24;
   padding: 0 20px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   background-color: transparent;
@@ -8048,7 +8238,7 @@ header .header-top .header-info-right ul li i {
 }
 .cta-3 .form-control::placeholder {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -8061,13 +8251,13 @@ header .header-top .header-info-right ul li i {
 }
 .cta-content h2 {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
 }
 .cta-content p {
   color: #fff;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .cta-content .theme-btn {
   font-size: 20px;
@@ -8116,14 +8306,14 @@ header .header-top .header-info-right ul li i {
   font-size: 12px;
   color: var(--secondary_color);
   margin-bottom: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   transition: all 0.3s ease-out;
 }
 .app-btn .btn-text p {
   font-size: 18px;
   color: var(--secondary_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   transition: all 0.3s ease-out;
 }
@@ -8140,7 +8330,7 @@ header .header-top .header-info-right ul li i {
 .help-cta p {
   color: var(--black_600);
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -8165,7 +8355,7 @@ header .header-top .header-info-right ul li i {
   letter-spacing: -0.02em;
 }
 .cta-4 .cta-content p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -8183,7 +8373,7 @@ header .header-top .header-info-right ul li i {
   border-color: var(--bs-white);
   padding: 0 20px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   background-color: #fff;
@@ -8297,7 +8487,7 @@ header .header-top .header-info-right ul li i {
 }
 .cta-five .cta-content h2 {
   font-size: 52px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
 }
 .cta-five .cta-content p {
@@ -8353,13 +8543,13 @@ header .header-top .header-info-right ul li i {
 }
 .safe-deposit-area .payment-system h5 {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
 }
 .safe-deposit-area .payment-system p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -8413,14 +8603,14 @@ header .header-top .header-info-right ul li i {
 }
 .why-choose-area .content-box h4 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   line-height: 30px;
   color: #fff;
 }
 .why-choose-area .content-box p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #c8ccd0;
 }
@@ -8447,13 +8637,13 @@ header .header-top .header-info-right ul li i {
 }
 .credit-card-box-widget .card-content h4 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
 }
 .credit-card-box-widget .card-content P {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--secondary_color);
   line-height: 35px;
@@ -8463,7 +8653,7 @@ header .header-top .header-info-right ul li i {
 }
 .credit-card-box-widget .card-content a {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--brand_color);
   position: relative;
@@ -8492,7 +8682,7 @@ header .header-top .header-info-right ul li i {
   /*----------------------------------------*/
 .mplace-logo p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 28px;
@@ -8526,7 +8716,7 @@ header .header-top .header-info-right ul li i {
 /*----------------------------------------*/
 .articles-area .section-title a {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--brand_color);
 }
@@ -8560,12 +8750,12 @@ header .header-top .header-info-right ul li i {
 }
 .blog-widget-1 .blog-content h4 a {
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .blog-widget-1 .blog-content P {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   margin-bottom: 20px;
@@ -8576,7 +8766,7 @@ header .header-top .header-info-right ul li i {
   color: var(--theme-color);
   text-transform: uppercase;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -8592,7 +8782,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-widget-1 .blog-content h6 a {
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
@@ -8610,7 +8800,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-widget-1 .blog-content .blog-date span {
   margin-left: 7px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   font-size: 14px;
@@ -8641,7 +8831,7 @@ header .header-top .header-info-right ul li i {
   left: 35px;
   font-size: 14px;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   line-height: 16.41px;
   transform: translateY(50%);
@@ -8667,14 +8857,14 @@ header .header-top .header-info-right ul li i {
 }
 .blog-widget-2 .blog-content h4 {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   margin-bottom: 15px;
 }
 .blog-widget-2 .blog-content h5 {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   line-height: 26px;
   color: var(--secondary_color);
@@ -8682,7 +8872,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-widget-2 .blog-content p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 26px;
@@ -8699,7 +8889,7 @@ header .header-top .header-info-right ul li i {
 .blog-widget-2 .blog-content .post-info > div span {
   font-size: 14px;
   color: var(--p_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   margin-left: 8px;
 }
@@ -8724,7 +8914,7 @@ header .header-top .header-info-right ul li i {
   right: 16px;
   font-size: 16px;
   color: #000;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
 }
@@ -8739,7 +8929,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-widget-3 .blog-content h4 {
   font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   margin-bottom: 0;
@@ -8761,7 +8951,7 @@ header .header-top .header-info-right ul li i {
 .blog-widget-3 .blog-content .post-info > div span {
   font-size: 16px;
   color: #6a737c;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   margin-left: 8px;
 }
@@ -8772,7 +8962,7 @@ header .header-top .header-info-right ul li i {
 .blog-sidebar-widget .widget-title {
   font-size: 24px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
 }
 .blog-sidebar-widget .widget-subscribe {
@@ -8783,7 +8973,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-sidebar-widget .widget-subscribe p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 27px;
@@ -8791,7 +8981,7 @@ header .header-top .header-info-right ul li i {
 .blog-sidebar-widget .widget-subscribe input {
   padding: 11px 20px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #848d95;
   border: 1px solid var(--black_50);
@@ -8802,7 +8992,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-sidebar-widget .widget-subscribe input::placeholder {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #848d95;
 }
@@ -8825,12 +9015,12 @@ header .header-top .header-info-right ul li i {
 .blog-sidebar-widget .widget-social a h6 {
   font-size: 18px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
 }
 .blog-sidebar-widget .widget-social a span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: var(--p_color);
@@ -8838,7 +9028,7 @@ header .header-top .header-info-right ul li i {
 .blog-sidebar-widget .widget-catagory ul li a {
   display: inline-block;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--secondary_color);
   position: relative;
@@ -8881,7 +9071,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-sidebar-widget .widget-news .recent-post li .news-content h6 {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   line-height: 20px;
@@ -8895,7 +9085,7 @@ header .header-top .header-info-right ul li i {
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -8907,7 +9097,7 @@ header .header-top .header-info-right ul li i {
   height: 30px;
   padding: 7px 20px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   border-radius: 3px;
@@ -8931,7 +9121,7 @@ header .header-top .header-info-right ul li i {
   height: 32px;
   width: 32px;
   border: 1px solid rgba(0, 80, 178, 0.3);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: var(--brand_color);
@@ -8966,7 +9156,7 @@ header .header-top .header-info-right ul li i {
 }
 .blog-share-widget p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
 }
@@ -8999,7 +9189,7 @@ header .header-top .header-info-right ul li i {
 
 .post-details-widget .post-text {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   margin-bottom: 23px;
@@ -9014,7 +9204,7 @@ header .header-top .header-info-right ul li i {
 .post-details-widget .feature-list li {
   position: relative;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   padding-left: 24px;
@@ -9036,7 +9226,7 @@ header .header-top .header-info-right ul li i {
 }
 .post-details-widget h2 {
   font-size: 36px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 700;
   color: var(--secondary_color);
   line-height: 42px;
@@ -9048,7 +9238,7 @@ header .header-top .header-info-right ul li i {
 }
 .post-details-widget .tag-widget h6 {
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   margin-bottom: 0;
@@ -9058,7 +9248,7 @@ header .header-top .header-info-right ul li i {
   height: 30px;
   padding: 7px 20px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   border-radius: 3px;
@@ -9084,7 +9274,7 @@ header .header-top .header-info-right ul li i {
 }
 .author-media-widget h6 {
   font-size: 19px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   line-height: 28px;
@@ -9092,7 +9282,7 @@ header .header-top .header-info-right ul li i {
 }
 .author-media-widget p {
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 28px;
@@ -9100,7 +9290,7 @@ header .header-top .header-info-right ul li i {
 
 .blog-widget-title {
   font-size: 24px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   line-height: 30px;
@@ -9137,7 +9327,7 @@ blockquote::after {
 }
 blockquote p {
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-style: italic;
   color: var(--p_color);
@@ -9151,14 +9341,14 @@ blockquote .author img {
 }
 blockquote .author h6 {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   margin-bottom: 5px;
 }
 blockquote .author span {
   font-size: 12px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
@@ -9177,7 +9367,7 @@ blockquote .author span {
   padding-bottom: 38px;
 }
 .blog-comment-widget .comment-author .comments-box .comments-text p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: var(--p_color);
@@ -9189,7 +9379,7 @@ blockquote .author span {
 }
 .blog-comment-widget .comment-author .comments-box .comments-text .avatar-name h5 {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 700;
   color: var(--secondary_color);
   margin-bottom: 8px;
@@ -9200,7 +9390,7 @@ blockquote .author span {
 }
 .blog-comment-widget .comment-author .comments-box .comments-text .avatar-name .post-date span {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #535a60;
   margin-left: 8px;
@@ -9212,7 +9402,7 @@ blockquote .author span {
   top: 0;
   font-size: 14px;
   color: var(--secondary_color);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .blog-comment-widget .comment-author .comments-box .comments-text .avatar-name .reply i {
@@ -9230,7 +9420,7 @@ blockquote .author span {
 .blog-leave-reply p,
 .blog-leave-reply .check-label {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #6a737c;
 }
@@ -9287,7 +9477,7 @@ blockquote .author span {
   max-width: 100%;
 }
 .dropzone .dz-message .dz-button {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   color: var(--secondary_color);
   border: none;
@@ -9298,12 +9488,12 @@ blockquote .author span {
 }
 .dropzone .dz-message .dz-custom-upload-text {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
 }
 .dropzone .dz-message .dz-custom-upload-text span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: var(--brand_color);
   text-decoration: underline;
@@ -9561,7 +9751,7 @@ blockquote .author span {
   align-items: center;
 }
 .pricing_tab_btn span {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -9623,7 +9813,7 @@ blockquote .author span {
 .pricing_inner .price_item .price_header p {
   font-size: 16px;
   color: var(--black_400);
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .pricing_inner .price_item .price {
   color: var(--secondary_color);
@@ -9646,7 +9836,7 @@ blockquote .author span {
   font-size: 18px;
   color: #878BA9;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   margin-bottom: 10px;
 }
 .pricing_inner .price_item .service_list li i {
@@ -9658,7 +9848,7 @@ blockquote .author span {
   border: 1px solid rgba(197, 203, 217, 0.4);
   background: #EBEFFA;
   color: #1B2A52;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -9866,7 +10056,7 @@ blockquote .author span {
 .contact-form-widget label {
   font-size: 16px;
   color: var(--secondary_color);
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   display: block;
   margin-bottom: 12px;
@@ -9876,7 +10066,7 @@ blockquote .author span {
   height: 55px;
   color: #9199a1;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   border: 1px solid var(--black_50);
   padding-right: 20px;
@@ -9885,7 +10075,7 @@ blockquote .author span {
 .contact-form-widget .form-control::placeholder {
   color: #9199a1;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .contact-form-widget .form-control:focus {
@@ -9897,7 +10087,7 @@ blockquote .author span {
 }
 .contact-form-widget .policy-text {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 22px;
@@ -9922,7 +10112,7 @@ blockquote .author span {
 }
 .get-touch-area .get-touch-box p {
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 500;
   color: var(--secondary_color);
   margin-bottom: 8px;
@@ -9930,7 +10120,7 @@ blockquote .author span {
 }
 .get-touch-area .get-touch-box span {
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: var(--p_color);
   line-height: 22px;
@@ -9951,7 +10141,7 @@ blockquote .author span {
   color: #fff;
 }
 .get-touch-area-2 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -10005,18 +10195,17 @@ blockquote .author span {
 .footer {
   background-position: center;
   background-size: cover;
-  background-color: #0f1123;
   /* copyright*/
 }
 .footer .footer-top .footer-text {
-  color: #fff;
+  color: black;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 24px;
 }
 .footer .footer-top .social-icon a {
-  color: #fff;
+  color: black;
   margin: 10px;
 }
 .footer .footer-top .social-icon a:first-child {
@@ -10025,9 +10214,9 @@ blockquote .author span {
 .footer .footer-top .footer-widget .overline {
   font-size: 14px;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
 }
 .footer .footer-top .footer-widget .footer-bold {
   display: flex;
@@ -10036,60 +10225,60 @@ blockquote .author span {
 }
 .footer .footer-top .footer-widget .footer-bold > span:nth-child(1) {
   font-size: 70px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: black;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   margin-bottom: 0;
   line-height: 68px;
 }
 .footer .footer-top .footer-widget .footer-bold > span:nth-child(2) {
-  font-family: "Poppins", sans-serif;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-size: 24px;
-  color: #fff;
+  color: black;
   margin-bottom: 0;
   font-weight: 500;
 }
 .footer .footer-top .footer-widget .time {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
-  color: #fff;
+  color: black;
 }
 .footer .footer-top .footer-widget .f-widget-title {
   margin-bottom: 20px;
 }
 .footer .footer-top .footer-widget .f-widget-title h5 {
   font-size: 18px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: black;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   margin-bottom: 0;
 }
 .footer .footer-top .footer-widget .footer-link ul li a {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
-  color: #d8dce0;
+  color: black;
   border-bottom: 1px solid transparent;
   line-height: 40px;
 }
 .footer .footer-top .footer-widget .footer-link ul li a:hover {
-  border-color: #fff;
+  border-color: black;
 }
 .footer .copyright {
-  color: #fff;
+  color: black;
 }
 .footer .copyright .short-text a {
   font-size: 14px;
 }
 .footer .copyright .copyright-text.short-text p {
   font-size: 14px;
-  color: #fff;
+  color: black;
 }
 .footer .copyright .copyright-text p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   color: #9199a1;
 }
@@ -10097,12 +10286,12 @@ blockquote .author span {
   display: inline-block;
   margin-left: 15px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   padding: 10px 0;
 }
 .footer .copyright a:hover {
-  color: #fff;
+  color: black;
 }
 .footer .copyright a:first-child {
   margin-left: 0;
@@ -10110,14 +10299,14 @@ blockquote .author span {
 .footer .copyright .nice-select {
   background-color: transparent;
   border-color: transparent;
-  color: #fff;
+  color: black;
   margin: auto;
   padding-left: 0;
 }
 .footer .copyright .nice-select .list {
   top: inherit;
   bottom: 100%;
-  border: 1px solid #fff;
+  border: 1px solid black;
   transform-origin: bottom center;
 }
 .footer .copyright .nice-select .list:hover .option:not(:hover) {
@@ -10135,17 +10324,17 @@ blockquote .author span {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 1px solid black;
   background-color: transparent;
   font-size: 16px;
-  color: #fff;
+  color: black;
   line-height: 19px;
   text-align: center;
   transition: all 0.3s ease-out;
 }
 .footer .copyright .social-button a:hover {
-  background-color: #fff;
-  color: var(--brand_color);
+  background-color: black;
+  color: white;
 }
 .footer.footer-1 {
   background-image: url("../img/footer/footer-bg.png");
@@ -10154,15 +10343,15 @@ blockquote .author span {
   background-color: #171d24;
 }
 .footer.footer-2 .footer-text {
-  color: #fff;
+  color: black;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
 }
 .footer.footer-2 .footer-widget h4 {
   font-size: 24px;
-  color: #fff;
-  font-family: "Poppins", sans-serif;
+  color: black;
+  font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
   line-height: 40px;
 }
@@ -10170,7 +10359,7 @@ blockquote .author span {
   margin-bottom: 12px;
 }
 .footer.footer-2 .footer-top .f-widget-title h5 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 0.5px;
   margin-bottom: 0;
@@ -10181,18 +10370,15 @@ blockquote .author span {
   color: #d7d8d9;
 }
 .footer.footer-2 .footer-link ul li a:hover {
-  color: #fff;
+  color: black;
 }
 .footer.footer-2 .copyright .line {
   height: 1px;
   width: 100%;
-  background-color: #fff;
+  background-color: black;
 }
 .footer.footer-2 .copyright .copyright-text {
   color: #c3cdd9;
-}
-.footer.footer-3 {
-  background-color: #171d24;
 }
 .footer.footer-3 .footer-top .footer-text {
   font-size: 18px;
@@ -10223,7 +10409,7 @@ blockquote .author span {
   margin-bottom: 15px;
   font-size: 16px;
   color: #878BA9;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 25px;
 }
@@ -10241,7 +10427,7 @@ blockquote .author span {
   font-size: 16px;
   color: #878BA9;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   transition: all 0.2s linear;
 }
 .footer-link li a:hover {
@@ -10265,7 +10451,7 @@ blockquote .author span {
   color: #878BA9;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .saas-footer-bottom p a {
   color: #1F1F1F;
@@ -10289,13 +10475,13 @@ blockquote .author span {
   padding-bottom: 100px;
 }
 .bank-footer-area .footer_top .f-widget-title {
-  color: #fff;
+  color: black;
 }
 .bank-footer-area .about-widget p {
   color: #9B9B9B;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   padding-right: 100px;
   margin-top: 25px;
 }
@@ -10303,17 +10489,17 @@ blockquote .author span {
   color: #9B9B9B;
 }
 .bank-footer-area .footer-link li a:hover {
-  color: #fff;
+  color: black;
 }
 .bank-footer-area .copyright-text a {
   font-size: 16px;
   font-weight: 400;
   color: #7C778B;
-  font-family: "Roboto", sans-serif;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   margin-right: 30px;
 }
 .bank-footer-area .copyright-text a:hover {
-  color: #fff;
+  color: black;
 }
 .bank-footer-area .f-social a {
   width: 48px;
@@ -10328,7 +10514,7 @@ blockquote .author span {
 }
 .bank-footer-area .f-social a:hover {
   color: var(--brand_color);
-  background: #fff;
+  background: black;
 }
 
 /*----------------------------------------------------*/
@@ -10457,408 +10643,4 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   cursor: pointer;
 }
 
-/* snp logo */
-.navbar {
-  min-height: 60px; /* Ensure the navbar items align properly */
-  height: 90px;
-}
-
-.navbar-brand {
-  padding: 0;
-  margin-right: auto; /* Push the brand to the left */
-}
-
-.logo-wrapper {
-  background-color: transparent;
-  display: inline-block;
-  padding: 5px;
-  overflow: hidden;
-}
-
-.logo-img {
-  max-width: 180px;
-  height: auto;
-  display: block;
-  margin: -1px;  /* Minimal negative margin to remove any potential border */
-  clip-path: inset(1px);  /* Minimal clipping to clean up edges */
-}
-
-@media (max-width: 991px) {
-  .logo-img {
-      max-height: 40px;  /* Increased height for mobile */
-  }
-}
-
-@media (max-width: 768px) {
-  .logo-img {
-      max-width: 130px;  /* Slightly increased width for smaller screens */
-  }
-}
-
-/* dropdown */
-.navbar-nav {
-  display: flex;
-  justify-content: center; /* Center the menu items */
-  flex-grow: 1; /* Allow the menu to take available space */
-}
-
-.navbar-nav .form-control {
-  width: 150px;
-}
-
-.nav-item.dropdown .dropdown-toggle::after {
-  display: none;
-}
-
-.nav-item.dropdown .fa-chevron-down {
-  margin-left: 5px;
-  font-size: 0.8em;
-}
-
-@media (max-width: 991px) {
-  .navbar-nav .form-control {
-      width: 100%;
-      margin-bottom: 10px;
-  }
-  
-  .navbar-nav .btn {
-      width: 100%;
-  }
-  
-  .navbar-nav .dropdown-menu {
-      border: none;
-      text-align: center;
-  }
-}
-
-.dropdown-item {
-  cursor: pointer;
-}
-
-.navbar-nav .nav-item {
-  display: flex;
-  align-items: center;
-}
-
-/* carousel */
-
-.project-section {
-  position: relative;
-  display: flex;
-  align-items: center;  
-  margin: 0;  
-  width: 100%; /* Ensure the section takes full width */
-}
-
-.project-area {
-  padding: 60px 0;
-  background-color: #f8f9fa;
-  overflow: hidden;  
-}
-
-.project-container {  
-  display: flex;
-  justify-content: center; /* Center the cards horizontally */
-  /* align-items: center; /* Center vertically if needed */
-  overflow: hidden; /* Hide overflow if necessary */
-  width: 100%;  
-  padding: 0;  
-  z-index: 0;
-}
-
-.project-wrapper {
-  display: flex;
-  transition: transform 0.5s ease;
-  /* width: calc(100% * 2); /* 2 sets of 3 projects */
-  width: 200%;  
-  /* justify-content: center; */
-}
-
-.project-card {
-  flex: 0 0 calc(33.333% - 24px);
-  /* width: calc(16.666% - 20px); */
-  box-sizing: border-box;
-  margin: 0 12px;  
-  position: relative;
-  height: 58vh; /* Set height to 50% of the viewport height for desktop */
-  max-height: 500px; /* Set a maximum height to prevent excessive size on large screens */
-  min-height: 300px; /* Set a minimum height to ensure visibility on smaller screens */
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);  
-  display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  position: relative; /* Ensure overlay is positioned correctly */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-}
-
-@media (max-width: 991px) {
-  .project-card {
-      height: 40vh; /* Slightly reduce height for tablets */
-      max-height: 400px;
-      min-height: 250px;
-  }
-}
-
-@media (max-width: 576px) {
-  .project-card {
-      height: 30vh; /* Further reduce height for mobile */
-      max-height: 300px;
-      min-height: 200px;
-  }
-}
-
-/* .project-card:first-child {
-  margin-left: 0;
-} */
-
-.project-card:last-child {
-  margin-right: 0;
-}
-
-.project-card .card-img {
-  position: absolute; /* Position the image absolutely */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the image */
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.project-card .card-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30%;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent); /* Darker background */
-  transition: background 0.3s ease;
-  padding: 15px;
-}
-
-.project-card:hover .card-overlay {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent); /* Black gradient on hover */
-}
-
-.card-title, .card-text {
-  color: white;
-  padding: 2px;
-  position: relative;
-  z-index: 1;
-}
-
-.project-card .card-title {
-  font-size: 1rem;
-  margin-bottom: 0.25rem;
-}
-
-.project-card .card-text {
-  font-size: 0.8rem;
-}
-
-.nav-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  cursor: pointer;
-  z-index: 10;
-}
-
-.nav-arrow:hover {
-  background: rgba(0,0,0,0.8);
-}
-
-.nav-prev {
-  left: -20px;
-}
-
-.nav-next {
-  right: -20px;
-}
-
-@media (max-width: 1200px) {
-  .nav-prev {
-      left: 10px;
-  }
-  .nav-next {
-      right: 10px;
-  }
-}
-
-.slide-indicator {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.slide-track {
-  width: 100px;
-  height: 4px;
-  background-color: #e0e0e0;
-  border-radius: 2px;
-  position: relative;
-}
-
-.slide-thumb {
-  width: 50%; /* Half of the track, as we have 2 slides */
-  height: 100%;
-  background-color: #333;
-  border-radius: 2px;
-  position: absolute;
-  left: 0;
-  transition: left 0.3s ease;
-}
-
-.section {
-  min-height: 100vh;
-  padding: 80px 0;
-}
-
-.container {
-  max-width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-/* Adjust main content area */
-main {
-  overflow-x: hidden;
-}
-
-/* Make images responsive */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-footer {
-  height: 200px;
-}
-
-.btn i {
-  font-size: 16px; /* Adjust icon size */
-  color: #28a745; /* Adjust icon color */
-}
-
-.navbar-nav .nav-link i {
-  margin-right: 5px; /* Space between icon and text */
-}
-
-.fa-globe {
-  color: #007bff;
-}
-
-.navbar-nav.ms-auto {
-  margin-left: auto !important;
-}
-
-.dropdown-menu-end {
-  right: 0;
-  left: auto;
-}
-
-/*#Product section*/
-.container {
-  display: flex;
-  flex-direction: row; /* Hiển thị thành hàng ngang */
-  gap: 50px;
-  align-items: flex-start; /* Căn các phần tử ở trên cùng */
-  max-width: 1200px; /* Giới hạn chiều rộng */
-  width: 100%; /* Để phù hợp với màn hình */
-  padding: 20px; /* Tạo khoảng trống bên trong */
-}
-
-button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #1d3c6e;
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.phone-mockup {
-  width: 400px;
-  height: 550px;
-  background-color: #2e2e2e;
-  border-radius: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.phone-screen {
-  width: 90%;
-  height: 90%;
-  background-color: #ffffff;
-  border-radius: 20px;
-  padding: 20px;
-  text-align: center;
-}
-
-.loan-details p, .loan-estimation p {
-  font-size: 14px;
-  color: #333;
-  margin-top: 5px;
-}
-
-.loan-estimation label {
-  display: block;
-  font-size: 14px;
-  color: #333;
-  margin-top: 10px;
-}
-
-#loan-amount {
-  width: 100%;
-  margin-top: 10px;
-}
-/*!--end product section--*/
 /*# sourceMappingURL=style.css.map */

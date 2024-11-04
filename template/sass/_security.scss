@@ -71,18 +71,24 @@
 
       .widget-content {
         li {
-          &.active {
-            .text {
-              color: $theme-title-color;
-            }
-            .number {
-              box-shadow: 0 5px 15px 0 rgba(#3c4146, 30%);
-              background-color: #2f3337;
-            }
-          }
+          // &.active {
+          //   .text {
+          //     color: $theme-title-color;
+          //   }
+          //   .number {
+          //     box-shadow: 0 5px 15px 0 rgba(#3c4146, 30%);
+          //     background-color: #2f3337;
+          //   }
+          // }
 
           .number {
-            background-color: #9199a1;
+            background-color: #2f3337;
+          }
+          .text {
+            color: #2f3337;
+            p {
+              color: #2f3337;
+            }
           }
         }
       }
@@ -135,29 +141,34 @@
         margin: 50px 0;
         display: flex;
         align-items: center;
-        &.active {
-          color: $theme-title-color;
-          .text {
-            font-family: $Roboto-font;
-            font-weight: 500;
-            color: $theme-title-color;
-          }
-          .number {
-            box-shadow: 0 5px 15px 0 rgba(#1455a6, 30%);
-            background-color: var(--brand_color);
-          }
-        }
+        // &.active {
+        //   color: $theme-title-color;
+        //   .text {
+        //     font-family: $Roboto-font;
+        //     font-weight: 500;
+        //     color: $theme-title-color;
+        //   }
+        //   .number {
+        //     box-shadow: 0 5px 15px 0 rgba(#1455a6, 30%);
+        //     background-color: var(--brand_color);
+        //   }
+        // }
         .text {
-          color: #a8a8b2;
-          font-size: 18px;
+          color: var(--theme-color);
+          font-size: 1.1rem;
           font-family: $Roboto-font;
-          font-weight: 400;
+          font-weight: bold;
+          p {
+            font-size: 1rem;
+            font-weight: normal;
+          }
         }
+
         .number {
           height: 35px;
           width: 35px;
           border-radius: 50%;
-          background-color: #7a9fcc;
+          background-color: var(--theme-color);
           color: #fff;
           font-size: 18px;
           font-family: $Roboto-font;
@@ -532,83 +543,99 @@
   }
 }
 
-
-
-.clients-logo-title{
+.clients-logo-title {
   font-size: 24px;
   font-family: $Poppins-font;
-  color: #878BA9;
+  color: #878ba9;
   font-weight: 500;
   margin-bottom: 50px;
   text-align: center;
-  span{
-    color: #1B2A52;
+  span {
+    color: #1b2a52;
   }
 }
-.clients-logo{
+.clients-logo {
   opacity: 0.5;
-  &:hover{
+  &:hover {
     opacity: 1;
     transform: scale(1.02);
   }
 }
 
-
 /*========= map_area css =======*/
-.map_area{
+.map_area {
   padding: 40px 0px 140px;
 }
-.map_inner{
+.map_inner {
   position: relative;
-  .map_list{
-    li{
+  .map_list {
+    li {
       width: 68px;
       height: 68px;
       border-radius: 50%;
-      box-shadow: 0px 9.904762268066406px 22.857141494750977px rgba(36, 48, 64, 0.20);
+      box-shadow: 0px 9.904762268066406px 22.857141494750977px
+        rgba(36, 48, 64, 0.2);
       position: absolute;
       background: #fff;
       transform: scale(0.9);
       transition: all 0.3s;
-      &.active{
+      &.active {
         transform: scale(1.01);
       }
-      &:nth-child(1){
+      &:nth-child(1) {
         left: 220px;
         top: 55px;
       }
-      &:nth-child(2){
+      &:nth-child(2) {
         left: 160px;
         top: 185px;
       }
-      &:nth-child(3){
+      &:nth-child(3) {
         left: 323px;
         bottom: 148px;
       }
-      &:nth-child(4){
+      &:nth-child(4) {
         left: 564px;
         top: 50px;
       }
-      &:nth-child(5){
+      &:nth-child(5) {
         left: 630px;
         bottom: 105px;
       }
-      &:nth-child(6){
+      &:nth-child(6) {
         right: 330px;
         bottom: 255px;
       }
-      &:nth-child(7){
+      &:nth-child(7) {
         right: 140px;
         bottom: 135px;
       }
-      &:nth-child(8){
+      &:nth-child(8) {
         // right: 140px;
         // bottom: 135px;
         right: 160px;
         top: 60px;
       }
-      img{
+      img {
         max-width: 100%;
+      }
+    }
+  }
+}
+// modification
+.faq-area-3 {
+  .how-it-work {
+    .single-widget {
+      .widget-header {
+        padding: 25px 30px;
+      }
+      .widget-content {
+        li {
+          margin: 20px 0;
+          .number {
+            flex-shrink: 0;
+          }
+        }
       }
     }
   }

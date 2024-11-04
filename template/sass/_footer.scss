@@ -5,11 +5,11 @@
 .footer {
   background-position: center;
   background-size: cover;
-  background-color: #0f1123;
+  // background-color: #0f1123;
 
   .footer-top {
     .footer-text {
-      color: #fff;
+      color: black;
       font-size: 16px;
       font-family: $Roboto-font;
       font-weight: 400;
@@ -17,7 +17,7 @@
     }
     .social-icon {
       a {
-        color: #fff;
+        color: black;
         margin: 10px;
         &:first-child {
           margin-left: 0;
@@ -31,7 +31,7 @@
         display: block;
         font-family: $Roboto-font;
         font-weight: 400;
-        color: #fff;
+        color: black;
       }
 
       .footer-bold {
@@ -41,7 +41,7 @@
         > span {
           &:nth-child(1) {
             font-size: 70px;
-            color: #fff;
+            color: black;
             font-family: $Poppins-font;
             font-weight: 600;
             margin-bottom: 0;
@@ -50,7 +50,7 @@
           &:nth-child(2) {
             font-family: $Poppins-font;
             font-size: 24px;
-            color: #fff;
+            color: black;
             margin-bottom: 0;
             font-weight: 500;
           }
@@ -61,20 +61,20 @@
         font-size: 16px;
         font-family: $Roboto-font;
         font-weight: 400;
-        color: #fff;
+        color: black;
       }
 
       .f-widget-title {
         margin-bottom: 20px;
         h5 {
           font-size: 18px;
-          color: #fff;
+          color: black;
           font-family: $Poppins-font;
           font-weight: 600;
           text-transform: capitalize;
           margin-bottom: 0;
         }
-      }
+      }      
 
       .footer-link {
         ul {
@@ -83,11 +83,11 @@
               font-size: 16px;
               font-family: $Roboto-font;
               font-weight: 400;
-              color: #d8dce0;
+              color: black;
               border-bottom: 1px solid transparent;
               line-height: 40px;
               &:hover {
-                border-color: #fff;
+                border-color: black;
               }
             }
           }
@@ -97,7 +97,7 @@
   }
   /* copyright*/
   .copyright {
-    color: #fff;
+    color: black;
     .short-text {
       a {
         font-size: 14px;
@@ -107,7 +107,7 @@
       &.short-text {
         p {
           font-size: 14px;
-          color: #fff;
+          color: black;
         }
       }
       p {
@@ -125,7 +125,7 @@
       font-weight: 400;
       padding: 10px 0;
       &:hover {
-        color: #fff;
+        color: black;
       }
       &:first-child {
         margin-left: 0;
@@ -134,13 +134,13 @@
     .nice-select {
       background-color: transparent;
       border-color: transparent;
-      color: #fff;
+      color: black;
       margin: auto;
       padding-left: 0;
       .list {
         top: inherit;
         bottom: 100%;
-        border: 1px solid #fff;
+        border: 1px solid black;
         transform-origin: bottom center;
         &:hover {
           .option {
@@ -166,17 +166,18 @@
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        border: 1px solid #fff;
+        border: 1px solid black;
         background-color: transparent;
         font-size: 16px;
-        color: #fff;
+        color: black;
         line-height: 19px;
         text-align: center;
         transition: all 0.3s ease-out;
 
         &:hover {
-          background-color: #fff;
-          color: var(--brand_color);
+          background-color: black;
+          // color: var(--brand_color);
+          color: white;
         }
       }
     }
@@ -188,7 +189,7 @@
   &.footer-2 {
     background-color: #171d24;
     .footer-text {
-      color: #fff;
+      color: black;
       font-size: 16px;
       font-family: $Roboto-font;
       font-weight: 400;
@@ -196,7 +197,7 @@
     .footer-widget {
       h4 {
         font-size: 24px;
-        color: #fff;
+        color: black;
         font-family: $Poppins-font;
         font-weight: 600;
         line-height: 40px;
@@ -223,7 +224,7 @@
             font-size: 16px;
             color: #d7d8d9;
             &:hover {
-              color: #fff;
+              color: black;
             }
           }
         }
@@ -234,7 +235,7 @@
       .line {
         height: 1px;
         width: 100%;
-        background-color: #fff;
+        background-color: black;
       }
       .copyright-text {
         color: #c3cdd9;
@@ -243,7 +244,7 @@
   }
 
   &.footer-3 {
-    background-color: #171d24;
+    // background-color: #171d24;
     .footer-top {
       .footer-text {
         font-size: 18px;
@@ -347,7 +348,7 @@
     padding-top: 280px;
     padding-bottom: 100px;
     .f-widget-title{
-      color: #fff;
+      color: black;
     }
   }
   .about-widget{
@@ -363,7 +364,7 @@
   .footer-link li a{
     color: #9B9B9B;
     &:hover{
-      color: #fff;
+      color: black;
     }
   }
   .copyright-text{
@@ -374,7 +375,7 @@
       font-family: $Roboto-font;
       margin-right: 30px;
       &:hover{
-        color: #fff;
+        color: black;
       }
     }
   }
@@ -391,7 +392,7 @@
       margin-left: 6px;
       &:hover{
         color: var(--brand_color);
-        background: #fff;
+        background: black;
       }
     }
   }

@@ -38,7 +38,7 @@
       color: $theme-title-color;
       font-family: $Poppins-font;
       font-weight: 600;
-      font-size: 24px;
+      font-size: 20px;
       line-height: 40px;
       position: relative;
       cursor: pointer;
@@ -72,7 +72,7 @@
   }
   .faq-body {
     p {
-      font-size: 16px;
+      font-size: 1rem;
       color: var(--p_color);
       font-family: $Roboto-font;
       font-weight: 400;
@@ -247,9 +247,11 @@
 /*----------------------------------------*/
 
 .faq-area-3 {
-  background-color: #101010;
+  // background-color: #101010;
+  background-color: #fdf4ed;
   padding: 120px 0;
   color: #fff;
+
   .faq-img {
     border-radius: 8px;
   }
@@ -270,11 +272,17 @@
     line-height: 62px;
     letter-spacing: -0.02em;
     margin-bottom: 40px;
-    color: #fff;
+    // color: #fff;
+    color: #023a64;
     .underline-shape::after {
       background-color: #f57950;
     }
   }
+  //add h3 style
+  h3 {
+    color: #023a64;
+  }
+
   .single-faq {
     border-bottom: 1px solid #c3cbd2;
     padding: 14px 0;
@@ -294,10 +302,11 @@
     }
     .faq-header {
       h4 {
-        font-size: 16px;
+        // font-size: 16px;
         font-weight: 500;
         line-height: 30px;
-        color: #fff;
+        // color: #fff;
+        color: #023a64;
 
         i {
           color: #fff;
@@ -310,14 +319,13 @@
     }
     .faq-body {
       p {
-        color: #eeeeee;
+        // color: #eeeeee;
+        color: #023a64;
         margin-top: 12px;
       }
     }
   }
 }
-
-
 
 // .min_saas_faq {
 //   .accordion-button:not(.collapsed) {
@@ -390,30 +398,29 @@
 //   }
 // }
 
-
-// saas faq area css 
-.saas-faq-area{
+// saas faq area css
+.saas-faq-area {
   padding-bottom: 120px;
   .saas-section-title h2 span {
-    background: linear-gradient(90deg, #48D5DC 45.35%, #2BDE52 100%);
+    background: linear-gradient(90deg, #48d5dc 45.35%, #2bde52 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
-.faq_item{
+.faq_item {
   border-radius: 12px;
   border: 1px solid var(--black_50);
   padding: 15px 30px;
   margin-bottom: 30px;
   cursor: pointer;
-  .faq-header{
-    h6{
+  .faq-header {
+    h6 {
       font-size: 16px;
       line-height: 28px;
       font-weight: 500;
       position: relative;
       padding-right: 100px;
-      i{
+      i {
         position: absolute;
         right: -2px;
         top: 2px;
@@ -422,16 +429,16 @@
         opacity: 0;
         visibility: hidden;
         transition: all 0.2s linear;
-        & + i{
+        & + i {
           opacity: 1;
           visibility: visible;
         }
       }
-      &.collapsed{
-        i{
+      &.collapsed {
+        i {
           opacity: 1;
           visibility: visible;
-          & + i{
+          & + i {
             opacity: 0;
             visibility: hidden;
           }
@@ -445,8 +452,39 @@
     color: var(--p_color);
     line-height: 28px;
   }
-  .faq-body{
+  .faq-body {
     padding-right: 100px;
     padding-top: 8px;
+  }
+}
+// modification
+.faq_type {
+  display: flex;
+  justify-content: space-between;
+  @media (min-width: 996px) {
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+  }
+
+  .theme-btn {
+    width: 200px;
+    background-color: #023a64;
+    &.theme-btn-rounded-2:hover {
+      background-color: #023a64;
+      opacity: 0.8;
+      color: #fff;
+    }
+    &.active {
+      background-color: #fff;
+      color: var(--brand_color);
+    }
+  }
+}
+.support {
+  color: #023a64;
+
+  .icon {
+    color: var(--brand_color);
   }
 }
