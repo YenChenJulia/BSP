@@ -6411,10 +6411,10 @@ header .header-top .header-info-right ul li i {
   margin-top: 1rem;
   margin-bottom: 0.2rem;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .client-slider-2 .single-client .introduction p {
-  font-size: 1.67rem;
+  font-size: 1.25rem;
 }
 .client-slider-2 .single-client .quote {
   font-size: 18px;
@@ -6454,6 +6454,9 @@ header .header-top .header-info-right ul li i {
 .project_detail {
   background-color: rgba(2, 58, 100, 0.0980392157);
   border-bottom-left-radius: 5%;
+}
+.project_detail .detail {
+  padding: 64px 0;
 }
 .project_detail .container {
   max-width: 80%;
@@ -6513,23 +6516,19 @@ header .header-top .header-info-right ul li i {
   margin: 2rem 0;
 }
 .project_detail .row .col-6 .feature h4 {
-  font-size: 1.83rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-top: 3rem;
   font-style: italic;
 }
 .project_detail .row .col-6 .feature p {
   color: var(--theme-color);
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 .project_detail .row .col-6 .project-cta {
-  position: absolute;
   text-align: center;
-  bottom: 0;
-  left: 30px;
-  right: 15px;
   padding: 0 10px;
-  margin: 0 auto;
+  margin: 2rem auto 0rem;
 }
 .project_detail .row .col-6 .project-cta .inner {
   position: relative;
@@ -6539,19 +6538,27 @@ header .header-top .header-info-right ul li i {
 .project_detail .row .col-6 .project-cta .inner p {
   font-style: italic;
   color: var(--theme-color);
-  font-size: 1.67rem;
+  font-size: 1.5rem;
 }
 .project_detail .row .col-6 .project-cta .inner h4 {
   font-weight: 600;
   font-style: italic;
   font-size: 1.83rem;
+  margin-top: 1rem;
 }
 .project_detail .row .col-6 .project-cta .inner a {
-  background-color: var(--theme-color);
+  background-color: #023a64;
   border-radius: 20px;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   font-size: 2rem;
+}
+
+.project_detail .theme-btn::before {
+  background-color: #023a64;
+}
+.project_detail .theme-btn:hover {
+  opacity: 0.8;
 }
 
 /*----------------------------------------------------*/
@@ -7130,7 +7137,7 @@ header .header-top .header-info-right ul li i {
   color: var(--secondary_color);
   font-family: "Be Vietnam Pro", "Poppins", sans-serif;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 40px;
   position: relative;
   cursor: pointer;

@@ -443,7 +443,7 @@
 /*----------------------------------------*/
 /*  New Version
 /*----------------------------------------*/
-.client-area-2 {  
+.client-area-2 {
   background-color: #023048;
   border-top-right-radius: 5%;
   // border-bottom-left-radius: 5%;
@@ -453,7 +453,7 @@
   }
   h2 {
     color: #fff;
-  }  
+  }
 }
 .client-slider-2 {
   position: relative;
@@ -469,7 +469,6 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-
 
     font-size: 22px;
     height: 70px;
@@ -532,7 +531,7 @@
     }
   }
 
-.single-client {
+  .single-client {
     // padding: 30px;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -542,7 +541,7 @@
     margin: 55px 10px;
     margin-bottom: 70px;
     border-radius: 30px;
-    background-color: #023048; 
+    background-color: #023048;
     position: relative;
     &:hover {
       box-shadow: 0px 16px 74px 0px #5f7a9459;
@@ -561,8 +560,8 @@
       border-radius: 30px;
     }
     .introduction {
-      position:absolute;
-      bottom: 0; 
+      position: absolute;
+      bottom: 0;
       width: 100%;
       background-color: #2b2d2f;
       // background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
@@ -573,20 +572,20 @@
       border-bottom-right-radius: 30px;
       pointer-events: none;
       padding: 0 20px;
-      // .card-title {                
-      //   margin-bottom: 0.25rem;        
-      // }      
+      // .card-title {
+      //   margin-bottom: 0.25rem;
+      // }
       // .card-text {
       //   font-size: 0.8rem;
       // }
       h5 {
         margin-top: 1rem;
         margin-bottom: 0.2rem;
-        color: #fff;    
-        font-size: 2rem;   
+        color: #fff;
+        font-size: 1.8rem;
       }
       p {
-        font-size: 1.67rem;
+        font-size: 1.25rem;
       }
     }
     .quote {
@@ -630,15 +629,18 @@
   }
 }
 
-.project_detail {  
+.project_detail {
   background-color: #023a6419;
   border-bottom-left-radius: 5%;
+  .detail {
+    padding: 64px 0;
+  }
   .container {
     max-width: 80%; // Makes container 90% of page width
     width: 80%;
   }
   .row {
-    .col-5{
+    .col-5 {
       position: relative;
       overflow: hidden;
       width: 45%;
@@ -669,12 +671,12 @@
         font-weight: bold;
         font-size: 2rem;
       }
-    }  
-    
-    .col-6 {      
+    }
+
+    .col-6 {
       position: relative;
       li {
-        list-style: none;        
+        list-style: none;
         position: relative;
         padding-left: 20px;
         &:before {
@@ -686,54 +688,67 @@
         color: var(--theme-color);
       }
       .feature {
-        color: var(--theme-color);        
-        h3 {            
+        color: var(--theme-color);
+        h3 {
           font-size: 3rem;
           font-weight: bold;
           margin: 2rem 0;
         }
-        h4 {          
-          font-size: 1.83rem;
+        h4 {
+          font-size: 1.5rem;
           font-weight: bold;
           margin-top: 3rem;
           font-style: italic;
         }
         p {
-          color: var(--theme-color);        
-          font-size: 1.5rem;
-        }        
+          color: var(--theme-color);
+          font-size: 1.25rem;
+        }
       }
-      .project-cta{                        
-        position: absolute;
+      .project-cta {
+        // position: absolute;
         text-align: center;
-        bottom: 0;
-        left: 30px;
-        right: 15px;        
+        // bottom: 0;
+        // left: 30px;
+        // right: 15px;
         padding: 0 10px;
-        margin: 0 auto;        
+        margin: 2rem auto 0rem;
         .inner {
           position: relative;
           width: 100%;
           font-size: 1.2rem;
           p {
             font-style: italic;
-            color: var(--theme-color);            
-            font-size: 1.67rem;        
+            color: var(--theme-color);
+            font-size: 1.5rem;
           }
           h4 {
             font-weight: 600;
             font-style: italic;
-            font-size: 1.83rem;            
+            font-size: 1.83rem;
+            margin-top: 1rem;
           }
           a {
-            background-color: var(--theme-color);
+            background-color: #023a64;
             border-radius: 20px;
             margin-top: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 0;
             font-size: 2rem;
           }
-        }        
-      }      
+        }
+      }
     }
-  }  
+  }
+}
+
+//modification
+.project_detail {
+  .theme-btn {
+    &::before {
+      background-color: #023a64;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
 }
