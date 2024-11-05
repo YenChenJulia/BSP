@@ -224,6 +224,9 @@ header {
         display: none;
       }
     }
+    .chevron-down {
+      padding-bottom: 1.7px;
+    }
   }
 
   .menu {
@@ -805,7 +808,7 @@ i.fas {
           display: inline-flex;
           align-items: center;
           gap: 8px;
-          padding-right: 8px;
+          // padding-right: 2px;
           color: var(--secondary_color);
           transition: color 0.3s ease;
 

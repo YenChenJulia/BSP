@@ -1257,6 +1257,9 @@ header .header-top .header-info-right ul li i {
 .header-menu .navbar .sticky_logo .sticky {
   display: none;
 }
+.header-menu .navbar .chevron-down {
+  padding-bottom: 1.7px;
+}
 .header-menu .menu > .nav-item {
   padding-bottom: 25px;
   padding-top: 25px;
@@ -1743,7 +1746,6 @@ i.fas {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding-right: 8px;
   color: var(--secondary_color);
   transition: color 0.3s ease;
 }
