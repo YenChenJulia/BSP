@@ -46,8 +46,8 @@ const locales = {
     // navbar
     navbar: {
       easyApp: "EASY APP",
-      products: "SẢN PHẨM",
-      projects: "KHOẢN VAY",
+      products: "GIỚI THIỆU",
+      projects: "SẢN PHẨM",
       faqs: "CÂU HỎI",
       language: "NGÔN NGỮ",
     },
