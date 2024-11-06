@@ -6672,9 +6672,7 @@ i.fas {
   font-size: 1.1rem;
 }
 .project_detail .row .col-6 .project-cta {
-  position: absolute;
   text-align: center;
-  bottom: 0;
   left: 30px;
   right: 15px;
   padding: 0 10px;
