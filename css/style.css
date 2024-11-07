@@ -7625,6 +7625,12 @@ i.fas {
   width: 200px;
   background-color: #023a64;
 }
+@media (max-width: 576px) {
+  .faq_type .theme-btn {
+    width: 10rem;
+    font-size: medium;
+  }
+}
 .faq_type .theme-btn.theme-btn-rounded-2:hover {
   background-color: #023a64;
   opacity: 0.8;
