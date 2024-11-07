@@ -290,6 +290,8 @@ const locales = {
       title1: "Liên hệ với chúng tôi.",
       title2: "Rất mong nhận được phản hồi từ bạn. Bạn có thể liên hệ với chúng tôi qua...",
       title3: "Email:",
+      title4: "Thời gian làm việc:",
+      title5: "Thứ 2 - Thứ 6: 9:00am - 03:30pm",
     },
     RightFooter: {
       first: "THEO DÕI",
