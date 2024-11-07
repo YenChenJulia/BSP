@@ -7618,6 +7618,7 @@ i.fas {
 .faq_type {
   display: flex;
   justify-content: space-between;
+  gap: 0.5rem;
 }
 @media (min-width: 996px) {
   .faq_type {
