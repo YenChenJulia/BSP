@@ -6563,8 +6563,19 @@ i.fas {
   color: #fff;
   font-size: 1.3rem;
 }
+@media (max-width: 576px) {
+  .client-slider-2 .single-client .introduction h5 {
+    margin-top: 0.2rem;
+    font-size: 1rem;
+  }
+}
 .client-slider-2 .single-client .introduction p {
   font-size: 1.1rem;
+}
+@media (max-width: 576px) {
+  .client-slider-2 .single-client .introduction p {
+    font-size: 0.8rem;
+  }
 }
 .client-slider-2 .single-client .quote {
   font-size: 18px;
