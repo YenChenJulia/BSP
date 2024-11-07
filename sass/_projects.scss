@@ -765,4 +765,9 @@
       opacity: 0.8;
     }
   }
+  .detail_img {
+    @media (max-width: 768px) {
+    display: none;
+    }
+  }
 }

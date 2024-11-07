@@ -6729,6 +6729,11 @@ i.fas {
 .project_detail .theme-btn:hover {
   opacity: 0.8;
 }
+@media (max-width: 768px) {
+  .project_detail .detail_img {
+    display: none;
+  }
+}
 
 /*----------------------------------------------------*/
 /*----------------------------------------------------*/
