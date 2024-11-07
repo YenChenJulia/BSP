@@ -250,13 +250,13 @@
   // background-color: #101010;
   background-color: #fdf4ed;
   padding: 120px 0;
-  color: #fff;
+  color: var(--theme-color);
 
   .faq-img {
     border-radius: 8px;
   }
   .subtitle {
-    font-family: "Poppins";
+    font-family: "Be Vietnam Pro";
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
@@ -266,7 +266,7 @@
     margin-bottom: 4px;
   }
   h1 {
-    font-family: "Poppins";
+    font-family: "Be Vietnam Pro";
     font-size: 52px;
     font-weight: 600;
     line-height: 62px;

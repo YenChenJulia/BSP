@@ -182,7 +182,8 @@ li {
 p {
   margin: 0;
   padding: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 
 h1 {
@@ -363,7 +364,7 @@ input::-webkit-inner-spin-button {
   color: var(--theme-color);
   font-family: "Cormorant Garamond", "Be Vietnam Pro", sans-serif;
   font-weight: 500;
-  margin: 10px 0;
+  margin: 4px 0;
 }
 .section-title .short-title-2 {
   display: inline-block;
@@ -582,7 +583,7 @@ input::-webkit-inner-spin-button {
 /*----------------------------------------------------*/
 .theme-btn {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #fff;
   height: 50px;
   line-height: 50px;
@@ -590,7 +591,7 @@ input::-webkit-inner-spin-button {
   position: relative;
   z-index: 1;
   background-color: var(--brand_color);
-  padding: 0 35px;
+  padding: 0 10px;
   overflow: hidden;
   text-align: center;
   text-transform: capitalize;
@@ -1162,9 +1163,10 @@ header .header-top .header-info-right ul li i {
 }
 
 .header-menu {
-  z-index: 1;
+  z-index: 999;
   background-color: transparent;
   transition: all 0.2s linear;
+  position: relative;
 }
 .header-menu.header-menu-4 .theme-btn:hover {
   background-color: var(--brand_color);
@@ -2004,11 +2006,13 @@ i.fas {
 }
 
 .banner-area-2 {
-  background-image: url(../img/banner/bg-img-2.png), linear-gradient(to right, #fff, #fffdf7);
+  background-image: url(../img/banner.svg);
+  z-index: 998;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;
 }
 .banner-area-2 .banner-content {
   position: relative;
@@ -7480,13 +7484,13 @@ i.fas {
 .faq-area-3 {
   background-color: #fdf4ed;
   padding: 120px 0;
-  color: #fff;
+  color: var(--theme-color);
 }
 .faq-area-3 .faq-img {
   border-radius: 8px;
 }
 .faq-area-3 .subtitle {
-  font-family: "Poppins";
+  font-family: "Be Vietnam Pro";
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
@@ -7496,7 +7500,7 @@ i.fas {
   margin-bottom: 4px;
 }
 .faq-area-3 h1 {
-  font-family: "Poppins";
+  font-family: "Be Vietnam Pro";
   font-size: 52px;
   font-weight: 600;
   line-height: 62px;
@@ -10805,6 +10809,23 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 /*----------------------------------------------------*/
 #easy-app .col-lg-6 {
   margin-left: 20px;
+}
+#easy-app .title {
+  background: linear-gradient(90deg, #023A64 0%, #40A9FF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+#easy-app .img-content .bank-main {
+  position: relative;
+  z-index: 1000;
+}
+#easy-app .line-spacing {
+  margin-bottom: 3px;
+}
+#easy-app .mt-5 {
+  margin-bottom: 0.5rem;
 }
 
 /*----------------------------------------------------*/

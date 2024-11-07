@@ -150,7 +150,8 @@ li {
 p {
   margin: 0;
   padding: 0;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  font-family: $Roboto-font;  
   // color: var(--theme-color);
 }
 
@@ -334,7 +335,7 @@ input::-webkit-inner-spin-button {
     font-weight: 500;
     // letter-spacing: 0.5px;
     // text-transform: uppercase;
-    margin: 10px 0;
+    margin: 4px 0;
   }
 
   /*  New Version */

@@ -184,8 +184,7 @@
     <main>
       <!-- Banner start -->
       <section
-        class="banner-area-2 pt-145 mx-5"
-        style="background-image: url(img/banner.svg)"
+        class="banner-area-2 pt-145 mx-5"        
       >
         <div class="container">
           <div class="row align-items-center pt-130 pb-140">
@@ -235,7 +234,7 @@
               <div class="text-content">
                 <h2 class="text-center my-5 title">EASY APP</h2>
                 <ul>
-                  <li>
+                  <li class="line-spacing">
                     <img
                       src="img/Vector.svg"
                       alt="icon"
@@ -249,7 +248,7 @@
                     <span data-i18n="easyApp.GlobalFinancialManagement">Global financial management</span>
                   </li>
 
-                  <li>
+                  <li class="line-spacing">
                     <img
                       src="img/Vector.svg"
                       alt="icon"
@@ -262,7 +261,7 @@
                     />
                     <span data-i18n="easyApp.OnlinePersonalLoan">Online personal loan</span>
                   </li>
-                  <li>
+                  <li class="line-spacing">
                     <img
                       src="img/Vector.svg"
                       alt="icon"
@@ -275,7 +274,7 @@
                     />
                     <span data-i18n="easyApp.QuickAndSecureLogin">Quick and secure login</span>
                   </li>
-                  <li>
+                  <li class="line-spacing">
                     <img
                       src="img/Vector.svg"
                       alt="icon"
@@ -289,7 +288,7 @@
                     <span data-i18n="easyApp.HighestLevelOfSecurity">Highest level of security</span>
                   </li>
                 </ul>
-                <p class="my-5" data-i18n="easyApp.DownloadApp">
+                <p class="mt-5" data-i18n="easyApp.DownloadApp">
                   Download the app now and experience the difference!
                 </p>
 
@@ -684,34 +683,28 @@
       <section id="faq" class="faq-area-3">
         <div class="container">
           <div class="row gy-lg-0 gy-4">
+            <!-- Left Column - Title and Navigation -->
             <div class="col-lg-4">
               <h1 class="text-end">
-                Frequently asked general
-                <span class="underline-shape">questions</span>
+                <span data-i18n="Left.title">Frequently asked general</span>
+                <span class="underline-shape" data-i18n="Left.underline">questions</span>
               </h1>
               <div class="faq_type">
-                <button
-                  class="faq_btn theme-btn theme-btn-rounded-2 active"
-                  id="faq_product"
-                >
-                  Product
-                </button>
-                <button
-                  class="faq_btn theme-btn theme-btn-rounded-2"
-                  id="faq_steps"
-                >
-                  Steps
-                </button>
-                <button
-                  class="faq_btn theme-btn theme-btn-rounded-2"
-                  id="faq_support"
-                >
-                  Support
-                </button>
+                <button class="faq_btn theme-btn theme-btn-rounded-2 active" 
+                        id="faq_product" 
+                        data-i18n="Left.Product">Product</button>
+                <button class="faq_btn theme-btn theme-btn-rounded-2" 
+                        id="faq_steps" 
+                        data-i18n="Left.Steps">Steps</button>
+                <button class="faq_btn theme-btn theme-btn-rounded-2" 
+                        id="faq_support" 
+                        data-i18n="Left.Support">Support</button>
               </div>
             </div>
 
+            <!-- Right Column - FAQ Content -->
             <div class="col-lg-8 pl-lg-30">
+              <!-- Product FAQs -->
               <div class="faq-widget faq_detail" id="detail_product">
                 <div class="accordion" id="accordionExample">
                   <!-- Q1 -->
@@ -723,9 +716,9 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseOne"
                           aria-expanded="true"
-                          aria-controls="collapseOne"
+                          aria-controls="collapseOne"                          
                         >
-                          1. What is an Online Personal Loan?<i
+                          <span data-i18n="RightProduct.Q1">1. What is an Online Personal Loan?</span><i
                             class="icon_plus"
                           ></i
                           ><i class="icon_minus-06"></i>
@@ -737,7 +730,7 @@
                         aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A1">
                           <p>
                             It's an unsecured loan offered through the Easy App
                             by Bank SinoPac, following the bank's policies and
@@ -757,10 +750,10 @@
                           data-bs-target="#collapseTwo"
                           aria-expanded="true"
                           aria-controls="collapseTwo"
+                         
                         >
-                          2. What documents do I need for the loan
-                          application?<i class="icon_plus"></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q2">2. What documents do I need for the loan application?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -769,7 +762,7 @@
                         aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A2">
                           <p>
                             Valid ID, active mobile phone number, and financial
                             documents (e.g., salary statements from the last 3
@@ -789,11 +782,10 @@
                           data-bs-target="#collapseThree"
                           aria-expanded="true"
                           aria-controls="collapseThree"
+                         
                         >
-                          3. What is the maximum loan amount I can apply for?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q3">3. What is the maximum loan amount I can apply for?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -802,7 +794,7 @@
                         aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A3">
                           <p>You can borrow up to 500 million VND per loan.</p>
                         </div>
                       </div>
@@ -817,12 +809,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseFour"
                           aria-expanded="true"
-                          aria-controls="collapseFour"
+                          aria-controls="collapseFour"                          
                         >
-                          4. Do I need a guarantor or collateral?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q4">4. Do I need a guarantor or collateral?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -831,7 +821,7 @@
                         aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A4">
                           <p>
                             No, this is an unsecured loan, so no guarantor or
                             collateral is required.
@@ -849,11 +839,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseFive"
                           aria-expanded="true"
-                          aria-controls="collapseFive"
+                          aria-controls="collapseFive"                          
                         >
-                          5. How is the monthly repayment calculated, and how do
-                          I pay?<i class="icon_plus"></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q5">5. How is the monthly repayment calculated, and how do
+                          I pay?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -862,7 +851,7 @@
                         aria-labelledby="headingFive"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A5">
                           <p>
                             Equal monthly installments based on the reducing
                             balance. Payments are automatically deducted from
@@ -881,12 +870,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseSix"
                           aria-expanded="true"
-                          aria-controls="collapseSix"
+                          aria-controls="collapseSix"                          
                         >
-                          6. What is the maximum loan duration?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q6">6. What is the maximum loan duration?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -895,7 +882,7 @@
                         aria-labelledby="headingSix"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A6">
                           <p>You can select a loan tenor of up to 48 months.</p>
                         </div>
                       </div>
@@ -910,12 +897,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse7"
                           aria-expanded="true"
-                          aria-controls="collapse7"
+                          aria-controls="collapse7"                          
                         >
-                          7. What happens if I miss a payment?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q7">7. What happens if I miss a payment?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -924,7 +909,7 @@
                         aria-labelledby="heading7"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A7">
                           <p>
                             Late payments are reported to the Credit Information
                             Center (CIC) and may incur additional interest based
@@ -943,12 +928,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse8"
                           aria-expanded="true"
-                          aria-controls="collapse8"
+                          aria-controls="collapse8"                          
                         >
-                          8. How will the bank remind me to make repayments?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q8">8. How will the bank remind me to make repayments?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -957,7 +940,7 @@
                         aria-labelledby="heading8"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A8">
                           <p>
                             SMS reminders will be sent before your repayment is
                             due. Ensure you have enough funds in your SinoPac
@@ -976,11 +959,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse9"
                           aria-expanded="true"
-                          aria-controls="collapse9"
+                          aria-controls="collapse9"                          
                         >
-                          9. When will I receive the loan approval
-                          notification?<i class="icon_plus"></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q9">9. When will I receive the loan approval
+                          notification?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -989,7 +971,7 @@
                         aria-labelledby="heading9"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A9">
                           <p>
                             Bank SinoPac will send an SMS immediately after your
                             loan is approved.
@@ -1007,12 +989,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse10"
                           aria-expanded="true"
-                          aria-controls="collapse10"
+                          aria-controls="collapse10"                          
                         >
-                          10. How long will it take to receive the loan?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q10">10. How long will it take to receive the loan?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1021,7 +1001,7 @@
                         aria-labelledby="heading10"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A10">
                           <p>
                             The loan amount will be credited to your account
                             within 1-2 working days after approval.
@@ -1039,12 +1019,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse11"
                           aria-expanded="true"
-                          aria-controls="collapse11"
+                          aria-controls="collapse11"                          
                         >
-                          11. Can I pay off my loan early?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q11">11. Can I pay off my loan early?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1053,7 +1031,7 @@
                         aria-labelledby="heading11"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A11">
                           <p>
                             Yes, you can repay your loan early, but there may be
                             fees based on your credit agreement.
@@ -1071,12 +1049,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse12"
                           aria-expanded="true"
-                          aria-controls="collapse12"
+                          aria-controls="collapse12"                          
                         >
-                          12. What happens after I finish paying off the loan?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q12">12. What happens after I finish paying off the loan?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1085,7 +1061,7 @@
                         aria-labelledby="heading12"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A12">
                           <p>
                             Your loan account will be closed, and a final
                             statement will be issued.
@@ -1102,12 +1078,11 @@
                           class="mb-0 collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse13"
-                          aria-expanded="true"
-                          aria-controls="collapse13"
+                          aria-expanded="true"                          
+                          aria-controls="collapse13"                          
                         >
-                          13. Are there any penalties for early or missed
-                          payments?<i class="icon_plus"></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q13">13. Are there any penalties for early or missed
+                          payments?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1116,7 +1091,7 @@
                         aria-labelledby="heading13"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A13">
                           <p>
                             Late or missed payments may incur additional fees.
                             Early repayment fees depend on your loan agreement.
@@ -1134,11 +1109,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse14"
                           aria-expanded="true"
-                          aria-controls="collapse14"
+                          aria-controls="collapse14"                         
                         >
-                          14. Can I apply for a second loan while repaying my
-                          first loan?<i class="icon_plus"></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q14">14. Can I apply for a second loan while repaying my
+                          first loan?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1147,7 +1121,7 @@
                         aria-labelledby="heading14"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A14">
                           <p>
                             Your eligibility for a second loan depends on your
                             current credit standing and repayment history.
@@ -1164,13 +1138,11 @@
                           class="mb-0 collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse15"
-                          aria-expanded="true"
-                          aria-controls="collapse15"
+                          aria-expanded="true"                          
+                          aria-controls="collapse15"                          
                         >
-                          15. Can I change my monthly installment date?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q15">15. Can I change my monthly installment date?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1179,7 +1151,7 @@
                         aria-labelledby="heading15"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A15">
                           <p>
                             Contact the bank for support. Changes are possible
                             under certain conditions.
@@ -1197,11 +1169,10 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse16"
                           aria-expanded="true"
-                          aria-controls="collapse16"
+                          aria-controls="collapse16"                          
                         >
-                          16. Can I apply for this loan if I have loans with
-                          other banks?<i class="icon_plus"></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q16">16. Can I apply for this loan if I have loans with
+                          other banks?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1210,7 +1181,7 @@
                         aria-labelledby="heading16"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A16">
                           <p>
                             Yes, but your application will be assessed based on
                             your credit history and debt levels.
@@ -1222,27 +1193,25 @@
                   <!-- Q17 -->
                   <div class="single-faq wow fadeInUp" data-wow-delay="0.1s">
                     <div class="w-100">
-                      <div class="faq-header" id="heading16">
+                      <div class="faq-header" id="heading17">
                         <h4
                           class="mb-0 collapsed"
                           data-bs-toggle="collapse"
-                          data-bs-target="#collapse16"
+                          data-bs-target="#collapse17"
                           aria-expanded="true"
-                          aria-controls="collapse16"
+                          aria-controls="collapse17"                          
                         >
-                          17. How will I receive the loan contract?<i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q17">17. How will I receive the loan contract?</span><i
+                            class="icon_plus"></i><i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
-                        id="collapse16"
+                        id="collapse17"
                         class="collapse"
-                        aria-labelledby="heading16"
+                        aria-labelledby="heading17"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body">
+                        <div class="faq-body"  data-i18n="RightProduct.A17">
                           <p>
                             Bank SinoPac will send the contract to your
                             registered email. The file will be encrypted with a
@@ -1257,6 +1226,7 @@
                   Have more question ? <a href="">Contact Us</a>
                 </h6> -->
               </div>
+
 
               <!-- steps -->
               <div class="how-it-work faq_detail d-none" id="detail_steps">
@@ -1273,18 +1243,19 @@
                     </div>
                   </div> -->
 
+
                 <!-- <div class="row gy-lg-0 gy-3"> -->
                 <div class="row g-3">
                   <div class="col-lg-6">
                     <div
                       class="single-widget apply-online"
-                      
+                     
                     >
                       <div class="widget-header">
                         <!-- <div class="widget-img">
                             <img src="img/how-works/icon-1.png" alt="icon" />
                           </div> -->
-                        <div class="widget-title">
+                        <div class="widget-title" data-i18n="RightProduct.Column1">
                           <h4>Loan Application</h4>
                           <!-- <p>
                               That is why we have a wide range of you can apply
@@ -1294,48 +1265,50 @@
                       </div>
 
 
+
+
                       <ul class="widget-content">
                         <li class="active">
                           <span class="number">1</span>
-                          <span class="text">Download and Register  <br>
-                            <p>Download the Easy App, register with personal information, and verify your identity.</p>
+                          <span class="text" data-i18n="RightSteps.Step1">Download and Register  <br>
+                            <p data-i18n="RightSteps.Step11">Download the Easy App, register with personal information, and verify your identity.</p>
                           </span>
                         </li>
                         <li>
                           <span class="number">2</span>
-                          <span class="text"
+                          <span class="text" data-i18n="RightSteps.Step2"
                             >Complete Account Setup  <br>
-                            <p>Review information, and set password.</p>
+                            <p data-i18n="RightSteps.Step22">Review information, and set password.</p>
                             </span
                           >
                         </li>
                         <li>
                           <span class="number">3</span>
-                          <span class="text"
+                          <span class="text" data-i18n="RightSteps.Step3"
                             >Access Loan Application  <br>
-                            <p>Login to the Easy app, and select "Online Loan Application".</p>
+                            <p data-i18n="RightSteps.Step33">Login to the Easy app, and select "Online Loan Application".</p>
                             </span
                           >
                         </li>
                         <li>
                           <span class="number">4</span>
-                          <span class="text">Review Loan Details  <br>
-                            <p>Check interest rate, loan amount, and tenor.</p>
+                          <span class="text" data-i18n="RightSteps.Step4">Review Loan Details  <br>
+                            <p data-i18n="RightSteps.Step44">Check interest rate, loan amount, and tenor.</p>
                           </span>
                         </li>
                         <li>
                           <span class="number">5</span>
-                          <span class="text"
+                          <span class="text" data-i18n="RightSteps.Step5"
                             >Provide Loan Details  <br>
-                            <p>Choose the amount, and tenor, verify identity, and agree to terms.</p>
+                            <p data-i18n="RightSteps.Step55">Choose the amount, and tenor, verify identity, and agree to terms.</p>
                             </span
                           >
                         </li>
                         <li>
                           <span class="number">6</span>
-                          <span class="text"
+                          <span class="text" data-i18n="RightSteps.Step6"
                             >Submit Application  <br>
-                            <p>Provide additional info and documents, and submit an application.</p>
+                            <p data-i18n="RightSteps.Step6">Provide additional info and documents, and submit an application.</p>
                             </span
                           >
                         </li>                        
@@ -1343,16 +1316,17 @@
                     </div>
                   </div>
 
+
                   <div class="col-lg-6">
                     <div
                       class="single-widget consultation"
-                      
+                     
                     >
                       <div class="widget-header">
                         <!-- <div class="widget-img">
                             <img src="img/how-works/icon-2.png" alt="icon" />
                           </div> -->
-                        <div class="widget-title">
+                        <div class="widget-title" data-i18n="RightSteps.Column2">
                           <h4>Loan Disbursement</h4>
                           <!-- <p>
                               Conis Guide on the supervisory approach to
@@ -1361,33 +1335,34 @@
                         </div>
                       </div>
 
+
                       <ul class="widget-content">
                         <li class="active">
                           <span class="number">1</span
-                          ><span class="text"
+                          ><span class="text" data-i18n="RightSteps.Step7"
                             >Receive Approval Notification  <br>
-                            <p>Get an SMS with a contract link.</p>
+                            <p data-i18n="RightSteps.Step77">Get an SMS with a contract link.</p>
                             </span
                           >
                         </li>
                         <li>
                           <span class="number">2</span>
-                          <span class="text"
+                          <span class="text" data-i18n="RightSteps.Step8"
                             >Register for Digital Certificate  <br>
-                            <p>Register a CA, verify your ID, and complete a video.</p>
+                            <p data-i18n="RightSteps.Step88">Register a CA, verify your ID, and complete a video.</p>
                             </span
                           >
                         </li>
                         <li>
                           <span class="number">3</span>
-                          <span class="text">Sign Loan Contract  <br>
-                            <p>Log in to the Easy app, review the contract, and sign with your PIN.</p>
+                          <span class="text" data-i18n="RightSteps.Step9">Sign Loan Contract  <br>
+                            <p data-i18n="RightSteps.Step99">Log in to the Easy app, review the contract, and sign with your PIN.</p>
                           </span>
                         </li>
                         <li>
                           <span class="number">4</span>
-                          <span class="text">Loan Disbursement  <br>
-                            <p>Receive confirmation of disbursement via registered SMS an email.</p>
+                          <span class="text" data-i18n="RightSteps.Step10">Loan Disbursement  <br>
+                            <p data-i18n="RightSteps.Step1010">Receive confirmation of disbursement via registered SMS an email.</p>
                           </span>
                         </li>
                       </ul>
@@ -1398,11 +1373,12 @@
               </div>
               <!-- steps end -->
 
+
               <!-- suppor -->
               <div class="support faq_detail d-none" id="detail_support">
-                <div class="section-title text-start">
+                <div class="section-title text-start" data-i18n="RightSupport.title1">
                   <h2>Get in touch with us.</h2>
-                  <p>
+                  <p data-i18n="RightSupport.title2">
                     We'd love to hear from you. Here's how you can reach us...
                   </p>
                 </div>
@@ -1431,7 +1407,7 @@
                         />
                       </div>
                       <div>
-                        <h5>Email us:</h5>
+                        <h5 data-i18n="RightSupport.title3">Email us:</h5>
                         <span>callcentervn@sinopac.com</span>
                       </div>
                     </div>
@@ -1464,12 +1440,14 @@
                 </div>
               </div>
 
+
               <!-- support end -->
             </div>
           </div>
         </div>
       </section>
       <!-- Frequently Ask Questions section -->
+
 
       <!-- Content Section with Image and Links -->
       <!-- <div class="container">
@@ -1479,7 +1457,7 @@
                     <a href="#about-us" class="about-button">ABOUT US</a>
                 </div>
             </div>
-            
+           
            <div class="right-section">
                 <a href="link1.html">Online Account Opening</a>
                 <a href="link2.html">Digital Microloans</a>
@@ -1491,7 +1469,6 @@
     </main>
 
     <!-- footer -->
-
     <footer class="footer footer-3">
       <div class="footer-top">
         <div class="container">
@@ -1511,31 +1488,30 @@
             <div class="col">
               <div class="d-lg-flex justify-content-lg-end">
                 <div style="flex-basis: 40%">
-                  <h5 class="mb-2">Follow Us</h5>
-                  <div class="social-button"">
+                  <h5 class="mb-2" data-i18n="Footer.first">Follow Us</h5>
+                  <div class="social-button">
                   <a href="https://www.facebook.com/BankSinoPacVietnam"
                     ><i class="fab fa-facebook" style="font-size: 24px"></i
                   ></a>
                 </div>
               </div>
 
-
               <div
                 class="footer-widget wow fadeInUp mt-20 mt-lg-0"
                 data-wow-delay="0.5s"
               >
                 <!-- <div class="f-widget-title"> -->
-                <h5 class="mb-2">Contact Us</h5>
+                <h5 class="mb-2" data-i18n="Footer.second">Contact Us</h5>
                 <!-- </div> -->
                 <div class="footer-link">
                   <!-- <ul class="list-unstyled">
                         <li class=""> -->
-                  <a href="#" class="text-decoration-none"
+                  <a href="#" class="text-decoration-none" data-i18n="Footer.third"
                     ><p>Telephone: +84 345 678 910</p></a>
                   <!-- </li> -->
                   <!-- <li> -->
-                  <a href="#" class="text-decoration-none"
-                    ><p>Address: Friendship, District 1, HCM city</p></a>
+                  <a href="#" class="text-decoration-none" data-i18n="Footer.fourth"
+                    ><p>Address: Friendship Tower 9F, 31 Le Duan, District 1, Ho Chi Minh City, Viet Nam</p></a>
                   <!-- </li>
                       </ul> -->
                 </div>

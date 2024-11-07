@@ -6,7 +6,7 @@
   background-image: url(../img/banner/bg-img.png);
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: relative;  
 
   /* floating bubbles */
   .bubbles {
@@ -238,12 +238,13 @@
 }
 
 .banner-area-2 {
-  background-image: url(../img/banner/bg-img-2.png),
-    linear-gradient(to right, #fff, #fffdf7);
+  background-image: url(../img/banner.svg);
+  z-index: 998;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: relative;   
   .banner-content {
     position: relative;
     .shape {
@@ -337,7 +338,7 @@
         animation: floatingBubble 20s linear infinite alternate both;
       }
     }
-  }
+  }  
 }
 
 .banner-area-3 {

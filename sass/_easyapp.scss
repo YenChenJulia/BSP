@@ -2,4 +2,24 @@
   .col-lg-6 {
     margin-left: 20px;
   }
+  .title {
+    background: linear-gradient(90deg, #023A64 0%, #40A9FF 100%); // Even brighter blue
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  .img-content {
+    .bank-main {
+      position: relative;
+      z-index: 1000;
+    }
+  }
+  .line-spacing {
+    margin-bottom: 3px;
+  }
+  .mt-5 {
+    margin-bottom: 0.5rem;
+  }
 }
+
