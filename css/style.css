@@ -7546,6 +7546,11 @@ i.fas {
   color: #023a64;
   margin-top: 12px;
 }
+.faq-area-3 img.work-hour {
+  margin-top: 2rem;
+  width: 19px;
+  height: auto;
+}
 
 .saas-faq-area {
   padding-bottom: 120px;

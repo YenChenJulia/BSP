@@ -325,6 +325,13 @@
       }
     }
   }
+  img {
+    &.work-hour {      
+      margin-top: 2rem;
+      width: 19px;
+      height: auto;    
+    }
+  }
 }
 
 // .min_saas_faq {
