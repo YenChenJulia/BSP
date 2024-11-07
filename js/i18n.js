@@ -221,9 +221,9 @@ const locales = {
     Left: {
       title: "CÂU HỎI",
       underline: "THƯỜNG GẶP",
-      Product: "GIỚI THIỆU",
-      Steps: "HƯỚNG DẪN",
-      Support: "HỖ TRỢ",
+      Product: "Giới thiệu",
+      Steps: "Hướng dẫn",
+      Support: "Hỗ trợ",
     },
     // Right side Product Steps Support
     RightProduct: {
@@ -294,10 +294,10 @@ const locales = {
       title5: "Thứ 2 - Thứ 6: 9:00am - 03:30pm",
     },
     RightFooter: {
-      first: "THEO DÕI",
-      second: "LIÊN HỆ VỚI CHÚNG TÔI",
-      third: "Điện thoại",
-      fourth: "Lầu 9, Tòa nhà Friendship, Đường Lê Duẩn, Quận 1, Thành phố HCM",
+      first: "Theo dõi",
+      second: "Liên hệ",
+      third: "Điện thoại: +84 345 678 910",
+      fourth: "Địa chỉ: Lầu 9, Tòa nhà Friendship, Đường Lê Duẩn, Quận 1, Thành phố Hồ Chí Minh",
     },
   }
 };

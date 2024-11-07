@@ -450,6 +450,10 @@
   .container {
     max-width: 85%; // Makes container 90% of page width
     width: 85%;
+    @media (max-width: 576px) {
+      max-width: 100%;
+      width: 100%;
+    }
   }
   h2 {
     color: #fff;
@@ -583,9 +587,17 @@
         margin-bottom: 0.2rem;
         color: #fff;
         font-size: 1.3rem;
+        @media (max-width: 576px) {
+          font-size: 1rem;
+          margin-top: 0.4rem;          
+          margin-bottom: 0.1rem;          
+        }
       }
       p {
         font-size: 1.1rem;
+        @media (max-width: 576px) {
+          font-size: 0.8rem;
+        }
       }
     }
     .quote {
@@ -649,6 +661,9 @@
         object-fit: cover;
         border-radius: 30px;
       }
+      @media (max-width: 576px) {
+        width: 100%;
+      }
       .introduction {
         position: absolute;
         object-fit: cover;
@@ -678,11 +693,16 @@
         font-style: italic;
         font-weight: bold;
         font-size: 1.5rem;
+        p {
+          @media (max-width: 576px) {
+            font-size: 0.8rem;
+          }
+        }
       }
     }
 
     .col-6 {
-      position: relative;
+      position: relative;      
       li {
         list-style: none;
         position: relative;
@@ -700,17 +720,29 @@
         h3 {
           font-size: 2rem;
           font-weight: bold;
-          margin: 2rem 0;
+          margin: 2rem 0; 
+          @media (max-width: 576px) {            
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+          }
         }
         h4 {
           font-size: 1.3rem;
           font-weight: bold;
           margin-top: 3rem;
           font-style: italic;
+          @media (max-width: 576px) {
+            margin-top: 0rem;
+            font-size: 1.1rem;
+          }
         }
         p {
           color: var(--theme-color);
           font-size: 1.1rem;
+          @media (max-width: 576px) {
+            font-size: 1rem;
+          }
         }
       }
       .project-cta {
@@ -728,12 +760,19 @@
             font-style: italic;
             color: var(--theme-color);
             font-size: 1.1rem;
+            @media (max-width: 576px) {
+              font-size: 1rem;
+            }
           }
           h4 {
             font-weight: 600;
             font-style: italic;
             font-size: 1.3rem;
             margin-top: 1rem;
+            @media (max-width: 576px) {
+              font-size: 1.1rem;
+              margin-top: 0.5rem;
+            }
           }
           a {
             background-color: #023a64;
@@ -741,8 +780,15 @@
             margin-top: 2rem;
             margin-bottom: 0;
             font-size: 1.5rem;
+            @media (max-width: 576px) {
+              font-size: 1.3rem;
+              margin-top: 1rem;
+            }
           }
         }
+      }
+      @media (max-width: 576px) {
+        width: 100%;
       }
     }
   }

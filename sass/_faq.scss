@@ -249,7 +249,7 @@
 .faq-area-3 {
   // background-color: #101010;
   background-color: #fdf4ed;
-  padding: 120px 0;
+  padding: 90px 0;
   color: var(--theme-color);
 
   .faq-img {
@@ -485,6 +485,9 @@
     &.active {
       background-color: #fff;
       color: var(--brand_color);
+    }
+    @media (max-width: 576px) {
+      width: 110px;
     }
   }
 }

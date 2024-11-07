@@ -377,7 +377,10 @@ input::-webkit-inner-spin-button {
 .underline-shape {
   position: relative;
   z-index: 1;
-  display: inline-block;
+  display: inline-block;  
+  @media (max-width: 576px) {
+    // position: unset;
+  }
   &::after {
     content: "";
     position: absolute;
