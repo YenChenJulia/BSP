@@ -48,7 +48,10 @@
       href="css/responsive.css"
       media="all"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -61,8 +64,6 @@
             <img src="img/logo/SNP-logo-1.png" alt="" />
           </div>
         </div>
-        <!-- <h2 class="head">Did You Know?</h2> -->
-        <!-- <p></p> -->
       </div>
     </div>
     <!-- Header -->
@@ -144,12 +145,11 @@
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
-                    aria-expanded="false"                    
+                    aria-expanded="false"
                   >
-                    <i class="fa-solid fa-globe"></i>
+                    <i class="fa-solid fa-globe" style="color: gray"></i>
                     <span data-i18n="navbar.language">LANGUAGE</span>
-                    <!-- <i class="fa-solid fa-chevron-down"></i> -->
-                    <img src="img/header/Header-icon.png" alt="chevron-down" class="chevron-down">
+                    <i class="fa-solid fa-chevron-down"></i>
                   </a>
                   <ul
                     class="dropdown-menu dropdown-menu-end"
@@ -158,7 +158,7 @@
                     <li>
                       <button
                         class="dropdown-item"
-                        onclick="switchLanguage('vi')"                        
+                        onclick="switchLanguage('vi')"
                       >
                         Tiếng Việt
                       </button>
@@ -166,7 +166,7 @@
                     <li>
                       <button
                         class="dropdown-item"
-                        onclick="switchLanguage('en')"                        
+                        onclick="switchLanguage('en')"
                       >
                         English
                       </button>
@@ -183,20 +183,24 @@
 
     <main>
       <!-- Banner start -->
-      <section
-        class="banner-area-2 pt-145 mx-5"        
-      >
+      <section class="banner-area-2 pt-145 mx-5">
         <div class="container">
           <div class="row align-items-center pt-130 pb-140">
             <div class="col-xl-6 col-lg-8">
               <div class="banner-content py-5">
                 <div class="section-title text-start">
-                  <span class="short-title wow fadeInUp" 
+                  <span
+                    class="short-title wow fadeInUp"
                     data-i18n="banner.shortTitle"
-                    >Together, a better life</span>
-                  <h1 class="wow fadeInUp mb-0" data-wow-delay="0.2s"         data-i18n="banner.mainTitle">
-                    Meet Sino, 
-                    <br/>Fulfill Your Dreams
+                    >Together, a better life</span
+                  >
+                  <h1
+                    class="wow fadeInUp mb-0"
+                    data-wow-delay="0.2s"
+                    data-i18n="banner.mainTitle"
+                  >
+                    Meet Sino,
+                    <br />Fulfill Your Dreams
                   </h1>
                 </div>
               </div>
@@ -206,7 +210,628 @@
       </section>
       <!-- Banner end -->
 
-      <!-- banner section end-->
+      <!-- product section modified from card payment section -->
+      <section id="product" class="pt-50 pb-30">
+        <div class="container">
+          <div class="row gy-lg-0 gy-4">
+            <div class="col-lg-6 d-flex align-items-center order-2 order-lg-1">
+              <div class="content pt-5" style="background-color: #fdf4ed">
+                <h2 data-i18n="product.DigitalMicroloans">
+                  DIGITAL MICROLOANS
+                </h2>
+                <p data-i18n="product.Experience">
+                  Experience online lending, anytime, anywhere.
+                </p>
+                <h5 class="mt-5 mb-3">
+                  <img
+                    src="img/Group.svg"
+                    alt="icon"
+                    style="
+                      width: 16px;
+                      height: 16px;
+                      vertical-align: middle;
+                      margin-right: 5px;
+                    "
+                  />
+                  <span data-i18n="product.WhyChooseUs">WHY CHOOSE US</span>
+                </h5>
+                <p data-i18n="product.script">
+                  Experience the convenience of intelligence digital lending.
+                  Sinopac Bank offers quick and easy loans with a simple
+                  application process. Enjoy the flexibility to manage your
+                  finances on your terms.
+                </p>
+                <!-- <button>APPLY NOW !</button> -->
+
+                <div>
+                  <a class="theme-btn-2 mt-55" href="#easy-app">
+                    <span class="arrow"
+                      ><span class="horizontal-line"></span></span
+                    ><span data-i18n="product.ApplyNow">APPLY NOW</span>
+                  </a>
+                  <a class="theme-btn-2 mt-55 ms-2" href="#projects">
+                    <span class="arrow"
+                      ><span class="horizontal-line"></span></span
+                    ><span data-i18n="product.Details">DETAILS</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 mx-auto offset-xl-1 order-1 order-lg-2"
+              style="margin-bottom: -270px; z-index: -1000"
+            >
+              <div class="img-content">
+                <img
+                  class="card-1 w-100 img-fluid wow fadeInLeft"
+                  src="img/product/g8.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- product section end-->
+
+      <!-- steps section -->
+      <section
+        id="faq"
+        class="faq-area-3"
+        style="box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3)"
+      >
+        <div class="container">
+          <div class="row gy-lg-0 gy-4">
+            <!-- Left Column -->
+            <div class="col-lg-4">
+              <h2 class="wow fadeInUp mb-3" data-i18n="RightSteps.title">
+                Here's how it works.
+              </h2>
+              <p
+                class="wow fadeInUp"
+                data-i18n="RightSteps.subtitle"
+                data-wow-delay="0.3s"
+              >
+                When you're ready, we are ready.
+              </p>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-lg-8 pl-lg-30">
+              <!-- steps -->
+              <div class="how-it-work faq_detail" id="detail_steps">
+                <div class="row g-3">
+                  <div class="col-lg-6">
+                    <div class="single-widget apply-online">
+                      <div class="widget-header">
+                        <div class="widget-title">
+                          <h4 data-i18n="RightSteps.Column1">
+                            Loan Application
+                          </h4>
+                        </div>
+                      </div>
+
+                      <ul class="widget-content">
+                        <li class="active">
+                          <span class="number">1</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step1">
+                              Download and Register
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step11">
+                              Download the Easy App, register with personal
+                              information, and verify your identity.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">2</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step2">
+                              Complete Account Setup
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step22">
+                              Review information, and set password.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">3</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step3">
+                              Access Loan Application
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step33">
+                              Login to the Easy app, and select "Online Loan
+                              Application".
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">4</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step4">
+                              Review Loan Details
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step44">
+                              Check interest rate, loan amount, and tenor.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">5</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step5">
+                              Provide Loan Details
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step55">
+                              Choose the amount, and tenor, verify identity, and
+                              agree to terms.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">6</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step6">
+                              Submit Application
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step6">
+                              Provide additional info and documents, and submit
+                              an application.
+                            </p>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-6">
+                    <div class="single-widget consultation">
+                      <div class="widget-header">
+                        <div class="widget-title">
+                          <h4 data-i18n="RightSteps.Column2">
+                            Loan Disbursement
+                          </h4>
+                        </div>
+                      </div>
+
+                      <ul class="widget-content">
+                        <li class="active">
+                          <span class="number">1</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step7">
+                              Receive Approval Notification
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step77">
+                              Get an SMS with a contract link.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">2</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step8">
+                              Register for Digital Certificate
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step88">
+                              Register a CA, verify your ID, and complete a
+                              video.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">3</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step9">
+                              Sign Loan Contract
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step99">
+                              Log in to the Easy app, review the contract, and
+                              sign with your PIN.
+                            </p>
+                          </span>
+                        </li>
+                        <li>
+                          <span class="number">4</span>
+                          <span class="text">
+                            <span data-i18n="RightSteps.Step10">
+                              Loan Disbursement
+                            </span>
+                            <br />
+                            <p data-i18n="RightSteps.Step1010">
+                              Receive confirmation of disbursement via
+                              registered SMS an email.
+                            </p>
+                          </span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- steps end -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- steps section end -->
+
+      <!-- project section -->
+      <section id="projects" class="client-area-2 pt-60 pb-60">
+        <div class="container">
+          <h2 class="text-center mb-4 title" data-i18n="projects.title">
+            PROJECTS
+          </h2>
+          <div class="client-slider-2">
+            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
+              <a href="#detail_1">
+                <img src="img/projects/travel.png" id="project_1" />
+                <div class="introduction">
+                  <!-- <p style="font-size: large; font-weight: 500"> -->
+                  <h5 data-i18n="projects.name1">TRAVEL LOAN</h5>
+                  <p class="card-text" data-i18n="projects.subname1">
+                    Near and Dear
+                    <br />
+                    No Matter Where
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="single-client wow fadeInUp" data-wow-delay="0.3s">
+              <a href="#detail_2">
+                <img src="img/projects/teacherloan.png" id="project_2" />
+                <div class="introduction">
+                  <h5 data-i18n="projects.name2">TEACHER LOAN</h5>
+                  <p data-i18n="projects.subname2">
+                    Building Knowledge<br />
+                    Shaping Tomorrow
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="single-client wow fadeInUp" data-wow-delay="0.5s">
+              <a href="#detail_3">
+                <img src="img/projects/furniture.png" id="project_3" />
+                <div class="introduction">
+                  <h5 data-i18n="projects.name3">FURNITURE LOAN</h5>
+                  <p data-i18n="projects.subname3">
+                    Design Your Space<br />
+                    Define Your Style
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
+              <a href="#detail_4">
+                <img src="img/projects/experience.png" id="project_4" />
+                <div class="introduction">
+                  <h5 data-i18n="projects.name4">EXPERIENCE LOAN</h5>
+                  <p data-i18n="projects.subname4">
+                    Look Outside<br />
+                    Shine Inside
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
+              <a href="#detail_5">
+                <img src="img/projects/study.png" id="project_5" />
+                <div class="introduction">
+                  <h5 data-i18n="projects.name5">STUDY LOAN</h5>
+                  <p data-i18n="projects.subname5">
+                    Borrow Education<br />
+                    Harvest Future
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
+              <a href="#detail_6">
+                <img src="img/projects/youth.png" id="project_6" />
+                <div class="introduction">
+                  <h5 data-i18n="projects.name6">YOUTH LOAN</h5>
+                  <p data-i18n="projects.subname6">
+                    Ignite Youth<br />
+                    Realize Dream
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project section end -->
+      <!-- project detail section -->
+      <section class="project_detail">
+        <div class="container">
+          <div class="detail d-none" id="detail_1">
+            <div class="row">
+              <div class="col-5">
+                <img src="img/projects/travel.png" alt="" srcset="" />
+                <div class="introduction">
+                  <p data-i18n="details.banner1">
+                    Your journey is not just yours – A travel for the whole
+                    family.
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 pl-lg-20">
+                <div class="feature">
+                  <h3 data-i18n="details.title1">TRAVEL LOAN</h3>
+                  <h4 data-i18n="details.featureHead1">
+                    Easy App – Simple clicks, family travel awaits!
+                  </h4>
+                  <p data-i18n="details.featureContent1">
+                    Enjoy a consumer loan experience with Sinopac. Benefit from
+                    special offers with our airline and hotel partners,
+                    competitive interest rates, and the convenience of app-based
+                    disbursement.
+                  </p>
+                </div>
+                <div class="project-cta">
+                  <div class="inner">
+                    <p data-i18n="details.testimonial1">
+                      "With Sinopac, my family enjoy every travel precious
+                      moment together without worries."
+                    </p>
+                    <h4 data-i18n="details.ctaHead1">
+                      Create family memories with Sinopac!
+                    </h4>
+                    <a
+                      href="#easy-app"
+                      class="theme-btn theme-btn-lg mb-10"
+                      data-i18n="details.cta"
+                    >
+                      Get it now!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail d-none" id="detail_2">
+            <div class="row">
+              <div class="col-5">
+                <img src="img/projects/teacherloan.png" alt="" srcset="" />
+                <div class="introduction">
+                  <p data-i18n="details.banner2">
+                    Secure your dreams with our special loan package for
+                    teacher.
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 pl-lg-20">
+                <div class="feature">
+                  <h3 data-i18n="details.title2">TEACHER LOAN</h3>
+                  <h4 data-i18n="details.featureHead2">
+                    Invest in the Future, Elevate Knowledge with Sinopac.
+                  </h4>
+                  <p data-i18n="details.featureContent2">
+                    Special loans for teachers, easy access to courses and
+                    workshops. Simple process, fast disbursement via Easy app.
+                    Contact us now for consultation!
+                  </p>
+                </div>
+                <div class="project-cta">
+                  <div class="inner">
+                    <p data-i18n="details.testimonial2">
+                      "The premium loan helps teachers contribute to the
+                      national mission of providing better learning
+                      opportunities for students across Vietnam."
+                    </p>
+                    <h4 data-i18n="details.ctaHead2">
+                      Supporting teachers, empowering dreams of knowledge!
+                    </h4>
+                    <a
+                      href="#easy-app"
+                      class="theme-btn theme-btn-lg mb-10"
+                      data-i18n="details.cta"
+                    >
+                      Get it now!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail d-none" id="detail_3">
+            <div class="row">
+              <div class="col-5">
+                <img src="img/projects/furniture.png" alt="" srcset="" />
+                <div class="introduction">
+                  <p data-i18n="details.banner3">
+                    Live in luxury with our special interior design loan package
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 pl-lg-20">
+                <div class="feature">
+                  <h3 data-i18n="details.title3">INTERIOR LOAN</h3>
+                  <h4 data-i18n="details.featureHead3">
+                    Each piece of furniture tells its own story. Let SinoPac
+                    help you continue writing your story.
+                  </h4>
+                  <p data-i18n="details.featureContent3">
+                    Continue your home's story with SinoPac's furniture loan
+                    package. Competitive interest rates, simple procedures,
+                    helping you own a classy living space.
+                  </p>
+                </div>
+                <div class="project-cta">
+                  <div class="inner">
+                    <p data-i18n="details.testimonial3">
+                      "The dream of an ideal living space has become reality
+                      thanks to Sinopac with quick unsecured loans for
+                      furniture, handcrafted furniture items are not just
+                      decorations, but also vivid paintings of our souls."
+                    </p>
+                    <h4 data-i18n="details.ctaHead3">
+                      Start building distinctive interior design styles with
+                      Easy App
+                    </h4>
+                    <a
+                      href="#easy-app"
+                      class="theme-btn theme-btn-lg mb-10"
+                      data-i18n="details.cta"
+                    >
+                      Get it now!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail d-none" id="detail_4">
+            <div class="row">
+              <div class="col-5">
+                <img src="img/projects/experience.png" alt="" srcset="" />
+                <div class="introduction">
+                  <p data-i18n="details.banner4">
+                    Explore the vast world waiting for you – Start with SinoPac
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 pl-lg-20">
+                <div class="feature">
+                  <h3 data-i18n="details.title4">EXPERIENCE LOAN</h3>
+                  <h4 data-i18n="details.featureHead4">
+                    Easy travel loans, discover all wonders
+                  </h4>
+                  <p data-i18n="details.featureContent4">
+                    SinoPac helps you explore with special loan offers. Low
+                    interest rates, simple procedures, making your dream journey
+                    a reality.
+                  </p>
+                </div>
+                <div class="project-cta">
+                  <div class="inner">
+                    <p data-i18n="details.testimonial4">
+                      "Sinopac opened doors to new horizons. With the travel
+                      credit loan, we've fulfilled our wanderlust dreams, freely
+                      exploring the world."
+                    </p>
+                    <h4 data-i18n="details.ctaHead4">
+                      Financial flexibility, unlimited world exploration
+                    </h4>
+                    <a
+                      href="#easy-app"
+                      class="theme-btn theme-btn-lg mb-10"
+                      data-i18n="details.cta"
+                    >
+                      Get it now!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail d-none" id="detail_5">
+            <div class="row">
+              <div class="col-5">
+                <img src="img/projects/study.png" alt="" srcset="" />
+                <div class="introduction">
+                  <p data-i18n="details.banner5">
+                    Your journey, we accompany: Apply for study abroad loan
+                    today!
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 pl-lg-20">
+                <div class="feature">
+                  <h3 data-i18n="details.title5">STUDY LOAN</h3>
+                  <h4 data-i18n="details.featureHead5">
+                    Elevate Skills - Develop Self - Support Future
+                  </h4>
+                  <p data-i18n="details.featureContent5">
+                    SinoPac accompanies your study abroad with preferential loan
+                    packages, quick procedures, helping you achieve your
+                    educational dreams easily.
+                  </p>
+                </div>
+                <div class="project-cta">
+                  <div class="inner">
+                    <p data-i18n="details.testimonial5">
+                      "With just a few minutes of bank credit registration, I
+                      could start my learning journey"
+                    </p>
+                    <h4 data-i18n="details.ctaHead5">
+                      Download App - Get Education Loan
+                    </h4>
+                    <a
+                      href="#easy-app"
+                      class="theme-btn theme-btn-lg mb-10"
+                      data-i18n="details.cta"
+                    >
+                      Get it now!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="detail d-none" id="detail_6">
+            <div class="row">
+              <div class="col-5">
+                <img src="img/projects/youth.png" alt="" srcset="" />
+                <div class="introduction">
+                  <p data-i18n="details.banner6">
+                    Ignite passion, conquer dreams - Youth to live fully with
+                    SinoPac!
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 pl-lg-20">
+                <div class="feature">
+                  <h3 data-i18n="details.title6">YOUTH LOAN</h3>
+                  <h4 data-i18n="details.featureHead6">
+                    Shine with your own identity with SinoPac!
+                  </h4>
+                  <p data-i18n="details.featureContent6">
+                    Sinopac: Your companion in youth dreams. With preferential
+                    loan packages and simple procedures, Sinopac helps you
+                    confidently implement all passion exploration plans.
+                  </p>
+                </div>
+                <div class="project-cta">
+                  <div class="inner">
+                    <p data-i18n="details.testimonial6">
+                      "Loan Sinopac - Stylish, no cost worries. Easy financial
+                      management, enjoy life."
+                    </p>
+                    <h4 data-i18n="details.ctaHead6">
+                      Fulfill youth passion, worry-free
+                    </h4>
+                    <a
+                      href="#easy-app"
+                      class="theme-btn theme-btn-lg mb-10"
+                      data-i18n="details.cta"
+                    >
+                      Get it now!
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project detail section end -->
 
       <!-- easy app section modified from internet banking section -->
       <section id="easy-app">
@@ -228,9 +853,7 @@
             <!-- <div
               class="col-lg-6 col-xl-4 offset-xl-1 d-flex align-items-center"
             > -->
-            <div
-              class="col-lg-6 col-xl-5 d-flex align-items-center"
-            >
+            <div class="col-lg-6 col-xl-5 d-flex align-items-center">
               <div class="text-content">
                 <h2 class="text-center my-5 title">EASY APP</h2>
                 <ul>
@@ -245,7 +868,9 @@
                         margin-right: 5px;
                       "
                     />
-                    <span data-i18n="easyApp.GlobalFinancialManagement">Global financial management</span>
+                    <span data-i18n="easyApp.GlobalFinancialManagement"
+                      >Global financial management</span
+                    >
                   </li>
 
                   <li class="line-spacing">
@@ -259,7 +884,9 @@
                         margin-right: 5px;
                       "
                     />
-                    <span data-i18n="easyApp.OnlinePersonalLoan">Online personal loan</span>
+                    <span data-i18n="easyApp.OnlinePersonalLoan"
+                      >Online personal loan</span
+                    >
                   </li>
                   <li class="line-spacing">
                     <img
@@ -272,7 +899,9 @@
                         margin-right: 5px;
                       "
                     />
-                    <span data-i18n="easyApp.QuickAndSecureLogin">Quick and secure login</span>
+                    <span data-i18n="easyApp.QuickAndSecureLogin"
+                      >Quick and secure login</span
+                    >
                   </li>
                   <li class="line-spacing">
                     <img
@@ -285,7 +914,9 @@
                         margin-right: 5px;
                       "
                     />
-                    <span data-i18n="easyApp.HighestLevelOfSecurity">Highest level of security</span>
+                    <span data-i18n="easyApp.HighestLevelOfSecurity"
+                      >Highest level of security</span
+                    >
                   </li>
                 </ul>
                 <p class="mt-5" data-i18n="easyApp.DownloadApp">
@@ -327,358 +958,6 @@
       </section>
       <!-- easy app section end-->
 
-      <!-- product section modified from card payment section -->
-      <section id="product" class="pt-50 pb-30">
-        <div class="container">
-          <div class="row gy-lg-0 gy-4">
-            <div class="col-lg-6 d-flex align-items-center order-2 order-lg-1">
-              <div class="content pt-5" style="background-color: #fdf4ed">
-                <h2 data-i18n="product.DigitalMicroloans">DIGITAL MICROLOANS</h2>
-                <p data-i18n="product.Experience">
-                  Experience online lending, anytime, anywhere.
-                </p>
-                <h5 class="mt-5 mb-3">
-                  <img
-                    src="img/Group.svg"
-                    alt="icon"
-                    style="
-                      width: 16px;
-                      height: 16px;
-                      vertical-align: middle;
-                      margin-right: 5px;
-                    "                    
-                  />
-                  <span data-i18n="product.WhyChooseUs">WHY CHOOSE US</span>
-                </h5>
-                <p data-i18n="product.script">
-                  Experience the convenience of intelligence digital lending.
-                  Sinopac Bank offers quick and easy loans with a simple
-                  application process.
-                  Enjoy the flexibility to manage your finances on your terms.
-                </p>
-                <!-- <button>APPLY NOW !</button> -->
-
-                <div>
-                  <a class="theme-btn-2 mt-55" href="#easy-app">
-                    <span class="arrow"
-                      ><span class="horizontal-line"></span></span
-                    ><span data-i18n="product.ApplyNow">APPLY NOW</span>
-                  </a>
-                  <a class="theme-btn-2 mt-55 ms-2" href="#projects">
-                    <span class="arrow"
-                      ><span class="horizontal-line"></span></span
-                    ><span data-i18n="product.Details">DETAILS</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-md-6 mx-auto offset-xl-1 order-1 order-lg-2"
-              style="margin-bottom: -270px; z-index: -1000"
-            >
-              <div class="img-content">
-                <img
-                  class="card-1 w-100 img-fluid wow fadeInLeft"
-                  src="img/product/g8.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- product section end-->
-
-      <!-- project section -->
-      <section id="projects" class="client-area-2 pt-60 pb-60">
-        <div class="container">
-          <h2 class="text-center mb-4 title" data-i18n="projects.title">PROJECTS</h2>
-          <div class="client-slider-2">
-            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
-              <a href="#detail_1">
-                <img src="img/projects/travel.png" id="project_1" />
-                <div class="introduction">
-                  <!-- <p style="font-size: large; font-weight: 500"> -->
-                  <h5 data-i18n="projects.name1">TRAVEL LOAN</h5>
-                  <p class="card-text" data-i18n="projects.subname1">
-                    Near and Dear
-                    <br />
-                    No Matter Where
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="single-client wow fadeInUp" data-wow-delay="0.3s">
-              <a href="#detail_2">
-                <img src="img/projects/teacherloan.png" id="project_2" />
-                <div class="introduction">
-                  <h5 data-i18n="projects.name2">TEACHER LOAN</h5>
-                  <p data-i18n="projects.subname2">
-                    Building Knowledge<br>
-                    Shaping Tomorrow
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="single-client wow fadeInUp" data-wow-delay="0.5s">
-              <a href="#detail_3">
-                <img src="img/projects/furniture.png" id="project_3" />
-                <div class="introduction">
-                  <h5 data-i18n="projects.name3">FURNITURE LOAN</h5>
-                  <p data-i18n="projects.subname3">
-                    Design Your Space<br>
-                    Define Your Style
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
-              <a href="#detail_4">
-                <img src="img/projects/experience.png" id="project_4" />
-                <div class="introduction">
-                  <h5 data-i18n="projects.name4">EXPERIENCE LOAN</h5>
-                  <p data-i18n="projects.subname4">
-                    Look Outside<br>
-                    Shine Inside
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
-              <a href="#detail_5">
-                <img src="img/projects/study.png" id="project_5" />
-                <div class="introduction">
-                  <h5 data-i18n="projects.name5">STUDY LOAN</h5>
-                  <p data-i18n="projects.subname5">
-                    Borrow Education<br>
-                    Harvest Future
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="single-client wow fadeInUp" data-wow-delay="0.1s">
-              <a href="#detail_6">
-                <img src="img/projects/youth.png" id="project_6" />
-                <div class="introduction">
-                  <h5 data-i18n="projects.name6">YOUTH LOAN</h5>
-                  <p data-i18n="projects.subname6">
-                    Ignite Youth<br>
-                    Realize Dream
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- project section end -->
-      <!-- project detail section -->
-      <section class="project_detail">
-        <div class="container">
-          <div class="detail d-none" id="detail_1">
-            <div class="row">
-              <div class="col-5">
-                <img src="img/projects/travel.png" alt="" srcset="" />
-                <div class="introduction">
-                  <p data-i18n="details.banner1">
-                    Your journey is not just yours – A travel for the whole family.
-                  </p>
-                </div>
-              </div>
-              <div class="col-6 pl-lg-20">
-                <div class="feature">
-                  <h3 data-i18n="details.title1">TRAVEL LOAN</h3>
-                  <h4 data-i18n="details.featureHead1">Easy App – Simple clicks, family travel awaits!</h4>
-                  <p data-i18n="details.featureContent1">
-                    Enjoy a consumer loan experience with Sinopac. Benefit from special offers with our airline and hotel partners, competitive interest rates, and the convenience of app-based disbursement.
-                  </p>
-                </div>
-                <div class="project-cta">
-                  <div class="inner">
-                    <p data-i18n="details.testimonial1">
-                      "With Sinopac, my family enjoy every travel precious
-                      moment together without worries."
-                    </p>
-                    <h4 data-i18n="details.ctaHead1">Create family memories with Sinopac!</h4>
-                    <a href="#easy-app" class="theme-btn theme-btn-lg mb-10" data-i18n="details.cta">
-                      Get it now!                      
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="detail d-none" id="detail_2">
-            <div class="row">
-                <div class="col-5">
-                    <img src="img/projects/teacherloan.png" alt="" srcset="" />
-                    <div class="introduction">
-                        <p data-i18n="details.banner2">
-                          Secure your dreams with our special loan package for teacher.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-6 pl-lg-20">
-                    <div class="feature">
-                      <h3 data-i18n="details.title2">TEACHER LOAN</h3>
-                      <h4 data-i18n="details.featureHead2">Invest in the Future, Elevate Knowledge with Sinopac.</h4>
-                      <p data-i18n="details.featureContent2">
-                        Special loans for teachers, easy access to courses and workshops.
-                        Simple process, fast disbursement via Easy app.
-                        Contact us now for consultation!
-                      </p>
-                    </div>
-                    <div class="project-cta">
-                        <div class="inner">
-                            <p data-i18n="details.testimonial2">
-                              "The premium loan helps teachers contribute to the national mission of providing better learning opportunities for students across Vietnam."
-                            </p>
-                            <h4 data-i18n="details.ctaHead2">Supporting teachers, empowering dreams of knowledge!</h4>
-                            <a href="#easy-app" class="theme-btn theme-btn-lg mb-10" data-i18n="details.cta">
-                              Get it now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="detail d-none" id="detail_3">
-            <div class="row">
-                <div class="col-5">
-                    <img src="img/projects/furniture.png" alt="" srcset="" />
-                    <div class="introduction">
-                        <p data-i18n="details.banner3">
-                          Live in luxury with our special interior design loan package
-                        </p>
-                    </div>
-                </div>
-                <div class="col-6 pl-lg-20">
-                    <div class="feature">
-                      <h3 data-i18n="details.title3">INTERIOR LOAN</h3>
-                      <h4 data-i18n="details.featureHead3">Each piece of furniture tells its own story. Let SinoPac help you continue writing your story.</h4>
-                      <p data-i18n="details.featureContent3">
-                        Continue your home's story with SinoPac's furniture loan package. Competitive interest rates, simple procedures, helping you own a classy living space.
-                      </p>
-                    </div>
-                    <div class="project-cta">
-                        <div class="inner">
-                            <p data-i18n="details.testimonial3">
-                              "The dream of an ideal living space has become reality thanks to Sinopac with quick unsecured loans for furniture, handcrafted furniture items are not just decorations, but also vivid paintings of our souls."
-                            </p>
-                            <h4 data-i18n="details.ctaHead3">Start building distinctive interior design styles with Easy App</h4>
-                            <a href="#easy-app" class="theme-btn theme-btn-lg mb-10" data-i18n="details.cta">
-                              Get it now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="detail d-none" id="detail_4">
-            <div class="row">
-                <div class="col-5">
-                    <img src="img/projects/experience.png" alt="" srcset="" />
-                    <div class="introduction">
-                        <p data-i18n="details.banner4">
-                          Explore the vast world waiting for you – Start with SinoPac
-                        </p>
-                    </div>
-                </div>
-                <div class="col-6 pl-lg-20">
-                    <div class="feature">
-                      <h3 data-i18n="details.title4">EXPERIENCE LOAN</h3>
-                      <h4 data-i18n="details.featureHead4">Easy travel loans, discover all wonders</h4>
-                      <p data-i18n="details.featureContent4">
-                        SinoPac helps you explore with special loan offers. Low interest rates, simple procedures, making your dream journey a reality.
-                      </p>
-                    </div>
-                    <div class="project-cta">
-                        <div class="inner">
-                            <p data-i18n="details.testimonial4">
-                              "Sinopac opened doors to new horizons. With the travel credit loan, we've fulfilled our wanderlust dreams, freely exploring the world."
-                            </p>
-                            <h4 data-i18n="details.ctaHead4">Financial flexibility, unlimited world exploration</h4>
-                            <a href="#easy-app" class="theme-btn theme-btn-lg mb-10" data-i18n="details.cta">
-                              Get it now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="detail d-none" id="detail_5">
-            <div class="row">
-                <div class="col-5">
-                    <img src="img/projects/study.png" alt="" srcset="" />
-                    <div class="introduction">
-                        <p data-i18n="details.banner5">
-                          Your journey, we accompany: Apply for study abroad loan today!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-6 pl-lg-20">
-                    <div class="feature">
-                      <h3 data-i18n="details.title5">STUDY LOAN</h3>
-                      <h4 data-i18n="details.featureHead5">Elevate Skills - Develop Self - Support Future</h4>
-                      <p data-i18n="details.featureContent5">
-                        SinoPac accompanies your study abroad with preferential loan packages, quick procedures, helping you achieve your educational dreams easily.
-                      </p>
-                    </div>
-                    <div class="project-cta">
-                        <div class="inner">
-                            <p data-i18n="details.testimonial5">
-                              "With just a few minutes of bank credit registration, I could start my learning journey"
-                            </p>
-                            <h4 data-i18n="details.ctaHead5">Download App - Get Education Loan</h4>
-                            <a href="#easy-app" class="theme-btn theme-btn-lg mb-10" data-i18n="details.cta">
-                              Get it now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-
-          <div class="detail d-none" id="detail_6">
-            <div class="row">
-                <div class="col-5">
-                    <img src="img/projects/youth.png" alt="" srcset="" />
-                    <div class="introduction">
-                        <p data-i18n="details.banner6">
-                          Ignite passion, conquer dreams - Youth to live fully with SinoPac!
-                        </p>
-                    </div>
-                </div>
-                <div class="col-6 pl-lg-20">
-                    <div class="feature">
-                      <h3 data-i18n="details.title6">YOUTH LOAN</h3>
-                      <h4 data-i18n="details.featureHead6">Shine with your own identity with SinoPac!</h4>
-                      <p data-i18n="details.featureContent6">
-                        Sinopac: Your companion in youth dreams. With preferential loan packages and simple procedures, Sinopac helps you confidently implement all passion exploration plans.
-                      </p>
-                    </div>
-                    <div class="project-cta">
-                        <div class="inner">
-                            <p data-i18n="details.testimonial6">
-                              "Loan Sinopac - Stylish, no cost worries. Easy financial management, enjoy life."
-                            </p>
-                            <h4 data-i18n="details.ctaHead6">Fulfill youth passion, worry-free</h4>
-                            <a href="#easy-app" class="theme-btn theme-btn-lg mb-10" data-i18n="details.cta">
-                              Get it now!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- project detail section end -->
-
       <!-- Frequently Ask Questions section -->
       <section id="faq" class="faq-area-3">
         <div class="container">
@@ -687,19 +966,10 @@
             <div class="col-lg-4">
               <h1 class="text-end">
                 <span data-i18n="Left.title">Frequently asked general</span>
-                <span class="underline-shape" data-i18n="Left.underline">questions</span>
+                <span class="underline-shape" data-i18n="Left.underline">
+                  questions
+                </span>
               </h1>
-              <div class="faq_type">
-                <button class="faq_btn theme-btn theme-btn-rounded-2 active" 
-                        id="faq_product" 
-                        data-i18n="Left.Product">Product</button>
-                <button class="faq_btn theme-btn theme-btn-rounded-2" 
-                        id="faq_steps" 
-                        data-i18n="Left.Steps">Steps</button>
-                <button class="faq_btn theme-btn theme-btn-rounded-2" 
-                        id="faq_support" 
-                        data-i18n="Left.Support">Support</button>
-              </div>
             </div>
 
             <!-- Right Column - FAQ Content -->
@@ -716,12 +986,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseOne"
                           aria-expanded="true"
-                          aria-controls="collapseOne"                          
+                          aria-controls="collapseOne"
                         >
-                          <span data-i18n="RightProduct.Q1">1. What is an Online Personal Loan?</span><i
-                            class="icon_plus"
-                          ></i
-                          ><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q1">
+                            1. What is an Online Personal Loan?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -730,7 +1001,7 @@
                         aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A1">
+                        <div class="faq-body" data-i18n="RightProduct.A1">
                           <p>
                             It's an unsecured loan offered through the Easy App
                             by Bank SinoPac, following the bank's policies and
@@ -750,10 +1021,13 @@
                           data-bs-target="#collapseTwo"
                           aria-expanded="true"
                           aria-controls="collapseTwo"
-                         
                         >
-                          <span data-i18n="RightProduct.Q2">2. What documents do I need for the loan application?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q2">
+                            2. What documents do I need for the loan
+                            application?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -762,7 +1036,7 @@
                         aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A2">
+                        <div class="faq-body" data-i18n="RightProduct.A2">
                           <p>
                             Valid ID, active mobile phone number, and financial
                             documents (e.g., salary statements from the last 3
@@ -782,10 +1056,12 @@
                           data-bs-target="#collapseThree"
                           aria-expanded="true"
                           aria-controls="collapseThree"
-                         
                         >
-                          <span data-i18n="RightProduct.Q3">3. What is the maximum loan amount I can apply for?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q3">
+                            3. What is the maximum loan amount I can apply for?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -794,7 +1070,7 @@
                         aria-labelledby="headingThree"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A3">
+                        <div class="faq-body" data-i18n="RightProduct.A3">
                           <p>You can borrow up to 500 million VND per loan.</p>
                         </div>
                       </div>
@@ -809,10 +1085,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseFour"
                           aria-expanded="true"
-                          aria-controls="collapseFour"                          
+                          aria-controls="collapseFour"
                         >
-                          <span data-i18n="RightProduct.Q4">4. Do I need a guarantor or collateral?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q4">
+                            4. Do I need a guarantor or collateral?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -821,7 +1100,7 @@
                         aria-labelledby="headingFour"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A4">
+                        <div class="faq-body" data-i18n="RightProduct.A4">
                           <p>
                             No, this is an unsecured loan, so no guarantor or
                             collateral is required.
@@ -839,10 +1118,14 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseFive"
                           aria-expanded="true"
-                          aria-controls="collapseFive"                          
+                          aria-controls="collapseFive"
                         >
-                          <span data-i18n="RightProduct.Q5">5. How is the monthly repayment calculated, and how do
-                          I pay?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q5">
+                            5. How is the monthly repayment calculated, and how
+                            do I pay?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -851,7 +1134,7 @@
                         aria-labelledby="headingFive"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A5">
+                        <div class="faq-body" data-i18n="RightProduct.A5">
                           <p>
                             Equal monthly installments based on the reducing
                             balance. Payments are automatically deducted from
@@ -870,10 +1153,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapseSix"
                           aria-expanded="true"
-                          aria-controls="collapseSix"                          
+                          aria-controls="collapseSix"
                         >
-                          <span data-i18n="RightProduct.Q6">6. What is the maximum loan duration?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q6">
+                            6. What is the maximum loan duration?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -882,7 +1168,7 @@
                         aria-labelledby="headingSix"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A6">
+                        <div class="faq-body" data-i18n="RightProduct.A6">
                           <p>You can select a loan tenor of up to 48 months.</p>
                         </div>
                       </div>
@@ -897,10 +1183,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse7"
                           aria-expanded="true"
-                          aria-controls="collapse7"                          
+                          aria-controls="collapse7"
                         >
-                          <span data-i18n="RightProduct.Q7">7. What happens if I miss a payment?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q7">
+                            7. What happens if I miss a payment?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -909,7 +1198,7 @@
                         aria-labelledby="heading7"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A7">
+                        <div class="faq-body" data-i18n="RightProduct.A7">
                           <p>
                             Late payments are reported to the Credit Information
                             Center (CIC) and may incur additional interest based
@@ -928,10 +1217,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse8"
                           aria-expanded="true"
-                          aria-controls="collapse8"                          
+                          aria-controls="collapse8"
                         >
-                          <span data-i18n="RightProduct.Q8">8. How will the bank remind me to make repayments?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q8">
+                            8. How will the bank remind me to make repayments?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -940,7 +1232,7 @@
                         aria-labelledby="heading8"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A8">
+                        <div class="faq-body" data-i18n="RightProduct.A8">
                           <p>
                             SMS reminders will be sent before your repayment is
                             due. Ensure you have enough funds in your SinoPac
@@ -959,10 +1251,14 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse9"
                           aria-expanded="true"
-                          aria-controls="collapse9"                          
+                          aria-controls="collapse9"
                         >
-                          <span data-i18n="RightProduct.Q9">9. When will I receive the loan approval
-                          notification?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q9">
+                            9. When will I receive the loan approval
+                            notification?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -971,7 +1267,7 @@
                         aria-labelledby="heading9"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A9">
+                        <div class="faq-body" data-i18n="RightProduct.A9">
                           <p>
                             Bank SinoPac will send an SMS immediately after your
                             loan is approved.
@@ -989,10 +1285,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse10"
                           aria-expanded="true"
-                          aria-controls="collapse10"                          
+                          aria-controls="collapse10"
                         >
-                          <span data-i18n="RightProduct.Q10">10. How long will it take to receive the loan?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q10">
+                            10. How long will it take to receive the loan?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1001,7 +1300,7 @@
                         aria-labelledby="heading10"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A10">
+                        <div class="faq-body" data-i18n="RightProduct.A10">
                           <p>
                             The loan amount will be credited to your account
                             within 1-2 working days after approval.
@@ -1019,10 +1318,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse11"
                           aria-expanded="true"
-                          aria-controls="collapse11"                          
+                          aria-controls="collapse11"
                         >
-                          <span data-i18n="RightProduct.Q11">11. Can I pay off my loan early?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q11">
+                            11. Can I pay off my loan early?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1031,7 +1333,7 @@
                         aria-labelledby="heading11"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A11">
+                        <div class="faq-body" data-i18n="RightProduct.A11">
                           <p>
                             Yes, you can repay your loan early, but there may be
                             fees based on your credit agreement.
@@ -1049,10 +1351,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse12"
                           aria-expanded="true"
-                          aria-controls="collapse12"                          
+                          aria-controls="collapse12"
                         >
-                          <span data-i18n="RightProduct.Q12">12. What happens after I finish paying off the loan?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q12">
+                            12. What happens after I finish paying off the loan?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1061,7 +1366,7 @@
                         aria-labelledby="heading12"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A12">
+                        <div class="faq-body" data-i18n="RightProduct.A12">
                           <p>
                             Your loan account will be closed, and a final
                             statement will be issued.
@@ -1070,7 +1375,7 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Q8 -->
+                  <!-- Q13 -->
                   <div class="single-faq wow fadeInUp" data-wow-delay="0.1s">
                     <div class="w-100">
                       <div class="faq-header" id="heading13">
@@ -1078,11 +1383,15 @@
                           class="mb-0 collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse13"
-                          aria-expanded="true"                          
-                          aria-controls="collapse13"                          
+                          aria-expanded="true"
+                          aria-controls="collapse13"
                         >
-                          <span data-i18n="RightProduct.Q13">13. Are there any penalties for early or missed
-                          payments?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q13">
+                            13. Are there any penalties for early or missed
+                            payments?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1091,7 +1400,7 @@
                         aria-labelledby="heading13"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A13">
+                        <div class="faq-body" data-i18n="RightProduct.A13">
                           <p>
                             Late or missed payments may incur additional fees.
                             Early repayment fees depend on your loan agreement.
@@ -1109,10 +1418,14 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse14"
                           aria-expanded="true"
-                          aria-controls="collapse14"                         
+                          aria-controls="collapse14"
                         >
-                          <span data-i18n="RightProduct.Q14">14. Can I apply for a second loan while repaying my
-                          first loan?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q14">
+                            14. Can I apply for a second loan while repaying my
+                            first loan?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1121,7 +1434,7 @@
                         aria-labelledby="heading14"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A14">
+                        <div class="faq-body" data-i18n="RightProduct.A14">
                           <p>
                             Your eligibility for a second loan depends on your
                             current credit standing and repayment history.
@@ -1138,11 +1451,14 @@
                           class="mb-0 collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse15"
-                          aria-expanded="true"                          
-                          aria-controls="collapse15"                          
+                          aria-expanded="true"
+                          aria-controls="collapse15"
                         >
-                          <span data-i18n="RightProduct.Q15">15. Can I change my monthly installment date?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q15">
+                            15. Can I change my monthly installment date?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1151,7 +1467,7 @@
                         aria-labelledby="heading15"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A15">
+                        <div class="faq-body" data-i18n="RightProduct.A15">
                           <p>
                             Contact the bank for support. Changes are possible
                             under certain conditions.
@@ -1169,10 +1485,14 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse16"
                           aria-expanded="true"
-                          aria-controls="collapse16"                          
+                          aria-controls="collapse16"
                         >
-                          <span data-i18n="RightProduct.Q16">16. Can I apply for this loan if I have loans with
-                          other banks?</span><i class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q16">
+                            16. Can I apply for this loan if I have loans with
+                            other banks?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1181,7 +1501,7 @@
                         aria-labelledby="heading16"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A16">
+                        <div class="faq-body" data-i18n="RightProduct.A16">
                           <p>
                             Yes, but your application will be assessed based on
                             your credit history and debt levels.
@@ -1199,10 +1519,13 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#collapse17"
                           aria-expanded="true"
-                          aria-controls="collapse17"                          
+                          aria-controls="collapse17"
                         >
-                          <span data-i18n="RightProduct.Q17">17. How will I receive the loan contract?</span><i
-                            class="icon_plus"></i><i class="icon_minus-06"></i>
+                          <span data-i18n="RightProduct.Q17">
+                            17. How will I receive the loan contract?
+                          </span>
+                          <i class="icon_plus"></i>
+                          <i class="icon_minus-06"></i>
                         </h4>
                       </div>
                       <div
@@ -1211,7 +1534,7 @@
                         aria-labelledby="heading17"
                         data-bs-parent="#accordionExample"
                       >
-                        <div class="faq-body"  data-i18n="RightProduct.A17">
+                        <div class="faq-body" data-i18n="RightProduct.A17">
                           <p>
                             Bank SinoPac will send the contract to your
                             registered email. The file will be encrypted with a
@@ -1222,253 +1545,12 @@
                     </div>
                   </div>
                 </div>
-                <!-- <h6 class="more-contact">
-                  Have more question ? <a href="">Contact Us</a>
-                </h6> -->
               </div>
-
-
-              <!-- steps -->
-              <div class="how-it-work faq_detail d-none" id="detail_steps">
-                <!-- <div class="container"> -->
-                <!-- <div class="row">
-                    <div class="col-md-8 mx-auto">
-                      <div class="section-title">
-                        <h2 class="wow fadeInUp mb-3">Here's how it works.</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.3s">
-                          When you're ready, SiniPac Microloans is ready too -
-                          24 hours a day, 7 days a week.
-                        </p>
-                      </div>
-                    </div>
-                  </div> -->
-
-
-                <!-- <div class="row gy-lg-0 gy-3"> -->
-                <div class="row g-3">
-                  <div class="col-lg-6">
-                    <div
-                      class="single-widget apply-online"
-                     
-                    >
-                      <div class="widget-header">
-                        <!-- <div class="widget-img">
-                            <img src="img/how-works/icon-1.png" alt="icon" />
-                          </div> -->
-                        <div class="widget-title">
-                          <h4 data-i18n="RightSteps.Column1">Loan Application</h4>
-                          <!-- <p>
-                              That is why we have a wide range of you can apply
-                              for a Personal Loan.
-                            </p> -->
-                        </div>
-                      </div>
-
-
-
-
-                      <ul class="widget-content">
-                        <li class="active">
-                          <span class="number">1</span>
-                          <span class="text"><span data-i18n="RightSteps.Step1">Download and Register</span>  <br>
-                            <p data-i18n="RightSteps.Step11">Download the Easy App, register with personal information, and verify your identity.</p>
-                          </span>
-                        </li>
-                        <li>
-                          <span class="number">2</span>
-                          <span class="text"><span data-i18n="RightSteps.Step2">Complete Account Setup</span>  <br>
-                            <p data-i18n="RightSteps.Step22">Review information, and set password.</p>
-                            </span
-                          >
-                        </li>
-                        <li>
-                          <span class="number">3</span>
-                          <span class="text"><span data-i18n="RightSteps.Step3">Access Loan Application</span>  <br>
-                            <p data-i18n="RightSteps.Step33">Login to the Easy app, and select "Online Loan Application".</p>
-                            </span
-                          >
-                        </li>
-                        <li>
-                          <span class="number">4</span>
-                          <span class="text"><span data-i18n="RightSteps.Step4">Review Loan Details</span>  <br>
-                            <p data-i18n="RightSteps.Step44">Check interest rate, loan amount, and tenor.</p>
-                          </span>
-                        </li>
-                        <li>
-                          <span class="number">5</span>
-                          <span class="text"><span data-i18n="RightSteps.Step5">Provide Loan Details</span>  <br>
-                            <p data-i18n="RightSteps.Step55">Choose the amount, and tenor, verify identity, and agree to terms.</p>
-                            </span
-                          >
-                        </li>
-                        <li>
-                          <span class="number">6</span>
-                          <span class="text"><span data-i18n="RightSteps.Step6">Submit Application</span>  <br>
-                            <p data-i18n="RightSteps.Step6">Provide additional info and documents, and submit an application.</p>
-                            </span
-                          >
-                        </li>                        
-                      </ul>
-                    </div>
-                  </div>
-
-
-                  <div class="col-lg-6">
-                    <div
-                      class="single-widget consultation"
-                     
-                    >
-                      <div class="widget-header">
-                        <!-- <div class="widget-img">
-                            <img src="img/how-works/icon-2.png" alt="icon" />
-                          </div> -->
-                        <div class="widget-title">
-                          <h4 data-i18n="RightSteps.Column2">Loan Disbursement</h4>
-                          <!-- <p>
-                              Conis Guide on the supervisory approach to
-                              consolidation in the banking sector.
-                            </p> -->
-                        </div>
-                      </div>
-
-
-                      <ul class="widget-content">
-                        <li class="active">
-                          <span class="number">1</span
-                          ><span class="text"><span data-i18n="RightSteps.Step7">Receive Approval Notification</span>  <br>
-                            <p data-i18n="RightSteps.Step77">Get an SMS with a contract link.</p>
-                            </span
-                          >
-                        </li>
-                        <li>
-                          <span class="number">2</span>
-                          <span class="text"><span data-i18n="RightSteps.Step8">Register for Digital Certificate</span>  <br>
-                            <p data-i18n="RightSteps.Step88">Register a CA, verify your ID, and complete a video.</p>
-                            </span
-                          >
-                        </li>
-                        <li>
-                          <span class="number">3</span>
-                          <span class="text"><span data-i18n="RightSteps.Step9">Sign Loan Contract</span>  <br>
-                            <p data-i18n="RightSteps.Step99">Log in to the Easy app, review the contract, and sign with your PIN.</p>
-                          </span>
-                        </li>
-                        <li>
-                          <span class="number">4</span>
-                          <span class="text"><span data-i18n="RightSteps.Step10">Loan Disbursement</span>  <br>
-                            <p data-i18n="RightSteps.Step1010">Receive confirmation of disbursement via registered SMS an email.</p>
-                          </span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!-- </div> -->
-              </div>
-              <!-- steps end -->
-
-
-              <!-- suppor -->
-              <div class="support faq_detail d-none" id="detail_support">
-                <div class="section-title text-start">
-                  <h2 data-i18n="RightSupport.title1">Get in touch with us.</h2>
-                  <p data-i18n="RightSupport.title2">
-                    We'd love to hear from you. Here's how you can reach us...
-                  </p>
-                </div>
-                <div class="row mt-55">
-                  <div class="col-sm-6">
-                    <div class="get-touch-box">
-                      <div class="icon">
-                        <img
-                          src="img/contact/call-outline.svg"
-                          alt="call icon"
-                        />
-                      </div>
-                      <div>
-                        <h5>HCM Hotline:</h5>
-                        <p>1900 98 98 51</p>
-                        <p>+84 28 3822 0566</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="get-touch-box">
-                      <div class="icon">
-                        <img
-                          src="img/contact/mail-open-outline.svg"
-                          alt="mail icon"
-                        />
-                      </div>
-                      <div>
-                        <h5 data-i18n="RightSupport.title3">Email us:</h5>
-                        <p>callcentervn@sinopac.com</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="icon">
-                    <i class="icon_clock_alt"></i>
-                  </div>
-                  <div>
-                    <h5 data-i18n="RightSupport.title4">Work Hours:</h5>
-                    <p data-i18n="RightSupport.title5">Monday - Friday: 9am - 3:30pm</p>
-                  </div>
-                </div>
-                  </div>
-                  <!-- <div class="col-sm-6">
-                    <div class="get-touch-box mt-30">
-                      <div class="icon">
-                        <i class="icon_pin_alt"></i>
-                      </div>
-                      <div>
-                        <p>Location</p>
-                        <span
-                          >1550 Bryant Street STE 750, San Francisco, CA
-                          94103</span
-                        >
-                      </div>
-                    </div>
-                  </div> -->
-                  <!-- <div class="col">
-                    <div class="get-touch-box mt-30">
-                      <div class="icon">
-                        <i class="icon_clock_alt"></i>
-                      </div>
-                      <div>
-                        <h5>Work Hours</h5>
-                        <p>Monday - Friday: 9am - 3:30pm</p>
-                      </div>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-
-
-              <!-- support end -->
             </div>
           </div>
         </div>
       </section>
       <!-- Frequently Ask Questions section -->
-
-
-      <!-- Content Section with Image and Links -->
-      <!-- <div class="container">
-        <div class="container-flex">
-            <div class="left-section">
-                <div class="image-placeholder">
-                    <a href="#about-us" class="about-button">ABOUT US</a>
-                </div>
-            </div>
-           
-           <div class="right-section">
-                <a href="link1.html">Online Account Opening</a>
-                <a href="link2.html">Digital Microloans</a>
-                <a href="link3.html">Others</a>
-           </div>
-       </div>
-   </div> -->
-      <!-- Service end -->
     </main>
 
     <!-- footer -->
@@ -1488,70 +1570,80 @@
                 </a>
               </div>
             </div>
-            <div class="col">
-              <div class="d-lg-flex justify-content-lg-end">
-                <div style="flex-basis: 50%">
-                  <h5 class="mb-2" data-i18n="RightFooter.first">Follow Us</h5>
-                  <div class="social-button">
-                  <a href="https://www.facebook.com/BankSinoPacVietnam"
-                    ><i class="fab fa-facebook" style="font-size: 24px"></i
-                  ></a>
+            <div class="col d-lg-flex">
+              <div>
+                <h5 class="mb-2" data-i18n="RightFooter.first">Follow Us</h5>
+                <div class="social-button">
+                  <a href="https://www.facebook.com/BankSinoPacVietnam">
+                    <i class="fab fa-facebook" style="font-size: 24px"></i>
+                  </a>
                 </div>
               </div>
+            </div>
+            <div class="col footer-widget wow fadeInUp" data-wow-delay="0.5s">
+              <h5 class="mb-2" data-i18n="RightFooter.second">Contact Us</h5>
+              <div class="footer-link">
+                <!-- support section -->
+                <a href="##" class="text-decoration-none">
+                  <p>
+                    <span class="icon">
+                      <img src="img/contact/call-outline.svg" alt="call icon" />
+                    </span>
+                    <span> 1900 98 98 51/ +84 28 3822 0566</span>
+                  </p>
+                </a>
+                <a href="##" class="text-decoration-none">
+                  <p>
+                    <span class="icon">
+                      <img
+                        src="img/contact/mail-open-outline.svg"
+                        alt="mail icon"
+                      />
+                    </span>
+                    <span> callcentervn@sinopac.com </span>
+                  </p>
+                </a>
+                <a href="##" class="text-decoration-none">
+                  <p>
+                    <span class="icon">
+                      <i class="icon_clock_alt" style="color: #0050b2"></i>
+                    </span>
+                    <span data-i18n="RightSupport.title5">
+                      Monday - Friday: 9am - 3:30pm
+                    </span>
+                  </p>
+                </a>
+                <!-- support section end -->
 
-              <!-- <div
-                class="footer-widget wow fadeInUp mt-20 mt-lg-0"
-                data-wow-delay="0.5s"
-              > -->
-              <div
-                class="footer-widget wow fadeInUp mt-lg-0"
-                data-wow-delay="0.5s"
-              >
-                <!-- <div class="f-widget-title"> -->
-                <h5 class="mb-2" data-i18n="RightFooter.second">Contact Us</h5>
-                <!-- </div> -->
-                <div class="footer-link">
-                  <!-- <ul class="list-unstyled">
-                        <li class=""> -->
-                  <a href="#" class="text-decoration-none" 
-                    ><p data-i18n="RightFooter.third">Telephone: +84 345 678 910</p></a>
-                  <!-- </li> -->
-                  <!-- <li> -->
-                  <a href="#" class="text-decoration-none" 
-                    ><p data-i18n="RightFooter.fourth">Address: Friendship Tower 9F, 31 Le Duan, District 1, Ho Chi Minh City, Viet Nam</p></a>
-                  <!-- </li>
-                      </ul> -->
-                </div>
+                <a href="##" class="text-decoration-none">
+                  <p class="mt-3" data-i18n="RightFooter.third">
+                    Telephone: +84 345 678 910
+                  </p>
+                </a>
+                <a href="##" class="text-decoration-none">
+                  <p data-i18n="RightFooter.fourth">
+                    Address: Friendship Tower 9F, 31 Le Duan, District 1, Ho Chi
+                    Minh City, Viet Nam
+                  </p>
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-
       <!-- copyright area -->
       <div class="copyright">
         <div class="container">
-          <!-- <div class="row align-items-center"> -->
-          <!-- <div class="col text-center my-3 my-sm-0"> -->
           <div class="copyright-text text-center mt-20">
             <p>
-              Copyright&copy; Bank SinoPac 2024.<br class="d-sm-none" />
-              <a class="ms-2" href="#">Privacy</a> |
+              Copyright&copy; Bank SinoPac 2024.
+              <br class="d-sm-none" />
+              <a class="ms-2" href="#">Privacy</a>
+              |
               <a class="ms-0" href="#">Term of Use</a>
             </p>
           </div>
-          <!-- </div> -->
-          <!-- <div class="col-lg-2 text-center text-lg-end"></div>
-            <div class="col-lg-4 text-center text-lg-end">
-              <div class="social-button">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div> -->
-          <!-- </div> -->
         </div>
       </div>
     </footer>
