@@ -854,7 +854,7 @@
         dateFormat: "Y-m-d",
       });
     } // End of Calculator
-    
+
     // /*------------ Added Dark Mode ------------*/
     // function createCookie(name, value, days) {
     //   var expires = "";
@@ -941,3 +941,25 @@
     }, 3000);
   }
 })(jQuery);
+
+// 點擊 .nav-link 時關閉 #navbarSupportedContent 的下拉選單
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinks = document.querySelectorAll(".nav-link"); // 獲取所有 nav-link
+  const navbarCollapse = document.getElementById("navbarSupportedContent"); // 獲取 navbar 容器
+
+  navLinks.forEach((link, index) => {
+    link.addEventListener("click", () => {
+      // 檢查是否點擊的是最後一個語言選擇的 nav-link
+      if (index === navLinks.length - 1) {
+        return; // 如果是最後一個，則不執行關閉動作
+      }
+
+      const isExpanded = navbarCollapse.classList.contains("show"); // 確認是否展開
+      if (isExpanded) {
+        const bootstrapCollapse =
+          bootstrap.Collapse.getInstance(navbarCollapse);
+        bootstrapCollapse.hide(); // 使用 Bootstrap API 收起選單
+      }
+    });
+  });
+});

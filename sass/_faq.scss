@@ -251,6 +251,10 @@
   background-color: #fdf4ed;
   padding: 90px 0;
   color: var(--theme-color);
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+  @media (max-width: 991px) {
+    box-shadow: none;
+  }
 
   .faq-img {
     border-radius: 8px;
@@ -326,10 +330,10 @@
     }
   }
   img {
-    &.work-hour {      
+    &.work-hour {
       margin-top: 2rem;
       width: 19px;
-      height: auto;    
+      height: auto;
     }
   }
 }
