@@ -7712,6 +7712,15 @@ i.fas {
 /*----------------------------------------*/
 /*  New Version
 /*----------------------------------------*/
+.steps {
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 991px) {
+  .steps {
+    box-shadow: none;
+  }
+}
+
 .faq-area-3 {
   background-color: #fdf4ed;
   padding: 90px 0;
@@ -11077,6 +11086,14 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+}
+#easy-app .img-container {
+  margin-top: -150px;
+}
+@media (max-width: 991px) {
+  #easy-app .img-container {
+    margin-top: 20px;
+  }
 }
 #easy-app .img-content .bank-main {
   position: relative;

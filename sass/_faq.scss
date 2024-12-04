@@ -246,6 +246,13 @@
 /*  New Version
 /*----------------------------------------*/
 
+.steps {
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+  @media (max-width: 991px) {
+    box-shadow: none;
+  }
+}
+
 .faq-area-3 {
   // background-color: #101010;
   background-color: #fdf4ed;
@@ -326,10 +333,10 @@
     }
   }
   img {
-    &.work-hour {      
+    &.work-hour {
       margin-top: 2rem;
       width: 19px;
-      height: auto;    
+      height: auto;
     }
   }
 }

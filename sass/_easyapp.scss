@@ -9,6 +9,12 @@
     -webkit-text-fill-color: transparent;
     font-weight: bold;
   }
+  .img-container {
+    margin-top: -150px;
+    @media (max-width: 991px) {
+      margin-top: 20px;
+    }
+  }
   .img-content {
     .bank-main {
       position: relative;
