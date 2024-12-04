@@ -246,15 +246,18 @@
 /*  New Version
 /*----------------------------------------*/
 
+.steps {
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
+  @media (max-width: 991px) {
+    box-shadow: none;
+  }
+}
+
 .faq-area-3 {
   // background-color: #101010;
   background-color: #fdf4ed;
   padding: 90px 0;
   color: var(--theme-color);
-  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.3);
-  @media (max-width: 991px) {
-    box-shadow: none;
-  }
 
   .faq-img {
     border-radius: 8px;
