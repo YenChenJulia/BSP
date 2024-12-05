@@ -227,6 +227,13 @@ header {
       }
     }
   }
+  
+  .logo-wrapper {
+    max-width: 190px;
+    @media (max-width: 576px) {
+      max-width: 100px;
+    }
+  }
 
   .navbar {
     padding: 0 !important;
