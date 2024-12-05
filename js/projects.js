@@ -12,7 +12,7 @@ document.querySelectorAll(".single-client").forEach((element) => {
     hideAllDetail();
     targetProject.classList.remove("d-none");
     // targetProject.classList.add("d-block");
-    imgContainer.style.marginTop = "0";
+    imgContainer.style.marginTop = "20px";
   });
 });
 
