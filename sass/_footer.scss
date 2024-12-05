@@ -108,6 +108,13 @@
         align-items: flex-start;
       }
     }
+
+    .icon i {
+      @media (max-width: 576px) {
+        font-size: 1.33em;
+      }
+    }
+
     h5 {
       @media (max-width: 576px) {
         font-size: 1rem;

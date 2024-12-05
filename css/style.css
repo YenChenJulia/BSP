@@ -10784,6 +10784,11 @@ blockquote .author span {
   }
 }
 @media (max-width: 576px) {
+  .footer .footer-top .icon i {
+    font-size: 1.33em;
+  }
+}
+@media (max-width: 576px) {
   .footer .footer-top h5 {
     font-size: 1rem;
   }
