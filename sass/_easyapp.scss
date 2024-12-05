@@ -16,6 +16,12 @@
     }
   }
   .img-content {
+    max-width: 510px;
+    @media (max-width: 576px) {
+      max-width: 400px;
+
+    }
+
     .bank-main {
       position: relative;
       z-index: 1000;

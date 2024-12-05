@@ -11213,6 +11213,14 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
     margin-top: 20px;
   }
 }
+#easy-app .img-content {
+  max-width: 510px;
+}
+@media (max-width: 576px) {
+  #easy-app .img-content {
+    max-width: 400px;
+  }
+}
 #easy-app .img-content .bank-main {
   position: relative;
   z-index: 1000;
@@ -11222,6 +11230,18 @@ body.body_dark .header-menu.header-menu-2 .menu > .nav-item > .nav-link {
 }
 #easy-app .mt-5 {
   margin-bottom: 0.5rem;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+#product .img-content {
+  height: 700px;
+  overflow: hidden;
+}
+@media (max-width: 576px) {
+  #product .img-content {
+    height: 600px;
+  }
 }
 
 /*----------------------------------------------------*/

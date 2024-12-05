@@ -1,0 +1,9 @@
+#product {
+	.img-content {
+		height: 700px;
+		overflow: hidden;
+		@media (max-width: 576px) {
+			height: 600px;
+		}
+	}
+}
