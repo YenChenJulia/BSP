@@ -10814,6 +10814,11 @@ blockquote .author span {
   font-weight: 400;
   color: #9199a1;
 }
+@media (max-width: 576px) {
+  .footer .copyright .copyright-text p {
+    font-size: 0.75rem;
+  }
+}
 .footer .copyright a {
   display: inline-block;
   margin-left: 15px;
@@ -10827,6 +10832,11 @@ blockquote .author span {
 }
 .footer .copyright a:first-child {
   margin-left: 0;
+}
+@media (max-width: 576px) {
+  .footer .copyright a {
+    font-size: 0.75rem;
+  }
 }
 .footer .copyright .nice-select {
   background-color: transparent;
@@ -10940,7 +10950,7 @@ blockquote .author span {
 .about-widget ul li {
   margin-bottom: 15px;
   font-size: 16px;
-  color: #878BA9;
+  color: #878ba9;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 400;
   line-height: 25px;
@@ -10957,7 +10967,7 @@ blockquote .author span {
 }
 .footer-link li a {
   font-size: 16px;
-  color: #878BA9;
+  color: #878ba9;
   font-weight: 400;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   transition: all 0.2s linear;
@@ -10971,7 +10981,7 @@ blockquote .author span {
   padding: 40px 0;
 }
 .saas-footer-bottom .f-social a {
-  color: #A7AABE;
+  color: #a7aabe;
   font-size: 16px;
   display: inline-block;
   margin-right: 18px;
@@ -10980,13 +10990,13 @@ blockquote .author span {
   color: var(--brand_color);
 }
 .saas-footer-bottom p {
-  color: #878BA9;
+  color: #878ba9;
   font-size: 16px;
   font-weight: 400;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
 }
 .saas-footer-bottom p a {
-  color: #1F1F1F;
+  color: #1f1f1f;
 }
 .saas-footer-bottom p a:hover {
   color: var(--brand_color);
@@ -11010,7 +11020,7 @@ blockquote .author span {
   color: black;
 }
 .bank-footer-area .about-widget p {
-  color: #9B9B9B;
+  color: #9b9b9b;
   font-size: 16px;
   font-weight: 400;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
@@ -11018,7 +11028,7 @@ blockquote .author span {
   margin-top: 25px;
 }
 .bank-footer-area .footer-link li a {
-  color: #9B9B9B;
+  color: #9b9b9b;
 }
 .bank-footer-area .footer-link li a:hover {
   color: black;
@@ -11026,7 +11036,7 @@ blockquote .author span {
 .bank-footer-area .copyright-text a {
   font-size: 16px;
   font-weight: 400;
-  color: #7C778B;
+  color: #7c778b;
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   margin-right: 30px;
 }
@@ -11039,7 +11049,7 @@ blockquote .author span {
   border-radius: 50%;
   text-align: center;
   line-height: 48px;
-  background: #2C2C2C;
+  background: #2c2c2c;
   color: #797979;
   display: inline-block;
   margin-left: 6px;
