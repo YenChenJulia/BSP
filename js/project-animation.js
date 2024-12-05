@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const observerProjects = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log("projects");
+        // console.log("projects");
 
         movingDot.classList.add("moving_dot_mobile");
       } else {
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function addBlinkDotAnimation(ancestor) {
-  console.log(ancestor);
+  // console.log(ancestor);
 
   ancestor.querySelectorAll(".blink_dot").forEach((dot, index) => {
     dot.classList.remove(`blink_dot_${index + 1}`);
