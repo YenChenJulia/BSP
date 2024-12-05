@@ -6,7 +6,7 @@
   background-image: url(../img/banner/bg-img.png);
   background-position: center;
   background-size: cover;
-  position: relative;  
+  position: relative;
 
   /* floating bubbles */
   .bubbles {
@@ -238,13 +238,14 @@
 }
 
 .banner-area-2 {
-  background-image: url(../img/banner.svg);
+  background-image: url(../img/BSP/banner-mobile-2.jpg);
   z-index: 998;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  position: relative;   
+  position: relative;
+  padding: 120px 30px;
   .banner-content {
     position: relative;
     .shape {
@@ -256,7 +257,7 @@
       color: var(--secondary_color);
       font-family: $Poppins-font;
       font-weight: 700;
-      line-height: 56px;      
+      line-height: 56px;
     }
     p {
       font-size: 16px;
@@ -343,9 +344,18 @@
         animation: floatingBubble 20s linear infinite alternate both;
       }
     }
-  }  
+  }
 }
-
+// modify start
+@media (min-width: 576px) {
+  .banner-area-2 {
+    background-image: url(../img/banner.svg);
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0;
+  }
+}
+// modify end
 .banner-area-3 {
   background-color: #281b36;
   overflow: hidden;
@@ -446,7 +456,7 @@
       font-size: 60px;
       font-family: $Poppins-font;
       font-weight: 700;
-      color: #fff;      
+      color: #fff;
     }
     p {
       font-size: 16px;
@@ -1009,18 +1019,19 @@
   }
 }
 
-
-
-
 /*============= banner-saas-area css ================*/
-.banner-saas-area{
-  background: #F8FCFC;
-  background: linear-gradient(180deg, #EEF3FE 0%, rgba(242, 242, 242, 0.38) 100%);
+.banner-saas-area {
+  background: #f8fcfc;
+  background: linear-gradient(
+    180deg,
+    #eef3fe 0%,
+    rgba(242, 242, 242, 0.38) 100%
+  );
   padding-top: 220px;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  .shape_img{
+  .shape_img {
     position: absolute;
     top: 0;
     left: 0;
@@ -1029,20 +1040,20 @@
     height: 100%;
   }
 }
-.saas-banner-content{
-  h5{
+.saas-banner-content {
+  h5 {
     border-radius: 12px;
-    border: 1px solid #C1D2E1;
-    background: #F6F9FF;
+    border: 1px solid #c1d2e1;
+    background: #f6f9ff;
     font-size: 14px;
     font-weight: 600;
-    color: #7B7F9C;
+    color: #7b7f9c;
     font-family: $Roboto-font;
     padding: 11px 16px 10px 16px;
     display: inline-block;
     margin-bottom: 35px;
   }
-  h1{
+  h1 {
     color: var(--secondary_color);
     text-align: center;
     font-family: $Poppins-font;
@@ -1052,60 +1063,58 @@
     line-height: 98px;
     letter-spacing: -3px;
     margin-bottom: 35px;
-    span{
-      background: linear-gradient(90deg, #5E80FF 45.35%, #FC82AC 100%);
+    span {
+      background: linear-gradient(90deg, #5e80ff 45.35%, #fc82ac 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
   }
-  p{
+  p {
     font-size: 24px;
     line-height: 42px;
-    color: #878BA9;
+    color: #878ba9;
     font-family: $Poppins-font;
     max-width: 760px;
     margin-left: auto;
-    margin-right:  auto;
+    margin-right: auto;
     margin-bottom: 45px;
   }
-  .theme-btn{
+  .theme-btn {
     border-radius: 8px;
     margin: 0px 12px;
     font-family: $Poppins-font;
     font-size: 20px;
     font-weight: 500;
-    & + .theme-btn{
+    & + .theme-btn {
       border: 1px solid#C1D2E1;
-      color:#1B2A52;
-      &:hover{
+      color: #1b2a52;
+      &:hover {
         color: #fff;
       }
     }
   }
 }
-.dahbord_img{
+.dahbord_img {
   margin: 80px -146px 0px;
-  @media (max-width:1440px){
+  @media (max-width: 1440px) {
     margin-left: 0;
     margin-right: 0;
   }
-  img{
-    @media (max-width:1440px){
+  img {
+    @media (max-width: 1440px) {
       max-width: 100%;
     }
   }
 }
 
-
-
-// bank-banner-area css 
-.bank-banner-area{
+// bank-banner-area css
+.bank-banner-area {
   background: #101010;
   padding: 220px 0px 120px;
   position: relative;
   overflow: hidden;
   z-index: 1;
-  .wave_img{
+  .wave_img {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1114,54 +1123,54 @@
     z-index: -1;
   }
 }
-.bank-banner-content{
-  h5{
+.bank-banner-content {
+  h5 {
     font-size: 16px;
     font-weight: 600;
-    color: #B7B7B7;
+    color: #b7b7b7;
     text-transform: uppercase;
     opacity: 0.6;
     margin-bottom: 18px;
   }
-  h1{
-    color: #FFF;
+  h1 {
+    color: #fff;
     font-size: 76px;
     font-weight: 500;
-    line-height: 90px; 
+    line-height: 90px;
     letter-spacing: -3px;
     margin-bottom: 35px;
-    .underline-shape{
-      &:after{
+    .underline-shape {
+      &:after {
         height: 11px;
-        background: #E17A52;
+        background: #e17a52;
         border-radius: 2px;
         bottom: 15px;
       }
     }
   }
-  p{
+  p {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
     opacity: 0.6;
     margin-bottom: 55px;
   }
-  .feature-list{
+  .feature-list {
     margin-top: 12px;
     margin-bottom: 70px;
-    li{
+    li {
       display: inline-block;
       font-size: 16px;
       font-weight: 400;
-      color: #B6B8BB;
+      color: #b6b8bb;
       line-height: 26px;
       font-family: $Roboto-font;
       margin-right: 15px;
     }
   }
-  .form-control{
+  .form-control {
     border-radius: 8px;
-    border: 1px solid rgba(212, 218, 226, 0.20);
+    border: 1px solid rgba(212, 218, 226, 0.2);
     background: rgba(255, 255, 255, 0.2);
     width: 316px;
     padding-left: 25px;
@@ -1170,65 +1179,64 @@
       color: #b7b7b7;
     }
   }
-  .theme-btn.theme-btn-lg{
+  .theme-btn.theme-btn-lg {
     border-radius: 8px;
     font-weight: 400;
   }
 }
-.active-user{
+.active-user {
   color: #fff;
   font-size: 14px;
   font-family: $Poppins-font;
 }
-.user-img-inner{
+.user-img-inner {
   display: flex;
   margin-right: 15px;
-  img{
+  img {
     width: 56px;
     height: 56px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #101010;
-    &:not(:first-child){
+    &:not(:first-child) {
       margin-left: -10px;
     }
   }
-
 }
-.bank-card-img{
+.bank-card-img {
   position: relative;
   height: 100%;
   z-index: 1;
-  .bank-card{
+  .bank-card {
     position: absolute;
-    &:nth-child(1){
+    &:nth-child(1) {
       bottom: 108px;
       z-index: 1;
     }
-    &:nth-child(2){
+    &:nth-child(2) {
       bottom: 0px;
     }
-    &:nth-child(3){
-        position: relative;
-        z-index: -1;
-        bottom: -100px;
+    &:nth-child(3) {
+      position: relative;
+      z-index: -1;
+      bottom: -100px;
     }
   }
-  .shap{
+  .shap {
     position: absolute;
-    &.one{
+    &.one {
       top: -26px;
       left: 54%;
     }
-    &.two{
+    &.two {
       left: 100px;
       bottom: 100px;
     }
-    &.three{
+    &.three {
       right: 0;
       top: 28px;
     }
-    &.four{
+    &.four {
       right: -230px;
       bottom: 280px;
     }
