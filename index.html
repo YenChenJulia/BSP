@@ -638,7 +638,7 @@
                   role="tablist"
                 >
                   <button
-                    class="nav-link active"
+                    class="nav-link"
                     id="yearTab-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#yearTab"
@@ -650,7 +650,7 @@
                     Yearly
                   </button>
                   <button
-                    class="nav-link"
+                    class="nav-link active"
                     id="monthTab-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#monthTab"
@@ -676,16 +676,15 @@
                 </div>
               </nav> -->
 
-                          <div class="range-label">Loan Amount</div>
+                          <div class="range-label">Your Desired Amount (million VND)</div>
                           <div class="single-range">
                             <div id="RangeSlider"></div>
                             <div class="input-group">
                               <input
-                                class="noTextMerge"
                                 type="text"
                                 id="SetRange"
                               />
-                              <span class="input-group-text">$</span>
+                              <span class="input-group-text">m</span>
                             </div>
                           </div>
                           <!-- <div class="range-label">Interest Rate</div> -->
@@ -696,11 +695,11 @@
                   <span class="input-group-text">%</span>
                 </div>
               </div> -->
-                          <div class="range-label">Loan Duration</div>
+                          <div class="range-label">Loan Tenor (Months)</div>
                           <div class="single-range">
                             <div class="tab-content">
                               <div
-                                class="tab-pane fade show active"
+                                class="tab-pane fade"
                                 id="yearTab"
                                 role="tabpanel"
                                 aria-labelledby="yearTab"
@@ -708,7 +707,7 @@
                                 <div id="YearRangeSlider"></div>
                               </div>
                               <div
-                                class="tab-pane fade"
+                                class="tab-pane fade show active"
                                 id="monthTab"
                                 role="tabpanel"
                                 aria-labelledby="monthTab"
@@ -779,22 +778,22 @@
                 <div><span class="orange-dot"></span> Interest Payable</div>
               </div> -->
                           <ul class="loan-calculation list-unstyled">
-                            <li>
+                            <!-- <li>
                               <span class="label"
                                 >EMI Amount (Principal + Interest)</span
                               >
                               <span class="amount LoanTotalAmount"></span>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                               <span class="label">Interest Payable</span>
                               <span class="amount" id="InterestPayable"></span>
-                            </li>
-                            <li>
+                            </li> -->
+                            <!-- <li>
                               <span class="label">Loan Duration</span>
                               <span class="amount LoanTotalDuration"></span>
-                            </li>
+                            </li> -->
                             <li>
-                              <span class="label">Your EMI Amount</span>
+                              <span class="label">Minimum Monthly payment</span>
                               <span class="amount" id="emiAmount"></span>
                             </li>
                           </ul>
