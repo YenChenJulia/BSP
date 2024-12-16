@@ -622,7 +622,7 @@
                     <h4 data-i18n="details.ctaHead1">
                       Create family memories with Sinopac!
                     </h4>
-                    <div class="calculator_container">
+                    <div  class="calculator_container">
                       <!-- calculator start -->
                       <div class="calculator-widget-2 mt-50">
                         <div
@@ -630,14 +630,13 @@
                           data-wow-delay="0.1s"
                         >
                           <h4>Calculate your payment</h4>
-                          <div class="range-label">Your Desired Amount (million VND)</div>
+                          <div class="range-label">
+                            Your Desired Amount (million VND)
+                          </div>
                           <div class="single-range">
-                            <div id="RangeSlider"></div>
+                            <div class="RangeSlider"></div>
                             <div class="input-group">
-                              <input
-                                type="text"
-                                id="SetRange"
-                              />
+                              <input type="text" class="SetRange" />
                               <span class="input-group-text">m</span>
                             </div>
                           </div>
@@ -645,35 +644,31 @@
                           <div class="single-range">
                             <div class="tab-content">
                               <div
-                                class="tab-pane fade"
-                                id="yearTab"
+                                class="tab-pane fade yearTab"
                                 role="tabpanel"
                                 aria-labelledby="yearTab"
                               >
-                                <div id="YearRangeSlider"></div>
+                                <div class="YearRangeSlider"></div>
                               </div>
                               <div
-                                class="tab-pane fade show active"
-                                id="monthTab"
+                                class="tab-pane fade show active monthTab"
                                 role="tabpanel"
                                 aria-labelledby="monthTab"
                               >
-                                <div id="MonthRangeSlider"></div>
+                                <div class="MonthRangeSlider"></div>
                               </div>
                               <div
-                                class="tab-pane fade"
-                                id="weekTab"
+                                class="tab-pane fade weekTab"
                                 role="tabpanel"
                                 aria-labelledby="weekTab"
                               >
-                                <div id="WeekRangeSlider"></div>
+                                <div class="WeekRangeSlider"></div>
                               </div>
                             </div>
                             <div class="input-group">
                               <input
-                                class="noTextMerge"
+                                class="noTextMerge SetMonthRange"
                                 type="text"
-                                id="SetMonthRange"
                               />
                               <span class="input-group-text loanTermIndicator"
                                 >@example.com</span
@@ -689,7 +684,7 @@
                           <ul class="loan-calculation list-unstyled">
                             <li>
                               <span class="label">Minimum Monthly payment</span>
-                              <span class="amount" id="emiAmount"></span>
+                              <span class="amount emiAmount"></span>
                             </li>
                           </ul>
                           <!-- <a

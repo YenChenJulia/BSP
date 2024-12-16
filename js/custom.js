@@ -415,6 +415,8 @@
       RateOfInterestAmount,
       SelectedRoi;
 
+    const detail1 = document.getElementById('detail_1')
+
     if (typeof wNumb !== "undefined") {
       var AmountFormat = wNumb({
         decimals: 0,
@@ -432,8 +434,8 @@
     }
 
     //Slider Elements
-    var mySlider = document.getElementById("RangeSlider");
-    var mySliderMonth = document.getElementById("MonthRangeSlider");
+    var mySlider = detail1.querySelector(".RangeSlider");
+    var mySliderMonth = detail1.querySelector(".MonthRangeSlider");
 
     function clickOnPip(sliderName, This) {
       var value = Number(This.getAttribute("data-value"));
@@ -504,8 +506,8 @@
       var pipsMonth = mySliderMonth.querySelectorAll(".noUi-value");
 
       //Slider Input Element
-      var inputMonthFormat = document.getElementById("SetMonthRange");
-      var inputFormat = document.getElementById("SetRange");
+      var inputMonthFormat = detail1.querySelector(".SetMonthRange");
+      var inputFormat = detail1.querySelector(".SetRange");
 
       SetPipsOnSlider(pips, mySlider);
       SetPipsOnSlider(pipsMonth, mySliderMonth);
@@ -560,7 +562,7 @@
         $(".loanTermIndicator").text(selectedTime.type.charAt(0));
       }
 
-      $("#emiAmount").text(
+      $(".emiAmount").text(
         AmountFormat.to(MinimumMonthlyPayment * 1000000) + "（VND）"
       );
     } // End of Calculator
