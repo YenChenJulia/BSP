@@ -443,8 +443,8 @@
     //Slider Elements
     var mySlider = document.getElementById("RangeSlider");
     var mySliderMonth = document.getElementById("MonthRangeSlider");
-    var mySliderWeekly = document.getElementById("WeekRangeSlider");
-    var mySliderYear = document.getElementById("YearRangeSlider");
+    // var mySliderWeekly = document.getElementById("WeekRangeSlider");
+    // var mySliderYear = document.getElementById("YearRangeSlider");
     // var mySliderROI = document.getElementById("RoiRangeSlider");
     //-----home page 1
     // var SliderAmount = document.getElementById("SliderAmount");
@@ -466,7 +466,7 @@
 
     //   Activate Range Sliders
 
-    if (mySlider && mySliderMonth && mySliderYear) {
+    if (mySlider && mySliderMonth) {
       noUiSlider.create(mySlider, {
         start: [170],
         connect: "lower",
@@ -549,7 +549,7 @@
       //Slider Pips
       var pips = mySlider.querySelectorAll(".noUi-value");
       var pipsMonth = mySliderMonth.querySelectorAll(".noUi-value");
-      var pipsYear = mySliderYear.querySelectorAll(".noUi-value");
+      // var pipsYear = mySliderYear.querySelectorAll(".noUi-value");
 
       //Slider Input Element
       var inputMonthFormat = document.getElementById("SetMonthRange");
