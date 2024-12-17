@@ -52,6 +52,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/nouislider.min.css"
+      media="all"
+    />
   </head>
 
   <body>
@@ -585,7 +591,7 @@
         <div class="container">
           <div class="detail d-none" id="detail_1">
             <div class="row">
-              <div class="col-5">
+              <div class="col-6">
                 <img src="img/projects/travel.png" alt="" srcset="" />
                 <div class="introduction">
                   <p data-i18n="details.banner1">
@@ -616,6 +622,80 @@
                     <h4 data-i18n="details.ctaHead1">
                       Create family memories with Sinopac!
                     </h4>
+                    <div  class="calculator_container">
+                      <!-- calculator start -->
+                      <div class="calculator-widget-2 mt-50">
+                        <div
+                          class="single-calculator-widget wow fadeInUp"
+                          data-wow-delay="0.1s"
+                        >
+                          <h4>Calculate your payment</h4>
+                          <div class="range-label">
+                            Your Desired Amount (million VND)
+                          </div>
+                          <div class="single-range">
+                            <div class="RangeSlider"></div>
+                            <div class="input-group">
+                              <input type="text" class="SetRange" />
+                              <span class="input-group-text">m</span>
+                            </div>
+                          </div>
+                          <div class="range-label">Loan Tenor (Months)</div>
+                          <div class="single-range">
+                            <div class="tab-content">
+                              <div
+                                class="tab-pane fade yearTab"
+                                role="tabpanel"
+                                aria-labelledby="yearTab"
+                              >
+                                <div class="YearRangeSlider"></div>
+                              </div>
+                              <div
+                                class="tab-pane fade show active monthTab"
+                                role="tabpanel"
+                                aria-labelledby="monthTab"
+                              >
+                                <div class="MonthRangeSlider"></div>
+                              </div>
+                              <div
+                                class="tab-pane fade weekTab"
+                                role="tabpanel"
+                                aria-labelledby="weekTab"
+                              >
+                                <div class="WeekRangeSlider"></div>
+                              </div>
+                            </div>
+                            <div class="input-group">
+                              <input
+                                class="noTextMerge SetMonthRange"
+                                type="text"
+                              />
+                              <span class="input-group-text loanTermIndicator"
+                                >@example.com</span
+                              >
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="calculator-result-widget wow fadeInUp"
+                          data-wow-delay="0.3s"
+                        >
+                          <ul class="loan-calculation list-unstyled">
+                            <li>
+                              <span class="label">Minimum Monthly Payment</span>
+                              <span class="amount emiAmount"></span>
+                            </li>
+                          </ul>
+                          <!-- <a
+                href="personal-details.html"
+                class="theme-btn theme-btn-lg mt-20 w-100"
+                >Apply Now <i class="arrow_right"></i
+              ></a> -->
+                        </div>
+                      </div>
+                      <!-- calculator end -->
+                    </div>
                     <a
                       href="#easy-app"
                       class="theme-btn theme-btn-lg mb-10"
@@ -1717,5 +1797,8 @@
     <script type="text/javascript" src="js/faq.js"></script>
     <script type="text/javascript" src="js/project-animation.js"></script>
     <script src="js/i18n.js"></script>
+    <script type="text/javascript" src="js/nouislider.min.js"></script>
+    <script type="text/javascript" src="js/wNumb.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
   </body>
 </html>

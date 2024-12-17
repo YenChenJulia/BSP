@@ -865,6 +865,11 @@
     }
   }
 }
+
+//modification
+.calculator_container .calculator-widget-2 .single-calculator-widget {
+  padding: 0 40px;
+}
 /*----------------------------------------*/
 /*   Loan Details Widget CSS
 /*----------------------------------------*/
@@ -1194,15 +1199,14 @@
   }
 }
 
-
-// calculator-area-three css 
-.calculator-area-three{
+// calculator-area-three css
+.calculator-area-three {
   padding: 140px 0px;
-  .bank-section-title h1 .underline-shape::after{
-    background: #6AD099;
+  .bank-section-title h1 .underline-shape::after {
+    background: #6ad099;
   }
-  .calculator-widget-2 .calculator-result-widget{
+  .calculator-widget-2 .calculator-result-widget {
     background: #fff;
-    border-left: 1px solid #D9DBE5;
+    border-left: 1px solid #d9dbe5;
   }
 }
