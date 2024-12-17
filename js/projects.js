@@ -129,11 +129,13 @@ function createCalculator(projectId, lendingRate) {
         stepped: true,
         format: wNumb({
           encoder: function (a) {
-            return a / 1000;
+            // return a / 1000;
+            return a;
           },
           decimals: 0,
           prefix: "$",
-          suffix: "k",
+          // suffix: "k",
+          suffix: "M",
         }),
       },
     });

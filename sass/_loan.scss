@@ -423,10 +423,10 @@
       color: $theme-title-color;
     }
     .single-range {
-      display: flex;
-      gap: 25px;
+      // display: flex;
+      // gap: 25px;
       align-items: center;
-      margin-bottom: 40px;
+      margin-bottom: 60px;
       .tab-content {
         width: calc(100% - 180px);
         .noUi-horizontal {
@@ -489,7 +489,8 @@
         font-family: $Roboto-font;
         font-weight: 500;
         color: #18181b;
-        width: 105px;
+        // width: 105px;
+        width: 85px;
         text-align: start;
         padding-left: 14px;
         border: none;
@@ -867,9 +868,46 @@
 }
 
 //modification
-.calculator_container .calculator-widget-2 .single-calculator-widget {
-  padding: 0 40px;
+
+.calculator-widget-2 .single-calculator-widget {
+  padding: 40px;
+
+  h4 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .single-range {
+    justify-content: space-between;
+
+    .range-label {
+      margin-bottom: 0;
+    }
+    .noUi-horizontal,
+    .tab-content {
+      width: 100%;
+      .noUi-pips {
+        display: block;
+      }
+    }
+    .input-group {
+      width: 135px;
+    }
+  }
+  .row > :last-child {
+    justify-items: end;
+  }
+  .calculated_result {
+    text-align: center;
+    h5 {
+      font-size: 22px;
+    }
+    .amount {
+      color: var(--brand_color);
+    }
+  }
 }
+
 /*----------------------------------------*/
 /*   Loan Details Widget CSS
 /*----------------------------------------*/

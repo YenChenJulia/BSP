@@ -592,7 +592,9 @@
           <div class="detail d-none" id="detail_1">
             <div class="row">
               <div class="col-6">
-                <img src="img/projects/travel.png" alt="" srcset="" />
+                <div class="project_image">
+                  <img src="img/projects/travel.png" alt="" srcset="" />
+                </div>
                 <div class="introduction">
                   <p data-i18n="details.banner1">
                     Your journey is not just yours – A travel for the whole
@@ -622,97 +624,99 @@
                     <h4 data-i18n="details.ctaHead1">
                       Create family memories with Sinopac!
                     </h4>
-                    <div  class="calculator_container">
-                      <!-- calculator start -->
-                      <div class="calculator-widget-2 mt-50">
-                        <div
-                          class="single-calculator-widget wow fadeInUp"
-                          data-wow-delay="0.1s"
-                        >
-                          <h4>Calculate your payment</h4>
-                          <div class="range-label">
-                            Your Desired Amount (million VND)
-                          </div>
-                          <div class="single-range">
-                            <div class="RangeSlider"></div>
-                            <div class="input-group">
-                              <input type="text" class="SetRange" />
-                              <span class="input-group-text">m</span>
-                            </div>
-                          </div>
-                          <div class="range-label">Loan Tenor (Months)</div>
-                          <div class="single-range">
-                            <div class="tab-content">
-                              <div
-                                class="tab-pane fade yearTab"
-                                role="tabpanel"
-                                aria-labelledby="yearTab"
-                              >
-                                <div class="YearRangeSlider"></div>
-                              </div>
-                              <div
-                                class="tab-pane fade show active monthTab"
-                                role="tabpanel"
-                                aria-labelledby="monthTab"
-                              >
-                                <div class="MonthRangeSlider"></div>
-                              </div>
-                              <div
-                                class="tab-pane fade weekTab"
-                                role="tabpanel"
-                                aria-labelledby="weekTab"
-                              >
-                                <div class="WeekRangeSlider"></div>
-                              </div>
-                            </div>
-                            <div class="input-group">
-                              <input
-                                class="noTextMerge SetMonthRange"
-                                type="text"
-                              />
-                              <span class="input-group-text loanTermIndicator"
-                                >@example.com</span
-                              >
-                            </div>
-                          </div>
-                        </div>
-
-                        <div
-                          class="calculator-result-widget wow fadeInUp"
-                          data-wow-delay="0.3s"
-                        >
-                          <ul class="loan-calculation list-unstyled">
-                            <li>
-                              <span class="label">Minimum Monthly Payment</span>
-                              <span class="amount emiAmount"></span>
-                            </li>
-                          </ul>
-                          <!-- <a
-                href="personal-details.html"
-                class="theme-btn theme-btn-lg mt-20 w-100"
-                >Apply Now <i class="arrow_right"></i
-              ></a> -->
-                        </div>
-                      </div>
-                      <!-- calculator end -->
-                    </div>
-                    <a
-                      href="#easy-app"
-                      class="theme-btn theme-btn-lg mb-10"
-                      data-i18n="details.cta"
-                    >
-                      Get it now!
-                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="calculator mt-50">
+              <!-- calculator start -->
+              <div class="calculator-widget-2">
+                <div
+                  class="single-calculator-widget wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <h4>Calculate your payment</h4>
+
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">
+                        <p>Your Desired Amount</p>
+                        <p>(million VND)</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="RangeSlider"></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input type="text" class="SetRange" />
+                        <span class="input-group-text">m</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">Loan Tenor (Months)</div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade yearTab"
+                          role="tabpanel"
+                          aria-labelledby="yearTab"
+                        >
+                          <div class="YearRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade show active monthTab"
+                          role="tabpanel"
+                          aria-labelledby="monthTab"
+                        >
+                          <div class="MonthRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade weekTab"
+                          role="tabpanel"
+                          aria-labelledby="weekTab"
+                        >
+                          <div class="WeekRangeSlider"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input class="noTextMerge SetMonthRange" type="text" />
+                        <span class="input-group-text loanTermIndicator"
+                          >@example.com</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculated_result">
+                    <h5 class="label">Minimum Monthly Payment</h5>
+                    <h5 class="amount emiAmount"></h5>
+                  </div>
+                </div>
+              </div>
+              <!-- calculator end -->
+            </div>
+            <div class="action">
+              <a
+                href="#easy-app"
+                class="theme-btn theme-btn-lg mb-10"
+                data-i18n="details.cta"
+              >
+                Get it now!
+              </a>
             </div>
           </div>
 
           <div class="detail d-none" id="detail_2">
             <div class="row">
-              <div class="col-5">
-                <img src="img/projects/teacherloan.png" alt="" srcset="" />
+              <div class="col-6">
+                <div class="project_image">
+                  <img src="img/projects/teacherloan.png" alt="" srcset="" />
+                </div>
                 <div class="introduction">
                   <p data-i18n="details.banner2">
                     Secure your dreams with our special loan package for
@@ -742,23 +746,99 @@
                     <h4 data-i18n="details.ctaHead2">
                       Supporting teachers, empowering dreams of knowledge!
                     </h4>
-                    <a
-                      href="#easy-app"
-                      class="theme-btn theme-btn-lg mb-10"
-                      data-i18n="details.cta"
-                    >
-                      Get it now!
-                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="calculator mt-50">
+              <!-- calculator start -->
+              <div class="calculator-widget-2">
+                <div
+                  class="single-calculator-widget wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <h4>Calculate your payment</h4>
+
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">
+                        <p>Your Desired Amount</p>
+                        <p>(million VND)</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="RangeSlider"></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input type="text" class="SetRange" />
+                        <span class="input-group-text">m</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">Loan Tenor (Months)</div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade yearTab"
+                          role="tabpanel"
+                          aria-labelledby="yearTab"
+                        >
+                          <div class="YearRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade show active monthTab"
+                          role="tabpanel"
+                          aria-labelledby="monthTab"
+                        >
+                          <div class="MonthRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade weekTab"
+                          role="tabpanel"
+                          aria-labelledby="weekTab"
+                        >
+                          <div class="WeekRangeSlider"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input class="noTextMerge SetMonthRange" type="text" />
+                        <span class="input-group-text loanTermIndicator"
+                          >@example.com</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculated_result">
+                    <h5 class="label">Minimum Monthly Payment</h5>
+                    <h5 class="amount emiAmount"></h5>
+                  </div>
+                </div>
+              </div>
+              <!-- calculator end -->
+            </div>
+            <div class="action">
+              <a
+                href="#easy-app"
+                class="theme-btn theme-btn-lg mb-10"
+                data-i18n="details.cta"
+              >
+                Get it now!
+              </a>
             </div>
           </div>
 
           <div class="detail d-none" id="detail_3">
             <div class="row">
-              <div class="col-5">
-                <img src="img/projects/furniture.png" alt="" srcset="" />
+              <div class="col-6">
+                <div class="project_image">
+                  <img src="img/projects/furniture.png" alt="" srcset="" />
+                </div>
                 <div class="introduction">
                   <p data-i18n="details.banner3">
                     Live in luxury with our special interior design loan package
@@ -790,23 +870,99 @@
                       Start building distinctive interior design styles with
                       Easy App
                     </h4>
-                    <a
-                      href="#easy-app"
-                      class="theme-btn theme-btn-lg mb-10"
-                      data-i18n="details.cta"
-                    >
-                      Get it now!
-                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="calculator mt-50">
+              <!-- calculator start -->
+              <div class="calculator-widget-2">
+                <div
+                  class="single-calculator-widget wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <h4>Calculate your payment</h4>
+
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">
+                        <p>Your Desired Amount</p>
+                        <p>(million VND)</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="RangeSlider"></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input type="text" class="SetRange" />
+                        <span class="input-group-text">m</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">Loan Tenor (Months)</div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade yearTab"
+                          role="tabpanel"
+                          aria-labelledby="yearTab"
+                        >
+                          <div class="YearRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade show active monthTab"
+                          role="tabpanel"
+                          aria-labelledby="monthTab"
+                        >
+                          <div class="MonthRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade weekTab"
+                          role="tabpanel"
+                          aria-labelledby="weekTab"
+                        >
+                          <div class="WeekRangeSlider"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input class="noTextMerge SetMonthRange" type="text" />
+                        <span class="input-group-text loanTermIndicator"
+                          >@example.com</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculated_result">
+                    <h5 class="label">Minimum Monthly Payment</h5>
+                    <h5 class="amount emiAmount"></h5>
+                  </div>
+                </div>
+              </div>
+              <!-- calculator end -->
+            </div>
+            <div class="action">
+              <a
+                href="#easy-app"
+                class="theme-btn theme-btn-lg mb-10"
+                data-i18n="details.cta"
+              >
+                Get it now!
+              </a>
             </div>
           </div>
 
           <div class="detail d-none" id="detail_4">
             <div class="row">
-              <div class="col-5">
-                <img src="img/projects/experience.png" alt="" srcset="" />
+              <div class="col-6">
+                <div class="project_image">
+                  <img src="img/projects/experience.png" alt="" srcset="" />
+                </div>
                 <div class="introduction">
                   <p data-i18n="details.banner4">
                     Explore the vast world waiting for you – Start with SinoPac
@@ -835,23 +991,99 @@
                     <h4 data-i18n="details.ctaHead4">
                       Financial flexibility, unlimited world exploration
                     </h4>
-                    <a
-                      href="#easy-app"
-                      class="theme-btn theme-btn-lg mb-10"
-                      data-i18n="details.cta"
-                    >
-                      Get it now!
-                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="calculator mt-50">
+              <!-- calculator start -->
+              <div class="calculator-widget-2">
+                <div
+                  class="single-calculator-widget wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <h4>Calculate your payment</h4>
+
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">
+                        <p>Your Desired Amount</p>
+                        <p>(million VND)</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="RangeSlider"></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input type="text" class="SetRange" />
+                        <span class="input-group-text">m</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">Loan Tenor (Months)</div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade yearTab"
+                          role="tabpanel"
+                          aria-labelledby="yearTab"
+                        >
+                          <div class="YearRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade show active monthTab"
+                          role="tabpanel"
+                          aria-labelledby="monthTab"
+                        >
+                          <div class="MonthRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade weekTab"
+                          role="tabpanel"
+                          aria-labelledby="weekTab"
+                        >
+                          <div class="WeekRangeSlider"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input class="noTextMerge SetMonthRange" type="text" />
+                        <span class="input-group-text loanTermIndicator"
+                          >@example.com</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculated_result">
+                    <h5 class="label">Minimum Monthly Payment</h5>
+                    <h5 class="amount emiAmount"></h5>
+                  </div>
+                </div>
+              </div>
+              <!-- calculator end -->
+            </div>
+            <div class="action">
+              <a
+                href="#easy-app"
+                class="theme-btn theme-btn-lg mb-10"
+                data-i18n="details.cta"
+              >
+                Get it now!
+              </a>
             </div>
           </div>
 
           <div class="detail d-none" id="detail_5">
             <div class="row">
-              <div class="col-5">
-                <img src="img/projects/study.png" alt="" srcset="" />
+              <div class="col-6">
+                <div class="project_image">
+                  <img src="img/projects/study.png" alt="" srcset="" />
+                </div>
                 <div class="introduction">
                   <p data-i18n="details.banner5">
                     Your journey, we accompany: Apply for study abroad loan
@@ -880,23 +1112,99 @@
                     <h4 data-i18n="details.ctaHead5">
                       Download App - Get Education Loan
                     </h4>
-                    <a
-                      href="#easy-app"
-                      class="theme-btn theme-btn-lg mb-10"
-                      data-i18n="details.cta"
-                    >
-                      Get it now!
-                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="calculator mt-50">
+              <!-- calculator start -->
+              <div class="calculator-widget-2">
+                <div
+                  class="single-calculator-widget wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <h4>Calculate your payment</h4>
+
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">
+                        <p>Your Desired Amount</p>
+                        <p>(million VND)</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="RangeSlider"></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input type="text" class="SetRange" />
+                        <span class="input-group-text">m</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">Loan Tenor (Months)</div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade yearTab"
+                          role="tabpanel"
+                          aria-labelledby="yearTab"
+                        >
+                          <div class="YearRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade show active monthTab"
+                          role="tabpanel"
+                          aria-labelledby="monthTab"
+                        >
+                          <div class="MonthRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade weekTab"
+                          role="tabpanel"
+                          aria-labelledby="weekTab"
+                        >
+                          <div class="WeekRangeSlider"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input class="noTextMerge SetMonthRange" type="text" />
+                        <span class="input-group-text loanTermIndicator"
+                          >@example.com</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculated_result">
+                    <h5 class="label">Minimum Monthly Payment</h5>
+                    <h5 class="amount emiAmount"></h5>
+                  </div>
+                </div>
+              </div>
+              <!-- calculator end -->
+            </div>
+            <div class="action">
+              <a
+                href="#easy-app"
+                class="theme-btn theme-btn-lg mb-10"
+                data-i18n="details.cta"
+              >
+                Get it now!
+              </a>
             </div>
           </div>
 
           <div class="detail d-none" id="detail_6">
             <div class="row">
-              <div class="col-5">
-                <img src="img/projects/youth.png" alt="" srcset="" />
+              <div class="col-6">
+                <div class="project_image">
+                  <img src="img/projects/youth.png" alt="" srcset="" />
+                </div>
                 <div class="introduction">
                   <p data-i18n="details.banner6">
                     Ignite passion, conquer dreams - Youth to live fully with
@@ -925,16 +1233,90 @@
                     <h4 data-i18n="details.ctaHead6">
                       Fulfill youth passion, worry-free
                     </h4>
-                    <a
-                      href="#easy-app"
-                      class="theme-btn theme-btn-lg mb-10"
-                      data-i18n="details.cta"
-                    >
-                      Get it now!
-                    </a>
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="calculator mt-50">
+              <!-- calculator start -->
+              <div class="calculator-widget-2">
+                <div
+                  class="single-calculator-widget wow fadeInUp"
+                  data-wow-delay="0.1s"
+                >
+                  <h4>Calculate your payment</h4>
+
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">
+                        <p>Your Desired Amount</p>
+                        <p>(million VND)</p>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="RangeSlider"></div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input type="text" class="SetRange" />
+                        <span class="input-group-text">m</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="single-range row gy-3">
+                    <div class="col-12 col-md-12 col-xxl-3">
+                      <div class="range-label">Loan Tenor (Months)</div>
+                    </div>
+                    <div class="col-12 col-md-9 col-xxl-7 order-1 order-md-0">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade yearTab"
+                          role="tabpanel"
+                          aria-labelledby="yearTab"
+                        >
+                          <div class="YearRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade show active monthTab"
+                          role="tabpanel"
+                          aria-labelledby="monthTab"
+                        >
+                          <div class="MonthRangeSlider"></div>
+                        </div>
+                        <div
+                          class="tab-pane fade weekTab"
+                          role="tabpanel"
+                          aria-labelledby="weekTab"
+                        >
+                          <div class="WeekRangeSlider"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-3 col-xxl-2">
+                      <div class="input-group">
+                        <input class="noTextMerge SetMonthRange" type="text" />
+                        <span class="input-group-text loanTermIndicator"
+                          >@example.com</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="calculated_result">
+                    <h5 class="label">Minimum Monthly Payment</h5>
+                    <h5 class="amount emiAmount"></h5>
+                  </div>
+                </div>
+              </div>
+              <!-- calculator end -->
+            </div>
+            <div class="action">
+              <a
+                href="#easy-app"
+                class="theme-btn theme-btn-lg mb-10"
+                data-i18n="details.cta"
+              >
+                Get it now!
+              </a>
             </div>
           </div>
         </div>
