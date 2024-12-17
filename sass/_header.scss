@@ -92,7 +92,7 @@ header {
       &:hover {
         background-color: var(--brand_color);
       }
-    }    
+    }
   }
   &.navbar_fixed {
     background: var(--bs-white);
@@ -105,7 +105,7 @@ header {
     width: 100%;
     transition: all 0.3s ease;
     animation: slideInDown 0.5s; // Add smooth animation when becoming fixed
-    
+
     // Add animation keyframes
     @keyframes slideInDown {
       from {
@@ -116,7 +116,7 @@ header {
         transform: translateY(0);
       }
     }
-    
+
     .navbar {
       .sticky_logo {
         .main {
@@ -189,18 +189,18 @@ header {
       }
       .navbar {
         .menu {
-          > .nav-item {            
-            > .nav-link {              
+          > .nav-item {
+            > .nav-link {
               color: var(--secondary_color);
               &.active {
                 color: var(--brand_color);
               }
               &::before {
                 background-color: var(--brand_color);
-              }             
+              }
             }
-          }          
-        }        
+          }
+        }
       }
     }
     &.header-menu-4 {
@@ -227,7 +227,7 @@ header {
       }
     }
   }
-  
+
   .logo-wrapper {
     max-width: 190px;
     @media (max-width: 576px) {
@@ -257,72 +257,74 @@ header {
       padding-top: 25px;
       transition: all 0.3s linear;
       > .nav-link {
-          font-size: 1rem;
-          color: black;
-          font-family: $Roboto-font;
-          font-weight: 500;
-          position: relative;
-          text-transform: uppercase;
+        font-size: 1rem;
+        color: black;
+        font-family: $Roboto-font;
+        font-weight: 500;
+        position: relative;
+        text-transform: uppercase;
 
-          display: flex;
-          align-items: center;
-          gap: 5px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
 
-          i, .fa-solid, .fas {
+        i,
+        .fa-solid,
+        .fas {
+          display: inline-block !important;
+          font-family: "Font Awesome 6 Free" !important;
+          font-weight: 900 !important;
+          font-style: normal !important;
+        }
+
+        .fa-globe {
+          font-size: 16px;
+          color: var(--theme-color);
+        }
+
+        .fa-chevron-down {
+          font-size: 12px;
+          color: currentColor;
+        }
+
+        &.dropdown-toggle {
+          i,
+          .fa-solid,
+          .fas {
             display: inline-block !important;
             font-family: "Font Awesome 6 Free" !important;
             font-weight: 900 !important;
             font-style: normal !important;
           }
-            
-          .fa-globe {
-            font-size: 16px;
-            color: var(--theme-color);
-          }
+        }
+        // Hover effect - underline animation
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0px;
+          left: 0;
+          width: 0;
+          height: 2px;
+          background-color: var(--brand_color);
+          transition: width 0.3s ease;
+        }
 
-          .fa-chevron-down {
-            font-size: 12px;
-            color: currentColor;
-          }
-          
-          &.dropdown-toggle {
-            i, 
-            .fa-solid, 
-            .fas {
-              display: inline-block !important;
-              font-family: "Font Awesome 6 Free" !important;
-              font-weight: 900 !important;
-              font-style: normal !important;
-            }
-          }
-          // Hover effect - underline animation
+        &:hover {
+          color: var(--brand_color);
+
           &::after {
-            content: '';
-            position: absolute;
-            bottom: 0px;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background-color: var(--brand_color);
-            transition: width 0.3s ease;            
+            width: 100%;
           }
+        }
 
-          &:hover {
-            color: var(--brand_color);
+        // Active state
+        &.active {
+          color: var(--brand_color);
 
-            &::after {
-              width: 100%;
-            }
+          &::after {
+            width: 100%;
           }
-
-          // Active state
-          &.active {
-            color: var(--brand_color);
-
-            &::after {
-              width: 100%;
-            }
-          }
+        }
       }
 
       &.active {
@@ -348,9 +350,9 @@ header {
           display: flex;
           align-items: center;
           gap: 5px;
-          
-          i, 
-          .fa-solid, 
+
+          i,
+          .fa-solid,
           .fas {
             display: inline-block !important;
             font-family: "Font Awesome 6 Free" !important;
@@ -619,7 +621,7 @@ header {
       .fas {
         display: inline-block !important;
       }
-      
+
       button {
         .dropdown-item {
           font-family: $Roboto-font;
@@ -841,11 +843,13 @@ i.fas {
 
           // Custom underline effect
           &::before {
-            content: '';
+            content: "";
             position: absolute;
             bottom: 0px; // Adjust this value to position the line
             left: 0px;
-            width: calc(100% - 0px); // Subtract some space for the dropdown icon
+            width: calc(
+              100% - 0px
+            ); // Subtract some space for the dropdown icon
             height: 2px;
             background-color: var(--brand_color);
             transform: scaleX(0);
@@ -866,13 +870,13 @@ i.fas {
           margin-top: 5px;
           border: 1px solid var(--theme-border-color);
           box-shadow: var(--theme-dropshadow);
-          
+
           .dropdown-item {
             padding: 8px 20px;
             transition: color 0.3s ease;
             font-family: $Roboto-font;
             font-size: 1rem;
-            
+
             &:hover {
               background-color: rgba(0, 80, 178, 0.1);
               color: var(--brand_color);
@@ -884,3 +888,7 @@ i.fas {
   }
 }
 
+//modification
+.menu {
+  flex: 0 0 auto;
+}
