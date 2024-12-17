@@ -647,10 +647,10 @@
   .detail {
     padding: 64px 0;
   }
-  .container {
-    max-width: 80%; // Makes container 90% of page width
-    width: 80%;
-  }
+  // .container {
+  //   max-width: 80%; // Makes container 90% of page width
+  //   width: 80%;
+  // }
   .row {
     .col-5 {
       position: relative;
@@ -792,8 +792,19 @@
       }
     }
   }
+  .action {
+    padding-top: 40px;
+    text-align: center;
+    a {
+      margin-bottom: 0;
+    }
+  }
 }
-
+.project_image {
+  img {
+    width: 100%;
+  }
+}
 //modification
 .project_detail {
   .theme-btn {

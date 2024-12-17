@@ -28,10 +28,10 @@
   .loan-slider .slick-prev {
     left: -60px;
   }
-  .bank-card-img{
+  .bank-card-img {
     margin-left: -100px;
   }
-  .bank-card-img .shap.four{
+  .bank-card-img .shap.four {
     right: -100px;
   }
 }
@@ -76,13 +76,13 @@
   .cta-3 .img-shapes .shape:nth-child(1) {
     left: 0%;
   }
-  .bank-card-img{
+  .bank-card-img {
     margin-left: 0;
   }
-  .bank-card-img img{
+  .bank-card-img img {
     max-width: 100%;
   }
-  .bank-card-img .bank-card:nth-child(3){
+  .bank-card-img .bank-card:nth-child(3) {
     bottom: -200px;
   }
   .bank-card-img .bank-card:nth-child(2) {
@@ -91,10 +91,10 @@
   .bank-card-img .bank-card:nth-child(1) {
     bottom: 130px;
   }
-  
+
   .bank-card-img .shap.one {
-      top: 90px;
-      left: 35%;
+    top: 90px;
+    left: 35%;
   }
 }
 @media (min-width: 1200px) {
@@ -107,7 +107,7 @@
   }
 }
 @media (max-width: 1199px) {
-  .map_inner img{
+  .map_inner img {
     max-width: 100%;
   }
   .banner-area-3 .person-img {
@@ -129,38 +129,38 @@
   .loan-slider .slick-prev {
     left: -35px;
   }
-  .saas-features-img img{
+  .saas-features-img img {
     max-width: 100%;
   }
-  .saas-features-content{
+  .saas-features-content {
     padding-left: 0;
   }
-  .saas-features-item.flex-row-reverse .saas-features-img{
+  .saas-features-item.flex-row-reverse .saas-features-img {
     margin-left: 0;
   }
-  .saas-features-img{
+  .saas-features-img {
     margin-right: 0;
   }
-  .saas-section-title h2{
+  .saas-section-title h2 {
     font-size: 42px;
     line-height: 60px;
   }
-  .features-icon-box.feedback h4{
+  .features-icon-box.feedback h4 {
     font-size: 42px;
   }
-  .features-icon-box.feedback{
+  .features-icon-box.feedback {
     margin-right: 20px;
   }
-  .features-icon-box.feedback:not(:first-child):before{
+  .features-icon-box.feedback:not(:first-child):before {
     margin-right: 30px;
   }
-  .pricing_inner .price_item{
+  .pricing_inner .price_item {
     margin-bottom: 30px;
   }
-  .faq_item .faq-header h6{
+  .faq_item .faq-header h6 {
     padding-right: 30px;
   }
-  .faq_item .faq-body{
+  .faq_item .faq-body {
     padding-right: 30px;
   }
   .saas-subscribe-area .saas_dash_img {
@@ -168,42 +168,42 @@
     bottom: -40px;
     width: 500px;
   }
-  .app-showcase-item.box-three{
+  .app-showcase-item.box-three {
     padding: 45px 30px;
   }
-  .app-showcase-item.box-three .img .app_shap_img.two{
+  .app-showcase-item.box-three .img .app_shap_img.two {
     right: -35px;
   }
-  .bank-banner-content h1{
+  .bank-banner-content h1 {
     font-size: 55px;
     line-height: 60px;
     margin-bottom: 10px;
   }
-  .card-img img{
+  .card-img img {
     max-width: 100%;
   }
-  .bank-banner-content p{
+  .bank-banner-content p {
     margin-bottom: 30px;
   }
-  .bank-banner-content .feature-list{
+  .bank-banner-content .feature-list {
     margin-bottom: 50px;
   }
-  .bank-banner-area{
+  .bank-banner-area {
     padding-top: 180px;
   }
-  .bank-app-showcase-area img{
+  .bank-app-showcase-area img {
     max-width: 100%;
   }
-  .bank-section-title h1{
+  .bank-section-title h1 {
     font-size: 48px;
   }
-  .cta-five .cta-content{
+  .cta-five .cta-content {
     padding-top: 0;
   }
-  .bank-footer-area .about-widget p{
+  .bank-footer-area .about-widget p {
     padding-right: 0;
   }
-  .map_inner .map_list li:nth-child(1){
+  .map_inner .map_list li:nth-child(1) {
     left: 160px;
     top: 35px;
   }
@@ -223,8 +223,8 @@
     left: 490px;
   }
   .map_inner .map_list li:nth-child(6) {
-      right: 246px;
-      bottom: 185px;
+    right: 246px;
+    bottom: 185px;
   }
 }
 
@@ -466,13 +466,13 @@
     padding: 40px;
   }
   /* new page css */
-  .banner-saas-area{
+  .banner-saas-area {
     padding-top: 150px;
   }
-  .saas-banner-content h5{
+  .saas-banner-content h5 {
     margin-bottom: 15px;
   }
-  .saas-banner-content h1{
+  .saas-banner-content h1 {
     font-size: 56px;
     line-height: 70px;
   }
@@ -480,131 +480,134 @@
     font-size: 21px;
     line-height: 32px;
   }
-  .saas-feature-card{
+  .saas-feature-card {
     margin-bottom: 30px;
   }
-  .saas-features-area,.saas-pricing-area{
+  .saas-features-area,
+  .saas-pricing-area {
     padding: 80px 0px;
   }
   .saas-features-img {
-      margin-right: 0;
-      display: inline-block;
-      margin-bottom: 30px;
+    margin-right: 0;
+    display: inline-block;
+    margin-bottom: 30px;
   }
   .saas-features-item:not(:last-child) {
     margin-bottom: 80px;
   }
-  .app-showcase-area{
+  .app-showcase-area {
     padding: 80px 0px 60px;
   }
   .saas-pricing-area .saas-section-title {
     margin-bottom: 40px;
   }
-  .saas-faq-area{
+  .saas-faq-area {
     padding-bottom: 60px;
   }
-  .saas-subscribe-area{
+  .saas-subscribe-area {
     transform: translateY(0);
     padding: 50px 0px;
   }
-  .saas-subscribe-area .saas_dash_img{
+  .saas-subscribe-area .saas_dash_img {
     width: 400px;
   }
   .app-showcase-item.box-three .app-text {
     padding-right: 50px;
   }
-  .f-widget{
+  .f-widget {
     margin-bottom: 30px;
   }
-  .saas-footer-bottom .f-social a{
+  .saas-footer-bottom .f-social a {
     margin-right: 12px;
   }
   .bank-banner-area {
     padding-top: 120px;
   }
   .bank-card-img .bank-card:nth-child(3) {
-      bottom: -100px;
+    bottom: -100px;
   }
   .bank-card-img .bank-card:nth-child(1) {
-      bottom: 100px;
+    bottom: 100px;
   }
-  .bank-card-img .bank-card:nth-child(2){
+  .bank-card-img .bank-card:nth-child(2) {
     bottom: 0;
   }
-  .bank-card-img{
+  .bank-card-img {
     margin-top: 25px;
   }
-  .process-area .section-title{
+  .process-area .section-title {
     margin-bottom: 50px;
   }
-  .process-area,.bank-card-area,.calculator-area-three{
+  .process-area,
+  .bank-card-area,
+  .calculator-area-three {
     padding: 80px 0px;
   }
-  .app-content{
+  .app-content {
     margin-bottom: 30px;
   }
-  .bank-card-area .card-img{
+  .bank-card-area .card-img {
     text-align: center;
   }
-  .integrate-area{
+  .integrate-area {
     padding-top: 80px;
     padding-bottom: 40px;
   }
-  .map_area{
+  .map_area {
     padding-bottom: 80px;
   }
-  .calculator-area-three .calculator-widget-2 .calculator-result-widget{
+  .calculator-area-three .calculator-widget-2 .calculator-result-widget {
     border: 0px;
   }
-  .cta-five{
+  .cta-five {
     transform: translateY(150px);
   }
-  .cta-action-area-three .text-end{
+  .cta-action-area-three .text-end {
     text-align: center !important;
     margin-top: 20px;
   }
-  .fact-item{
+  .fact-item {
     margin-bottom: 30px;
   }
-  .map_inner .map_list li:nth-child(1){
+  .map_inner .map_list li:nth-child(1) {
     left: 140px;
     top: 10px;
   }
   .map_inner .map_list li:nth-child(2) {
-      left: 90px;
-      top: 95px;
+    left: 90px;
+    top: 95px;
   }
-  .map_inner .map_list li:nth-child(3){
+  .map_inner .map_list li:nth-child(3) {
     left: 174px;
     bottom: 70px;
   }
-  .map_inner .map_list li:nth-child(4){
+  .map_inner .map_list li:nth-child(4) {
     top: 0;
     left: 300px;
   }
-  .map_inner .map_list li:nth-child(5){
+  .map_inner .map_list li:nth-child(5) {
     left: 347px;
     bottom: 48px;
   }
-  .map_inner .map_list li:nth-child(6){
+  .map_inner .map_list li:nth-child(6) {
     right: 188px;
     bottom: 125px;
   }
-  .map_inner .map_list li:nth-child(8){
+  .map_inner .map_list li:nth-child(8) {
     right: 90px;
     top: 22px;
   }
-  .map_inner .map_list li:nth-child(7){
+  .map_inner .map_list li:nth-child(7) {
     right: 80px;
     bottom: 60px;
   }
-  .bank-card-img .shap.four{
+  .bank-card-img .shap.four {
     right: 0;
   }
-  .bank-card-img .shap.three{
+  .bank-card-img .shap.three {
     right: 80px;
   }
-  .cta-action-area-three img{
+  .cta-action-area-three img {
     max-width: 100%;
   }
 }
@@ -903,80 +906,85 @@
     padding-top: 160px;
     padding-bottom: 135px;
   }
-  .saas-section-title p br{
+  .saas-section-title p br {
     display: none;
   }
-  .saas-section-title h2{
+  .saas-section-title h2 {
     line-height: 50px;
   }
-  .app-showcase-item.box-three{
+  .app-showcase-item.box-three {
     display: block;
   }
   .app-showcase-item.box-three .app-text {
     padding-right: 0px;
   }
-  .app-showcase-item.box-three .img .app_shap_img.one{
+  .app-showcase-item.box-three .img .app_shap_img.one {
     left: -40px;
   }
-  .app-showcase-item.box-three .img{
+  .app-showcase-item.box-three .img {
     margin-top: 30px;
   }
-  .saas-footer-bottom .payment-list{
+  .saas-footer-bottom .payment-list {
     text-align: center;
     margin-top: 12px;
   }
-  .saas-footer-bottom .d-flex{
+  .saas-footer-bottom .d-flex {
     justify-content: center;
   }
-  .bank-footer-area .d-flex{
+  .bank-footer-area .d-flex {
     display: block !important;
   }
-  .bank-footer-area .text-end,.bank-footer-area .copyright-text{
+  .bank-footer-area .text-end,
+  .bank-footer-area .copyright-text {
     text-align: center !important;
   }
   .bank-footer-area .footer_top {
     padding-top: 230px;
     padding-bottom: 50px;
   }
-  .map_inner .map_list li:nth-child(1){
+  .map_inner .map_list li:nth-child(1) {
     left: 50px;
     top: 0;
   }
-  .map_inner .map_list li:nth-child(2){
+  .map_inner .map_list li:nth-child(2) {
     left: 18px;
     top: 84px;
   }
-  .map_inner .map_list li:nth-child(3){
+  .map_inner .map_list li:nth-child(3) {
     left: 110px;
-    bottom: 38px
+    bottom: 38px;
   }
-  .map_inner .map_list li:nth-child(4){
+  .map_inner .map_list li:nth-child(4) {
     left: 200px;
   }
-  .map_inner .map_list li:nth-child(6){
+  .map_inner .map_list li:nth-child(6) {
     bottom: 75px;
     right: 129px;
   }
-  .map_inner .map_list li:nth-child(5){
+  .map_inner .map_list li:nth-child(5) {
     bottom: 0;
     left: 240px;
   }
-  .map_inner .map_list li:nth-child(7){
+  .map_inner .map_list li:nth-child(7) {
     bottom: 30px;
     right: 50px;
   }
-  .map_inner .map_list li:nth-child(8){
+  .map_inner .map_list li:nth-child(8) {
     right: 20px;
     top: 0px;
   }
-  .calculator-widget-2 .loan-start-date input{
+  .calculator-widget-2 .loan-start-date input {
     width: 100%;
   }
-  .bank-footer-area .copyright-text a{
+  .bank-footer-area .copyright-text a {
     margin-right: 10px;
   }
-  .bank-section-title h1 br{
+  .bank-section-title h1 br {
     display: none;
+  }
+  /* add */
+  .calculator-widget-2 .single-calculator-widget .row > :last-child {
+    justify-items: center;
   }
 }
 @media (max-width: 575px) {
@@ -1406,15 +1414,29 @@
     gap: 0;
     margin-top: 25px;
   }
-  .calculator-widget-2 .calculator-result-widget{
+  .calculator-widget-2 .calculator-result-widget {
     padding-left: 10px;
     padding-right: 10px;
   }
   .calculator-widget-2 .single-calculator-widget .single-range {
-    flex-direction: column;
-    margin-bottom: 25px;
-    gap: 10px;
+    /* flex-direction: column; */
+    /* margin-bottom: 25px; */
+    /* gap: 10px; */
+    /* margin-bottom: 80px; */
+    /* gap: 16px; */
   }
+  /* add start*/
+  .calculator-widget-2 .single-calculator-widget {
+    padding: 16px;
+  }
+  .calculator-widget-2 .single-calculator-widget h4 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  .calculator-widget-2 .single-calculator-widget .single-range .range-label {
+    align-self: start;
+  }
+  /* add end*/
   .calculator-widget-2 .single-calculator-widget .single-range input {
     width: 100%;
     flex: 1;
@@ -1425,9 +1447,11 @@
     .noUi-horizontal {
     width: 100%;
     margin: 15px 0;
+    order: 2;
   }
   .calculator-widget-2 .single-calculator-widget .single-range .tab-content {
     width: 100%;
+    order: 2;
   }
   .loan-slider .slick-arrow {
     font-size: 18px;
@@ -1496,79 +1520,81 @@
     border: 5px solid var(--primary-color);
     margin-right: 5px;
   }
-  .saas-subscribe-area{
+  .saas-subscribe-area {
     padding: 50px 0px;
   }
-  .saas-subscribe-area .saas_dash_img{
+  .saas-subscribe-area .saas_dash_img {
     display: none;
   }
-  .saas-banner-content .theme-btn + .theme-btn{
+  .saas-banner-content .theme-btn + .theme-btn {
     margin-top: 10px;
   }
-  .saas-clients-logo .col{
-    flex: 33% 0 0 ;
+  .saas-clients-logo .col {
+    flex: 33% 0 0;
   }
-  .saas-clients-logo .row{
+  .saas-clients-logo .row {
     justify-content: center;
   }
-  .saas-footer-bottom .d-flex{
+  .saas-footer-bottom .d-flex {
     display: block !important;
     text-align: center;
   }
-  .saas-footer-bottom{
+  .saas-footer-bottom {
     padding: 20px 0px;
   }
-  .cta-five{
+  .cta-five {
     padding-top: 45px;
   }
   .bank-footer-area .footer_top {
     padding-top: 230px;
     padding-bottom: 40px;
   }
-  .bank-footer-area .copyright-text{
+  .bank-footer-area .copyright-text {
     margin-bottom: 12px;
   }
-  .bank-banner-content .form-control{
+  .bank-banner-content .form-control {
     width: 100%;
     margin-bottom: 10px;
     height: 60px;
   }
-  .map_inner .map_list li{
+  .map_inner .map_list li {
     width: 45px;
     height: 45px;
   }
-  .calculator-widget-2 .single-calculator-widget{
-    padding-left: 10px;
-    padding-right: 10px;
+  .calculator-widget-2 .single-calculator-widget {
+    /* padding-left: 10px;
+    padding-right: 10px; */
+    padding-left: 40px;
+    padding-right: 40px;
   }
-  .map_inner .map_list li:nth-child(1){
+  .map_inner .map_list li:nth-child(1) {
     left: 0;
   }
-  .map_inner .map_list li:nth-child(2){
+  .map_inner .map_list li:nth-child(2) {
     left: 2px;
     top: 55px;
   }
-  .map_inner .map_list li:nth-child(3){
+  .map_inner .map_list li:nth-child(3) {
     left: 58px;
     bottom: 10px;
   }
-  .map_inner .map_list li:nth-child(4){
+  .map_inner .map_list li:nth-child(4) {
     left: 106px;
   }
-  .map_inner .map_list li:nth-child(5){
+  .map_inner .map_list li:nth-child(5) {
     left: 140px;
   }
-  .map_inner .map_list li:nth-child(6){
+  .map_inner .map_list li:nth-child(6) {
     bottom: 59px;
     right: 76px;
   }
-  .bank-banner-content h1{
+  .bank-banner-content h1 {
     font-size: 46px;
   }
-  .saas-features-content .d-flex{
+  .saas-features-content .d-flex {
     display: block !important;
   }
-  .features-icon-box:not(:first-child){
+  .features-icon-box:not(:first-child) {
     margin-top: 25px;
   }
 }
