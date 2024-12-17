@@ -1301,7 +1301,9 @@ header .header-top .header-info-right ul li i {
   align-items: center;
   gap: 5px;
 }
-.header-menu .menu > .nav-item > .nav-link i, .header-menu .menu > .nav-item > .nav-link .fa-solid, .header-menu .menu > .nav-item > .nav-link .fas {
+.header-menu .menu > .nav-item > .nav-link i,
+.header-menu .menu > .nav-item > .nav-link .fa-solid,
+.header-menu .menu > .nav-item > .nav-link .fas {
   display: inline-block !important;
   font-family: "Font Awesome 6 Free" !important;
   font-weight: 900 !important;
@@ -1809,6 +1811,10 @@ i.fas {
 .header-menu .menu > .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
   background-color: rgba(0, 80, 178, 0.1);
   color: var(--brand_color);
+}
+
+.menu {
+  flex: 0 0 auto;
 }
 
 /*----------------------------------------------------*/
@@ -5334,10 +5340,8 @@ i.fas {
   color: var(--secondary_color);
 }
 .calculator-widget-2 .single-calculator-widget .single-range {
-  display: flex;
-  gap: 25px;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 .calculator-widget-2 .single-calculator-widget .single-range .tab-content {
   width: calc(100% - 180px);
@@ -5401,7 +5405,7 @@ i.fas {
   font-family: "Be Vietnam Pro", "Roboto", sans-serif;
   font-weight: 500;
   color: #18181b;
-  width: 105px;
+  width: 85px;
   text-align: start;
   padding-left: 14px;
   border: none;
@@ -5755,6 +5759,43 @@ i.fas {
   line-height: 28px;
 }
 
+.calculator-widget-2 .single-calculator-widget {
+  padding: 40px;
+}
+.calculator-widget-2 .single-calculator-widget h4 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.calculator-widget-2 .single-calculator-widget .single-range {
+  justify-content: space-between;
+}
+.calculator-widget-2 .single-calculator-widget .single-range .range-label {
+  margin-bottom: 0;
+}
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal,
+.calculator-widget-2 .single-calculator-widget .single-range .tab-content {
+  width: 100%;
+}
+.calculator-widget-2 .single-calculator-widget .single-range .noUi-horizontal .noUi-pips,
+.calculator-widget-2 .single-calculator-widget .single-range .tab-content .noUi-pips {
+  display: block;
+}
+.calculator-widget-2 .single-calculator-widget .single-range .input-group {
+  width: 135px;
+}
+.calculator-widget-2 .single-calculator-widget .row > :last-child {
+  justify-items: end;
+}
+.calculator-widget-2 .single-calculator-widget .calculated_result {
+  text-align: center;
+}
+.calculator-widget-2 .single-calculator-widget .calculated_result h5 {
+  font-size: 22px;
+}
+.calculator-widget-2 .single-calculator-widget .calculated_result .amount {
+  color: var(--brand_color);
+}
+
 /*----------------------------------------*/
 /*   Loan Details Widget CSS
 /*----------------------------------------*/
@@ -6060,11 +6101,11 @@ i.fas {
   padding: 140px 0px;
 }
 .calculator-area-three .bank-section-title h1 .underline-shape::after {
-  background: #6AD099;
+  background: #6ad099;
 }
 .calculator-area-three .calculator-widget-2 .calculator-result-widget {
   background: #fff;
-  border-left: 1px solid #D9DBE5;
+  border-left: 1px solid #d9dbe5;
 }
 
 /*----------------------------------------------------*/
@@ -6656,10 +6697,6 @@ i.fas {
 .project_detail .detail {
   padding: 64px 0;
 }
-.project_detail .container {
-  max-width: 80%;
-  width: 80%;
-}
 .project_detail .row .col-5 {
   position: relative;
   overflow: hidden;
@@ -6675,7 +6712,7 @@ i.fas {
     width: 100%;
   }
 }
-.project_detail .row .col-5 .introduction {
+.project_detail .row .introduction {
   position: absolute;
   object-fit: cover;
   top: 0;
@@ -6697,13 +6734,13 @@ i.fas {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.project_detail .row .col-5 .introduction:hover {
+.project_detail .row .introduction:hover {
   opacity: 1;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 576px) {
-  .project_detail .row .col-5 .introduction p {
+  .project_detail .row .introduction p {
     font-size: 0.8rem;
   }
 }
@@ -6808,6 +6845,21 @@ i.fas {
   .project_detail .row .col-6 {
     width: 100%;
   }
+}
+.project_detail .action {
+  padding-top: 40px;
+  text-align: center;
+}
+.project_detail .action a {
+  margin-bottom: 0;
+}
+
+.project_image {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.project_image img {
+  width: 100%;
 }
 
 .project_detail .theme-btn::before {
