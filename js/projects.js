@@ -1,6 +1,39 @@
 let selectedId;
 
 const imgContainer = document.querySelector("#easy-app .img-container");
+// 假設每個project有特定利率
+const projectRateList = [
+  {
+    name: "travelLoan",
+    id: 1,
+    rate: 14,
+  },
+  {
+    name: "teacherLoan",
+    id: 2,
+    rate: 10,
+  },
+  {
+    name: "furnitureLoan",
+    id: 3,
+    rate: 14,
+  },
+  {
+    name: "experienceLoan",
+    id: 4,
+    rate: 14,
+  },
+  {
+    name: "studyLoan",
+    id: 5,
+    rate: 14,
+  },
+  {
+    name: "youthLoan",
+    id: 6,
+    rate: 14,
+  },
+];
 
 document.querySelectorAll(".single-client").forEach((element) => {
   element.addEventListener("click", (e) => {
@@ -9,10 +42,18 @@ document.querySelectorAll(".single-client").forEach((element) => {
     //在特定id的element加class, 使其display block
     const targetProject = document.querySelector(`#detail_${selectedId}`);
     if (!targetProject || !imgContainer) return;
+
+    const project = projectRateList.find(
+      (item) => item.id === Number(selectedId)
+    );
+
+    const targetProjectRate = project ? project.rate : 14;
+
     hideAllDetail();
     targetProject.classList.remove("d-none");
     // targetProject.classList.add("d-block");
-    createCalculator(targetProject, 14);
+
+    createCalculator(targetProject, targetProjectRate);
 
     imgContainer.style.marginTop = "20px";
   });
@@ -142,9 +183,6 @@ function createCalculator(projectId, lendingRate) {
   }
 
   function CalculateAmount(TotalRateOfInterest) {
-    // 暫時指定年利率 14%
-
-    // var TotalRateOfInterest = 14;
     var monthlyRate = (TotalRateOfInterest * 0.01) / 12;
 
     if (monthlyRate === 0) {
