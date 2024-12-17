@@ -86,6 +86,14 @@ function createCalculator(projectId, lendingRate) {
   var mySlider = projectId.querySelector(".RangeSlider");
   var mySliderMonth = projectId.querySelector(".MonthRangeSlider");
 
+  if (mySlider.noUiSlider) {
+    mySlider.noUiSlider.destroy();
+  }
+
+  if (mySliderMonth.noUiSlider) {
+    mySliderMonth.noUiSlider.destroy();
+  }
+
   function clickOnPip(sliderName, This) {
     var value = Number(This.getAttribute("data-value"));
     sliderName.noUiSlider.set(value);
