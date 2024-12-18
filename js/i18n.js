@@ -172,16 +172,16 @@ const locales = {
       featureHead1:
         "Easy App -Thao tác đơn giản liền tay qua, du lịch gia đình đến ngay!",
       featureContent1:
-        "Vay tiêu dùng nhanh chóng từ Sinopac, hưởng ngay ưu đãi đặc biệt từ các đối tác hàng không, khách sạn. Thủ tục đơn giản, lãi suất hấp dẫn, giải ngân qua app tiện lợi.",
+        "Vay tiêu dùng nhanh chóng từ SinoPac, hưởng ngay ưu đãi đặc biệt từ các đối tác hàng không, khách sạn. Thủ tục đơn giản, lãi suất hấp dẫn, giải ngân qua app tiện lợi.",
       testimonial1:
-        '"Sinopac giúp tôi tận hưởng trọn vẹn chuyến du lịch gia đình không lo toan những kỷ niệm đáng nhớ bên nhau."',
-      ctaHead1: "Cùng Sinopac tạo kỷ niệm du lịch gia đình!",
+        '"SinoPac giúp tôi tận hưởng trọn vẹn chuyến du lịch gia đình không lo toan những kỷ niệm đáng nhớ bên nhau."',
+      ctaHead1: "Cùng SinoPac tạo kỷ niệm du lịch gia đình!",
       cta: "Đăng ký ngay!",
 
       // Teacher Loan (2)
       banner2: "An tâm thực hiện ước mơ với gói vay ưu đãi cho giáo viên",
       title2: "KHOẢN VAY GIÁO VIÊN",
-      featureHead2: "Đầu tư tương lai, nâng tầm tri thức cùng Sinopac.",
+      featureHead2: "Đầu tư tương lai, nâng tầm tri thức cùng SinoPac.",
       featureContent2:
         "Vay ưu đãi cho giáo viên, dễ dàng tiếp cận khóa học, hội thảo.\
        Hồ sơ vay tín chấp đơn giản, giải ngân nhanh qua Easy app. \
@@ -199,7 +199,7 @@ const locales = {
       featureContent3:
         "Viết tiếp câu chuyện của ngôi nhà bạn với gói vay mua nội thất SinoPac. Lãi suất cạnh tranh, thủ tục đơn giản, giúp bạn sở hữu không gian sống đẳng cấp.",
       testimonial3:
-        '"Ước vọng về một chốn an cư lý tưởng đã thành sự thật nhờ Sinopac với vay tín chấp nhanh để mua nội thất, những món đồ nội thất thủ công không chỉ là vật trang trí, mà còn là bức họa sống động về tâm hồn chúng tôi."',
+        '"Ước vọng về một chốn an cư lý tưởng đã thành sự thật nhờ SinoPac với vay tín chấp nhanh để mua nội thất, những món đồ nội thất thủ công không chỉ là vật trang trí, mà còn là bức họa sống động về tâm hồn chúng tôi."',
       ctaHead3:
         "Bắt đầu xây dựng những phong cách thiết kế nội thất đặc trưng cùng Easy App",
 
@@ -211,7 +211,7 @@ const locales = {
       featureContent4:
         "SinoPac giúp bạn thỏa sức khám phá với gói vay ưu đãi đặc biệt. Lãi suất thấp, thủ tục đơn giản, biến chuyến đi trong mơ của bạn thành hiện thực.",
       testimonial4:
-        '"Sinopac đã mở cánh cửa đến những chân trời mới. Với khoản vay tín chấp du lịch, chúng tôi đã thực hiện được ước mơ viễn du, tự do khám phá thế giới."',
+        '"SinoPac đã mở cánh cửa đến những chân trời mới. Với khoản vay tín chấp du lịch, chúng tôi đã thực hiện được ước mơ viễn du, tự do khám phá thế giới."',
       ctaHead4: "Linh hoạt tài chính, thỏa sức khám phá thế giới",
 
       // Study Loan (5)
@@ -232,9 +232,9 @@ const locales = {
       title6: "KHOẢN VAY TUỔI TRẺ",
       featureHead6: "Tỏa sáng với bản ngã của chính mình cùng SinoPac!",
       featureContent6:
-        "Sinopac: Người bạn đồng hành với ước mơ của tuổi trẻ. Với các gói vay ưu đãi và thủ tục đơn giản, Sinopac giúp bạn tự tin thực hiện mọi kế hoạch khám phá đam mê.",
+        "SinoPac: Người bạn đồng hành với ước mơ của tuổi trẻ. Với các gói vay ưu đãi và thủ tục đơn giản, SinoPac giúp bạn tự tin thực hiện mọi kế hoạch khám phá đam mê.",
       testimonial6:
-        '"Vay Sinopac – Sành điệu, không lo chi phí. Quản lý tài chính dễ dàng, tận hưởng cuộc sống."',
+        '"Vay SinoPac – Sành điệu, không lo chi phí. Quản lý tài chính dễ dàng, tận hưởng cuộc sống."',
       ctaHead6: "Thỏa đam mê tuổi trẻ, chẳng cần lo nghĩ",
     },
 
@@ -253,7 +253,7 @@ const locales = {
       Experience: "Vay trực tuyến thông minh, mọi lúc mọi nơi.",
       WhyChooseUs: "VỀ CHÚNG TÔI",
       script:
-        "Sinopac Bank mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
+        "SinoPac Bank mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
       ApplyNow: "ĐĂNG KÝ NGAY",
       Details: "CHI TIẾT",
     },
