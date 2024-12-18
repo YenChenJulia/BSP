@@ -123,6 +123,16 @@ const locales = {
       first: "Follow Us",
       second: "Contact Us",
     },
+    // calculator
+    calculator: {
+      title: "Calculate your payment",
+      amount: "Your Desired Amount",
+      amountUnit: "(million VND)",
+      loanTerm: "Loan Tenor (Months)",
+      minimumMonthlyPayment: "Minimum Monthly Payment",
+      remark:
+        "This calculation is for reference only. The monthly payment amount for customers may vary depending on individual loan products and credit conditions.",
+    },
   },
 
   // VI
@@ -337,6 +347,16 @@ const locales = {
       third: "Điện thoại: +84 345 678 910",
       fourth:
         "Địa chỉ: Lầu 9, Tòa nhà Friendship, Đường Lê Duẩn, Quận 1, Thành phố Hồ Chí Minh",
+    },
+    // calculator
+    calculator: {
+      title: "Tính toán khoản thanh toán của bạn",
+      amount: "Số tiền bạn mong muốn",
+      amountUnit: "(triệu VND)",
+      loanTerm: "Thời hạn vay (tháng)",
+      minimumMonthlyPayment: "Khoản thanh toán tối thiểu hàng tháng",
+      remark:
+        "Phép tính này chỉ mang tính chất tham khảo. Số tiền phải trả hàng tháng của khách hàng có thể khác nhau tùy thuộc vào sản phẩm vay và điều kiện tín dụng cụ thể.",
     },
   },
 };

@@ -2,6 +2,7 @@ let selectedId;
 
 const imgContainer = document.querySelector("#easy-app .img-container");
 // 假設每個project有特定利率
+// 先都預設14
 const projectRateList = [
   {
     name: "travelLoan",
@@ -11,7 +12,7 @@ const projectRateList = [
   {
     name: "teacherLoan",
     id: 2,
-    rate: 10,
+    rate: 14,
   },
   {
     name: "furnitureLoan",
