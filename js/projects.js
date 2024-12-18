@@ -145,7 +145,7 @@ function createCalculator(projectId, lendingRate) {
       connect: "lower",
       range: {
         min: 12,
-        max: 48,
+        max: 60,
       },
       format: wNumb({
         decimals: 0,
@@ -154,7 +154,7 @@ function createCalculator(projectId, lendingRate) {
         mode: "values",
         density: 100,
 
-        values: [12, 18, 24, 30, 36, 42, 48],
+        values: [12, 18, 24, 30, 36, 42, 48, 54, 60],
         stepped: true,
         format: wNumb({
           decimals: 0,
