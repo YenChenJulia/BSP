@@ -6862,6 +6862,21 @@ i.fas {
   width: 100%;
 }
 
+@media (max-width: 576px) {
+  .noUi-value {
+    font-size: 10px !important; /* 使用 !important 確保覆蓋原樣式 */
+  }
+}
+.calculator_remark {
+  font-size: 1 rem;
+  font-weight: lighter;
+}
+@media (max-width: 576px) {
+  .calculator_remark {
+    font-size: 0.5rem;
+  }
+}
+
 .project_detail .theme-btn::before {
   background-color: #023a64;
 }

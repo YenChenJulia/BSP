@@ -842,6 +842,19 @@
     width: 100%;
   }
 }
+@media (max-width: 576px) {
+    .noUi-value {
+        font-size: 10px !important; /* 使用 !important 確保覆蓋原樣式 */
+    }
+}
+.calculator_remark {
+  font-size: 1.0 rem;
+  font-weight: lighter;
+  @media (max-width: 576px){
+    font-size: 0.5rem;
+  }
+}
+
 //modification
 .project_detail {
   .theme-btn {
