@@ -130,6 +130,8 @@ const locales = {
       amountUnit: "(million VND)",
       loanTerm: "Loan Tenor (Months)",
       minimumMonthlyPayment: "Minimum Monthly Payment",
+      remark:
+        "This calculation is for reference only. The monthly payment amount for customers may vary depending on individual loan products and credit conditions.",
     },
   },
 
@@ -353,6 +355,8 @@ const locales = {
       amountUnit: "(triệu VND)",
       loanTerm: "Thời hạn vay (tháng)",
       minimumMonthlyPayment: "Khoản thanh toán tối thiểu hàng tháng",
+      remark:
+        "Phép tính này chỉ mang tính chất tham khảo. Số tiền phải trả hàng tháng của khách hàng có thể khác nhau tùy thuộc vào sản phẩm vay và điều kiện tín dụng cụ thể.",
     },
   },
 };
