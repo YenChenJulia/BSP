@@ -162,11 +162,11 @@ const locales = {
       ctaHead6: "Fulfill youth passion, worry-free",
     },
     easyApp: {
-      GlobalFinancialManagement: "Quản lý tài chính toàn cầu",
-      OnlinePersonalLoan: "Vay vốn tín dụng online",
-      QuickAndSecureLogin: "Đăng nhập nhanh chóng an toàn",
-      HighestLevelOfSecurity: "Bảo mật tối đa",
-      DownloadApp: "Tải Easy App ngay để trải nghiệm!",
+      GlobalFinancialManagement: "Global financial management",
+      OnlinePersonalLoan: "Online personal loan",
+      QuickAndSecureLogin: "Quick and secure login",
+      HighestLevelOfSecurity: "Highest level of security",
+      DownloadApp: "Download Easy App now and experience the difference!",
     },
     Left: {
       title: "Frequently asked general",
@@ -280,7 +280,8 @@ const locales = {
       ctaHead1: "Cùng SinoPac tạo kỷ niệm du lịch gia đình!",
       cta: "Đăng ký ngay!",
       // Teacher Loan (2)
-      banner2: "An tâm thực hiện ước mơ với gói vay ưu đãi cho giáo viên",
+      banner2:
+        "Bảo đảm ước mơ của bạn với gói vay đặc biệt dành cho giáo viên.",
       title2: "KHOẢN VAY GIÁO VIÊN",
       featureHead2: "Đầu tư tương lai, nâng tầm tri thức cùng SinoPac.",
       featureContent2:
@@ -293,7 +294,7 @@ const locales = {
 
       // Interior Loan (3)
       banner3:
-        "Sống trong không gian sang trọng với gói vay thiết kế nội thất ưu đãi",
+        "Sống sang trọng với gói vay thiết kế nội thất đặc biệt của chúng tôi",
       title3: "KHOẢN VAY NỘI THẤT",
       featureHead3:
         "Mỗi món đồ nội thất đều chứa đựng một câu chuyện riêng. Hãy để SinoPac giúp bạn viết tiếp câu chuyện của chính mình.",
@@ -306,7 +307,7 @@ const locales = {
 
       // Experience Loan (4)
       banner4:
-        "Khám phá thế giới rộng lớn đang chờ bạn – Hãy bắt đầu cùng SinoPac",
+        "Khám phá thế giới rộng lớn đang chờ đợi bạn – Bắt đầu với SinoPac",
       title4: "KHOẢN VAY TRẢI NGHIỆM",
       featureHead4: "Vay tiền du lịch dễ dàng, khám phá mọi điều kỳ diệu",
       featureContent4:
@@ -317,7 +318,7 @@ const locales = {
 
       // Study Loan (5)
       banner5:
-        "Hành trình của bạn, chúng tôi đồng hành: Vay du học ngay hôm nay!",
+        "Hành trình của bạn, chúng tôi đồng hành: Đăng ký vay du học ngay hôm nay!",
       title5: "KHOẢN VAY DU HỌC",
       featureHead5:
         "Nâng Cao Trình Độ – Phát Triển Bản Thân - Hỗ Trợ Tương Lai",
@@ -329,7 +330,7 @@ const locales = {
 
       // Youth Loan (6)
       banner6:
-        "Khơi dậy đam mê, chinh phục ước mơ - Tuổi trẻ để sống trọn vẹn cùng SinoPac!",
+        "Thắp sáng đam mê, chinh phục ước mơ - Tuổi trẻ sống trọn vẹn cùng SinoPac!",
       title6: "KHOẢN VAY TUỔI TRẺ",
       featureHead6: "Tỏa sáng với bản ngã của chính mình cùng SinoPac!",
       featureContent6:
@@ -451,10 +452,10 @@ const locales = {
     },
     // calculator
     calculator: {
-      title: "Tính toán khoản thanh toán của bạn",
-      amount: "Số tiền bạn mong muốn",
+      title: "Tính khoản thanh toán của bạn",
+      amount: "Số tiền bạn muốn",
       amountUnit: "(triệu VND)",
-      loanTerm: "Thời hạn vay (tháng)",
+      loanTerm: "Thời hạn vay (Tháng)",
       minimumMonthlyPayment: "Khoản thanh toán tối thiểu hàng tháng",
       remark:
         "Phép tính này chỉ mang tính chất tham khảo. Số tiền phải trả hàng tháng của khách hàng có thể khác nhau tùy thuộc vào sản phẩm vay và điều kiện tín dụng cụ thể.",
