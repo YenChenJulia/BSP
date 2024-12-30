@@ -1,8 +1,8 @@
 let selectedId;
 
 const imgContainer = document.querySelector("#easy-app .img-container");
-// 假設每個project有特定利率
-// 先都預設14
+// Assume each project has a specific interest rate
+// Default all to 14 initially
 const projectRateList = [
   {
     name: "travelLoan",
