@@ -39,6 +39,135 @@ const locales = {
       shortTitle: "Together, a better life",
       mainTitle: "Meet Sino,<br/>Fulfill Your Dreams",
     },
+    // Add Product section
+    product: {
+      DigitalMicroloans: "DIGITAL MICROLOANS",
+      Experience: "Experience online lending, anytime, anywhere.",
+      WhyChooseUs: "WHY CHOOSE US",
+      script:
+        "Experience the convenience of intelligence digital lending. Sinopac Bank offers quick and easy loans with a simple application process. Enjoy the flexibility to manage your finances on your terms.",
+      ApplyNow: "APPLY NOW",
+      Details: "DETAILS",
+    },
+    RightSteps: {
+      title: "Here's how it works.",
+      subtitle: "When you're ready, we're ready.",
+      Column1: "Loan Application",
+      Step1: "Download and Register",
+      Step11:
+        "Download the Easy App, register with personal information, and verify your identity.",
+      Step2: "Complete Account Setup",
+      Step22: "Review information, and set password.",
+      Step3: "Access Loan Application",
+      Step33: "Login to the Easy app, and select Online Loan Application",
+      Step4: "Review Loan Details",
+      Step44: "Check interest rate, loan amount, and tenor.",
+      Step5: "Provide Loan Details",
+      Step55:
+        "Choose the amount, and tenor, verify identity, and agree to terms.",
+      Step6: "Submit Application",
+      Step66:
+        "Provide additional info and documents, and submit an application.",
+      Column2: "Loan Disbursement",
+      Step7: "Receive Approval Notification",
+      Step77: "Get an SMS with a contract link.",
+      Step8: "Register for Digital Certificate",
+      Step88: "Register a CA, verify your ID, and complete a video.",
+      Step9: "Sign Loan Contract",
+      Step99:
+        "Log in to the Easy app, review the contract, and sign with your PIN.",
+      Step10: "Loan Disbursement",
+      Step1010:
+        "Receive confirmation of disbursement via registered SMS an email.",
+    },
+    projects: {
+      title: "PROJECTS",
+      name1: "TRAVEL LOAN",
+      subname1: " Near and Dear,<br/>No Matter Where",
+      name2: "TEACHER LOAN",
+      subname2: "Building Knowledge<br/>Shaping Tomorrow",
+      name3: "FURNITURE LOAN",
+      subname3: "Design Your Space<br/>Define Your Style",
+      name4: "EXPERIENCE LOAN",
+      subname4: "Look Outside<br/>Shine Inside",
+      name5: "STUDY LOAN",
+      subname5: "Borrow Education<br/>Harvest Future",
+      name6: "YOUTH LOAN",
+      subname6: "Ignite Youth<br/>Realize Dream",
+    },
+    details: {
+      // Travel Loan (1)
+      banner1:
+        "Your journey is not just yours – A travel for the whole family.",
+      title1: "TRAVEL LOAN",
+      featureHead1: "Easy App – Simple clicks, family travel awaits!",
+      featureContent1:
+        "Enjoy a consumer loan experience with Sinopac. Benefit from special offers with our airline and hotel partners, competitive interest rates, and the convenience of app-based disbursement.",
+      testimonial1:
+        '"With Sinopac, my family enjoy every travel precious moment together without worries."',
+      ctaHead1: "Create family memories with Sinopac!",
+      cta: "Get it now!",
+
+      // Teacher Loan (2)
+      banner2: "Secure your dreams with our special loan package for teacher.",
+      title2: "TEACHER LOAN",
+      featureHead2: "Invest in the Future, Elevate Knowledge with SinoPac.",
+      featureContent2:
+        "Special loans for teachers, easy access to courses and workshops. Simple process, fast disbursement via Easy app. Contact us now for consultation!",
+      testimonial2:
+        '"The premium loan helps teachers contribute to the national mission of providing better learning opportunities for students across Vietnam."',
+      ctaHead2: "Supporting teachers, empowering dreams of knowledge!",
+
+      // Interior Loan (3)
+      banner3: "Live in luxury with our special interior design loan package",
+      title3: "INTERIOR LOAN",
+      featureHead3:
+        "Each piece of furniture tells its own story. Let SinoPac help you continue writing your story.",
+      featureContent3:
+        "Continue your home's story with SinoPac's furniture loan package. Competitive interest rates, simple procedures, helping you own a classy living space.",
+      testimonial3:
+        '"The dream of an ideal living space has become reality thanks to SinoPac with quick unsecured loans for furniture, handcrafted furniture items are not just decorations, but also vivid paintings of our souls."',
+      ctaHead3:
+        "Start building distinctive interior design styles with Easy App",
+
+      // Experience Loan (4)
+      banner4: "Explore the vast world waiting for you – Start with SinoPac",
+      title4: "EXPERIENCE LOAN",
+      featureHead4: "Easy travel loans, discover all wonders",
+      featureContent4:
+        "SinoPac helps you explore with special loan offers. Low interest rates, simple procedures, making your dream journey a reality.",
+      testimonial4:
+        '"SinoPac opened doors to new horizons. With the travel credit loan, we\'ve fulfilled our wanderlust dreams, freely exploring the world."',
+      ctaHead4: "Financial flexibility, unlimited world exploration",
+
+      // Study Loan (5)
+      banner5: "Your journey, we accompany: Apply for study abroad loan today!",
+      title5: "STUDY LOAN",
+      featureHead5: "Elevate Skills - Develop Self - Support Future",
+      featureContent5:
+        "SinoPac accompanies your study abroad with preferential loan packages, quick procedures, helping you achieve your educational dreams easily.",
+      testimonial5:
+        '"With just a few minutes of bank credit registration, I could start my learning journey"',
+      ctaHead5: "Download App - Get Education Loan",
+
+      // Youth Loan (6)
+      banner6:
+        "Ignite passion, conquer dreams - Youth to live fully with SinoPac!",
+      title6: "YOUTH LOAN",
+      featureHead6: "Shine with your own identity with SinoPac!",
+      featureContent6:
+        "SinoPac: Your companion in youth dreams. With preferential loan packages and simple procedures, SinoPac helps you confidently implement all passion exploration plans.",
+      testimonial6:
+        '"Loan SinoPac - Stylish, no cost worries. Easy financial management, enjoy life."',
+      ctaHead6: "Fulfill youth passion, worry-free",
+    },
+    easyApp: {
+      GlobalFinancialManagement: "Quản lý tài chính toàn cầu",
+      OnlinePersonalLoan: "Vay vốn tín dụng online",
+      QuickAndSecureLogin: "Đăng nhập nhanh chóng an toàn",
+      HighestLevelOfSecurity: "Bảo mật tối đa",
+      DownloadApp: "Tải Easy App ngay để trải nghiệm!",
+    },
     Left: {
       title: "Frequently asked general",
       underline: "questions",
@@ -46,6 +175,7 @@ const locales = {
       Steps: "Steps",
       Support: "Support",
     },
+
     // Right side Product Steps Support
     RightProduct: {
       Q1: "1. What is an Online Personal Loan?",
@@ -83,41 +213,12 @@ const locales = {
       Q17: "17. How will I receive the loan contract?",
       A17: "Bank SinoPac will send the contract to your registered email. The file will be encrypted with a password (your ID number).",
     },
-    RightSteps: {
-      title: "Here's how it works.",
-      subtitle: "When you're ready, we're ready.",
-      Column1: "Loan Application",
-      Step1: "Download and Register",
-      Step11:
-        "Download the Easy App, register with personal information, and verify your identity.",
-      Step2: "Complete Account Setup",
-      Step22: "Review information, and set password.",
-      Step3: "Access Loan Application",
-      Step33: "Login to the Easy app, and select Online Loan Application",
-      Step4: "Review Loan Details",
-      Step44: "Check interest rate, loan amount, and tenor.",
-      Step5: "Provide Loan Details",
-      Step55:
-        "Choose the amount, and tenor, verify identity, and agree to terms.",
-      Step6: "Submit Application",
-      Step66:
-        "Provide additional info and documents, and submit an application.",
-      Column2: "Loan Disbursement",
-      Step7: "Receive Approval Notification",
-      Step77: "Get an SMS with a contract link.",
-      Step8: "Register for Digital Certificate",
-      Step88: "Register a CA, verify your ID, and complete a video.",
-      Step9: "Sign Loan Contract",
-      Step99:
-        "Log in to the Easy app, review the contract, and sign with your PIN.",
-      Step10: "Loan Disbursement",
-      Step1010:
-        "Receive confirmation of disbursement via registered SMS an email.",
-    },
+
     RightSupport: {
       title1: "Get in touch with us.",
       title2: "We'd love to hear from you. Here's how you can reach us...",
       title3: "Email us:",
+      title5: "Monday - Friday: 9:00am - 3:30pm",
     },
     RightFooter: {
       first: "Follow Us",
@@ -166,6 +267,7 @@ const locales = {
       subname6: "Khai tuổi trẻ<br/>Nghiệm ước mơ",
     },
     details: {
+      //travel loan
       banner1:
         "Chuyến đi không chỉ của riêng bạn – đó là chuyến du lịch cùng gia đình.",
       title1: "KHOẢN VAY DU LỊCH",
@@ -177,7 +279,6 @@ const locales = {
         '"SinoPac giúp tôi tận hưởng trọn vẹn chuyến du lịch gia đình không lo toan những kỷ niệm đáng nhớ bên nhau."',
       ctaHead1: "Cùng SinoPac tạo kỷ niệm du lịch gia đình!",
       cta: "Đăng ký ngay!",
-
       // Teacher Loan (2)
       banner2: "An tâm thực hiện ước mơ với gói vay ưu đãi cho giáo viên",
       title2: "KHOẢN VAY GIÁO VIÊN",
@@ -258,7 +359,7 @@ const locales = {
       Details: "CHI TIẾT",
     },
     Left: {
-      title: "CÂU HỎI",
+      title: "CÂU HỎI aaaa",
       underline: "THƯỜNG GẶP",
       Product: "Giới thiệu",
       Steps: "Hướng dẫn",
@@ -366,11 +467,17 @@ const elements = document.querySelectorAll("[data-i18n]");
 
 // Get JSON object of translations.
 const json = locales[pageLanguage];
+console.log(json);
 
 // On each element, found the translation from JSON file & update.
 elements.forEach((element, index) => {
   const key = element.getAttribute("data-i18n");
-  let text = key.split(".").reduce((obj, i) => (obj ? obj[i] : null), json);
+
+  let text = key.split(".").reduce((obj, i) => {
+    // console.log(obj[i]);
+
+    return obj ? obj[i] : null;
+  }, json);
 
   // Does this text have any variables? (eg {something})
   const variables = text.match(/{(.*?)}/g);
