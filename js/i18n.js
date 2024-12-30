@@ -223,6 +223,8 @@ const locales = {
     RightFooter: {
       first: "Follow Us",
       second: "Contact Us",
+      fourth:
+        "Friendship Tower 9F, 31 Le Duan, District 1, Ho Chi Minh City, Viet Nam",
     },
     // calculator
     calculator: {
@@ -250,6 +252,47 @@ const locales = {
     banner: {
       shortTitle: "Together, a better life",
       mainTitle: "Hẹn Sino,<br/>Vẹn Ước Mơ",
+    },
+    product: {
+      DigitalMicroloans: "VAY TRỰC TUYẾN",
+      Experience: "Vay trực tuyến thông minh, mọi lúc mọi nơi.",
+      WhyChooseUs: "VỀ CHÚNG TÔI",
+      script:
+        "SinoPac Bank mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
+      ApplyNow: "ĐĂNG KÝ NGAY",
+      Details: "CHI TIẾT",
+    },
+    RightSteps: {
+      title: "Đây là cách hoạt động.",
+      subtitle: "Khi bạn sẵn sàng, chúng tôi sẵn sàng.",
+      Column1: "Đăng ký vay vốn",
+      Step1: "Tải xuống và Đăng ký",
+      Step11:
+        "Tải ứng dụng Easy App, đăng ký tài khoản và xác minh thông tin cá nhân.",
+      Step2: "Hoàn tất thiết lập tài khoản",
+      Step22: "Kiểm tra lại thông tin, và thiết lập mật khẩu an toàn.",
+      Step3: "Truy cập Easy App",
+      Step33: "Đăng nhập tài khoản, chọn Vay Online",
+      Step4: "Xem xét chi tiết khoản vay",
+      Step44: "Kiểm tra thông tin như lãi suất, số tiền, và kỳ hạn.",
+      Step5: "Điền thông tin khoản vay",
+      Step55:
+        "Chọn số tiền và kỳ hạn vay, xác minh danh tính, đồng ý với các điều khoản vay.",
+      Step6: "Nộp hồ sơ",
+      Step66:
+        "Cung cấp đầy đủ giấy tờ theo yêu cầu, nhấn gửi để hoàn tất đăng ký",
+      Column2: "Giải ngân vốn vay",
+      Step7: "Nhận Thông Báo Duyệt",
+      Step77:
+        "Nhận thông báo qua SMS về việc phê duyệt khoản vay và liên kết hợp đồng.",
+      Step8: "Đăng Ký Chứng Thư Số",
+      Step88:
+        "Đăng ký tài khoản Cơ quan chứng nhận điện tử (CA), xác thực danh tính.",
+      Step9: "Ký Hợp Đồng Vay",
+      Step99: "Xác nhận và ký hợp đồng điện tử bằng mã PIN.",
+      Step10: "Giải Ngân Vay",
+      Step1010:
+        "Nhận thông báo về việc giải ngân khoản vay thành công qua SMS và email.",
     },
     projects: {
       title: "SẢN PHẨM",
@@ -350,15 +393,7 @@ const locales = {
     },
 
     // Add Product section
-    product: {
-      DigitalMicroloans: "VAY TRỰC TUYẾN",
-      Experience: "Vay trực tuyến thông minh, mọi lúc mọi nơi.",
-      WhyChooseUs: "VỀ CHÚNG TÔI",
-      script:
-        "SinoPac Bank mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
-      ApplyNow: "ĐĂNG KÝ NGAY",
-      Details: "CHI TIẾT",
-    },
+
     Left: {
       title: "CÂU HỎI aaaa",
       underline: "THƯỜNG GẶP",
@@ -403,38 +438,7 @@ const locales = {
       Q17: "17. Phương thức nhận hợp đồng vay như thế nào?",
       A17: "Ngân hàng SinoPac sẽ gửi hợp đồng đến địa chỉ email đã đăng ký của Quý khách hàng. Tệp tin sẽ được mã hóa bằng mật kkhẩu ( số CMND/CCCD của Quý khách hàng).",
     },
-    RightSteps: {
-      title: "Đây là cách hoạt động.",
-      subtitle: "Khi bạn sẵn sàng, chúng tôi sẵn sàng.",
-      Column1: "Đăng ký vay vốn",
-      Step1: "Tải xuống và Đăng ký",
-      Step11:
-        "Tải ứng dụng Easy App, đăng ký tài khoản và xác minh thông tin cá nhân.",
-      Step2: "Hoàn tất thiết lập tài khoản",
-      Step22: "Kiểm tra lại thông tin, và thiết lập mật khẩu an toàn.",
-      Step3: "Truy cập Easy App",
-      Step33: "Đăng nhập tài khoản, chọn Vay Online",
-      Step4: "Xem xét chi tiết khoản vay",
-      Step44: "Kiểm tra thông tin như lãi suất, số tiền, và kỳ hạn.",
-      Step5: "Điền thông tin khoản vay",
-      Step55:
-        "Chọn số tiền và kỳ hạn vay, xác minh danh tính, đồng ý với các điều khoản vay.",
-      Step6: "Nộp hồ sơ",
-      Step66:
-        "Cung cấp đầy đủ giấy tờ theo yêu cầu, nhấn gửi để hoàn tất đăng ký",
-      Column2: "Giải ngân vốn vay",
-      Step7: "Nhận Thông Báo Duyệt",
-      Step77:
-        "Nhận thông báo qua SMS về việc phê duyệt khoản vay và liên kết hợp đồng.",
-      Step8: "Đăng Ký Chứng Thư Số",
-      Step88:
-        "Đăng ký tài khoản Cơ quan chứng nhận điện tử (CA), xác thực danh tính.",
-      Step9: "Ký Hợp Đồng Vay",
-      Step99: "Xác nhận và ký hợp đồng điện tử bằng mã PIN.",
-      Step10: "Giải Ngân Vay",
-      Step1010:
-        "Nhận thông báo về việc giải ngân khoản vay thành công qua SMS và email.",
-    },
+
     RightSupport: {
       title1: "Liên hệ với chúng tôi.",
       title2:
