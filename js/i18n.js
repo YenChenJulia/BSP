@@ -395,7 +395,7 @@ const locales = {
     // Add Product section
 
     Left: {
-      title: "CÂU HỎI aaaa",
+      title: "CÂU HỎI",
       underline: "THƯỜNG GẶP",
       Product: "Giới thiệu",
       Steps: "Hướng dẫn",
