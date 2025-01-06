@@ -229,8 +229,7 @@ const locales = {
     // calculator
     calculator: {
       title: "Calculate your payment",
-      amount: "Your Desired Amount",
-      amountUnit: "(million VND)",
+      amount: "Your Desired Amount (million VND)",
       loanTerm: "Loan Tenor (Months)",
       minimumMonthlyPayment: "Minimum Monthly Payment",
       remark:
@@ -457,8 +456,7 @@ const locales = {
     // calculator
     calculator: {
       title: "Tính khoản thanh toán của bạn",
-      amount: "Số tiền bạn muốn",
-      amountUnit: "(triệu VND)",
+      amount: "Số tiền bạn muốn (triệu VND)",
       loanTerm: "Thời hạn vay (Tháng)",
       minimumMonthlyPayment: "Khoản thanh toán tối thiểu hàng tháng",
       remark:
