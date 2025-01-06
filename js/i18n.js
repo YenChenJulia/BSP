@@ -45,7 +45,7 @@ const locales = {
       Experience: "Experience online lending, anytime, anywhere.",
       WhyChooseUs: "WHY CHOOSE US",
       script:
-        "Experience the convenience of intelligence digital lending. Sinopac Bank offers quick and easy loans with a simple application process. Enjoy the flexibility to manage your finances on your terms.",
+        "Experience the convenience of intelligence digital lending. Bank SinoPac offers quick and easy loans with a simple application process. Enjoy the flexibility to manage your finances on your terms.",
       ApplyNow: "APPLY NOW",
       Details: "DETAILS",
     },
@@ -229,8 +229,7 @@ const locales = {
     // calculator
     calculator: {
       title: "Calculate your payment",
-      amount: "Your Desired Amount",
-      amountUnit: "(million VND)",
+      amount: "Your Desired Amount (million VND)",
       loanTerm: "Loan Tenor (Months)",
       minimumMonthlyPayment: "Minimum Monthly Payment",
       remark:
@@ -258,12 +257,12 @@ const locales = {
       Experience: "Vay trực tuyến thông minh, mọi lúc mọi nơi.",
       WhyChooseUs: "VỀ CHÚNG TÔI",
       script:
-        "SinoPac Bank mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
+        "Bank SinoPac mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
       ApplyNow: "ĐĂNG KÝ NGAY",
       Details: "CHI TIẾT",
     },
     RightSteps: {
-      title: "Đây là cách hoạt động.",
+      title: "Cách vay trực tuyến",
       subtitle: "Khi bạn sẵn sàng, chúng tôi sẵn sàng.",
       Column1: "Đăng ký vay vốn",
       Step1: "Tải xuống và Đăng ký",
@@ -287,7 +286,7 @@ const locales = {
         "Nhận thông báo qua SMS về việc phê duyệt khoản vay và liên kết hợp đồng.",
       Step8: "Đăng Ký Chứng Thư Số",
       Step88:
-        "Đăng ký tài khoản Cơ quan chứng nhận điện tử (CA), xác thực danh tính.",
+        "Đăng ký Chứng thư số để xác nhận danh tính và ký hợp đồng",
       Step9: "Ký Hợp Đồng Vay",
       Step99: "Xác nhận và ký hợp đồng điện tử bằng mã PIN.",
       Step10: "Giải Ngân Vay",
@@ -457,8 +456,7 @@ const locales = {
     // calculator
     calculator: {
       title: "Tính khoản thanh toán của bạn",
-      amount: "Số tiền bạn muốn",
-      amountUnit: "(triệu VND)",
+      amount: "Số tiền bạn muốn (triệu VND)",
       loanTerm: "Thời hạn vay (Tháng)",
       minimumMonthlyPayment: "Khoản thanh toán tối thiểu hàng tháng",
       remark:
