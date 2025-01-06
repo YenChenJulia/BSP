@@ -45,7 +45,7 @@ const locales = {
       Experience: "Experience online lending, anytime, anywhere.",
       WhyChooseUs: "WHY CHOOSE US",
       script:
-        "Experience the convenience of intelligence digital lending. Sinopac Bank offers quick and easy loans with a simple application process. Enjoy the flexibility to manage your finances on your terms.",
+        "Experience the convenience of intelligence digital lending. Bank SinoPac offers quick and easy loans with a simple application process. Enjoy the flexibility to manage your finances on your terms.",
       ApplyNow: "APPLY NOW",
       Details: "DETAILS",
     },
@@ -258,7 +258,7 @@ const locales = {
       Experience: "Vay trực tuyến thông minh, mọi lúc mọi nơi.",
       WhyChooseUs: "VỀ CHÚNG TÔI",
       script:
-        "SinoPac Bank mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
+        "Bank SinoPac mang đến giải pháp vay vốn linh hoạt, cùng thủ tục đơn giản.<br/>Chỉ cần vài cú click, bạn có thể quản lý tài chính một cách tối ưu.",
       ApplyNow: "ĐĂNG KÝ NGAY",
       Details: "CHI TIẾT",
     },
