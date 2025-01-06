@@ -263,7 +263,7 @@ const locales = {
       Details: "CHI TIẾT",
     },
     RightSteps: {
-      title: "Đây là cách hoạt động.",
+      title: "Cách vay trực tuyến",
       subtitle: "Khi bạn sẵn sàng, chúng tôi sẵn sàng.",
       Column1: "Đăng ký vay vốn",
       Step1: "Tải xuống và Đăng ký",
@@ -287,7 +287,7 @@ const locales = {
         "Nhận thông báo qua SMS về việc phê duyệt khoản vay và liên kết hợp đồng.",
       Step8: "Đăng Ký Chứng Thư Số",
       Step88:
-        "Đăng ký tài khoản Cơ quan chứng nhận điện tử (CA), xác thực danh tính.",
+        "Đăng ký Chứng thư số để xác nhận danh tính và ký hợp đồng",
       Step9: "Ký Hợp Đồng Vay",
       Step99: "Xác nhận và ký hợp đồng điện tử bằng mã PIN.",
       Step10: "Giải Ngân Vay",
